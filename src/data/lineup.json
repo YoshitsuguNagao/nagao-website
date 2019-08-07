@@ -1,0 +1,110 @@
+[
+  {
+    "type": "AC",
+    "model": "ATF400G-6",
+    "capacity": 400,
+    "unit": 1
+  },
+  {
+    "type": "AC",
+    "model": "ATF220G-5",
+    "capacity": 220,
+    "unit": 1
+  },
+  {
+    "type": "AC",
+    "model": "AR1200M",
+    "capacity": 120,
+    "unit": 1
+  },
+  {
+    "type": "AC",
+    "model": "ATF100G-4",
+    "capacity": 100,
+    "unit": 2
+  },
+  {
+    "type": "RC",
+    "model": "GR-1000N-1",
+    "capacity": 100,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "GR-700N-2",
+    "capacity": 70,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "GR-700N-1",
+    "capacity": 70,
+    "unit": 2
+  },
+  {
+    "type": "RC",
+    "model": "GR-600N-2",
+    "capacity": 60,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "GR-600N-1",
+    "capacity": 60,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "GR-500N-1",
+    "capacity": 50,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "TR-500M-3",
+    "capacity": 50,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "GR-250N−3",
+    "capacity": 25,
+    "unit": 4
+  },
+  {
+    "type": "RC",
+    "model": "GR-250N−2",
+    "capacity": 25,
+    "unit": 3
+  },
+  {
+    "type": "RC",
+    "model": "GR-250N−1",
+    "capacity": 25,
+    "unit": 2
+  },
+  {
+    "type": "RC",
+    "model": "GR-160N-3",
+    "capacity": 16,
+    "unit": 2
+  },
+  {
+    "type": "RC",
+    "model": "GR160N-1",
+    "capacity": 16,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "GR-130NL-1",
+    "capacity": 13,
+    "unit": 1
+  },
+  {
+    "type": "RC",
+    "model": "GR-120NL-2",
+    "capacity": 12,
+    "unit": 1
+  }
+]
