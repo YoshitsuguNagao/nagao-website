@@ -14,12 +14,13 @@ class Navbar extends Component {
         </div>
         <div className="navbar-menu">
           <ul class="nav-links">
-            <li><p><a href="#home">ホーム</a></p></li>
-            <li><a href="#company">会社概要</a></li>
-            <li><a href="#lineup">保有機種</a></li>
-            <li><a href="#business-guide">事業内容</a></li>
-            <li><a href="#experience">実績</a></li>
-            <li><a href="#contact">お問い合わせ</a></li>
+            
+            <li><Link to="/home"><p>ホーム</p></Link></li>
+            <li><a href="/company">会社概要</a></li>
+            <li><a href="/lineup">保有機種</a></li>
+            <li><a href="/business-guide">事業内容</a></li>
+            <li><a href="/experience">実績</a></li>
+            <li><a href="/contact">お問い合わせ</a></li>
           </ul>
           <div class="burger">
             <div class="line1"></div>

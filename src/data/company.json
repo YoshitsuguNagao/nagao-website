@@ -1,0 +1,42 @@
+{
+  "corporateName" {
+    "title": "社名",
+    "content": "㈱長尾レツカー"
+  },
+  "establishment" {
+    "title": "会社設立(年月日)",
+    "content": "1976（昭和51年）年４月１４日",
+  },
+  "president" {
+    "title": "代表者",
+    "content": "長尾 享"
+  },
+	"employee" {
+    "title": "従業員",
+    "content": "４０名"
+  },
+	"license" {
+    "title": "事業免許",
+    "content": "静岡県知事許可（般-24）第１３３１４号"
+  },
+  "capitalStock" {
+    "title": "資本金",
+    "content": "1000万円"
+  },
+	"address" {
+    "title": "住所",
+    "content": "静岡県御前崎市佐倉1041-1"
+  },
+	"bank" {
+    "title": "取引銀行",
+    "content": "静岡銀行"
+  },
+  "tel" {
+    "title": "TEL",
+    "content": "0537-86-6410"
+  },
+	"fax" {
+    "title": "FAX",
+    "content": "0537-86-3556"
+  }
+}
