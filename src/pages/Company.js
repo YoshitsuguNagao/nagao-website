@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import compamny from '../data/company.json';
 
 class Company extends Component {
   state = {
@@ -9,7 +10,9 @@ class Company extends Component {
     return (
       <div className="company ">
         <h2>{title}</h2>
-
+        <ul>
+          <li></li>
+        </ul>
       </div>
     )
   }
