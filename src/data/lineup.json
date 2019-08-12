@@ -2,109 +2,185 @@
   {
     "type": "AC",
     "model": "ATF400G-6",
+    "maker": "TADANO",
     "capacity": 400,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "AC",
     "model": "ATF220G-5",
+    "maker": "TADANO",
     "capacity": 220,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "AC",
     "model": "AR1200M",
+    "maker": "TADANO",
     "capacity": 120,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "AC",
     "model": "ATF100G-4",
+    "maker": "TADANO",
     "capacity": 100,
+    "info": "-",
     "unit": 2
   },
   {
     "type": "RC",
     "model": "GR-1000N-1",
+    "maker": "TADANO",
     "capacity": 100,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "GR-700N-2",
+    "maker": "TADANO",
     "capacity": 70,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "GR-700N-1",
+    "maker": "TADANO",
     "capacity": 70,
+    "info": "-",
     "unit": 2
   },
   {
     "type": "RC",
     "model": "GR-600N-2",
+    "maker": "TADANO",
     "capacity": 60,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "GR-600N-1",
+    "maker": "TADANO",
     "capacity": 60,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "GR-500N-1",
+    "maker": "TADANO",
     "capacity": 50,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "TR-500M-3",
+    "maker": "TADANO",
     "capacity": 50,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "GR-250N−3",
+    "maker": "TADANO",
     "capacity": 25,
+    "info": "-",
     "unit": 4
   },
   {
     "type": "RC",
     "model": "GR-250N−2",
+    "maker": "TADANO",
     "capacity": 25,
+    "info": "-",
     "unit": 3
   },
   {
     "type": "RC",
     "model": "GR-250N−1",
+    "maker": "TADANO",
     "capacity": 25,
+    "info": "-",
     "unit": 2
   },
   {
     "type": "RC",
     "model": "GR-160N-3",
+    "maker": "TADANO",
     "capacity": 16,
+    "info": "-",
     "unit": 2
   },
   {
     "type": "RC",
     "model": "GR160N-1",
+    "maker": "TADANO",
     "capacity": 16,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "GR-130NL-1",
+    "maker": "TADANO",
     "capacity": 13,
+    "info": "-",
     "unit": 1
   },
   {
     "type": "RC",
     "model": "GR-120NL-2",
+    "maker": "TADANO",
     "capacity": 12,
+    "info": "-",
+    "unit": 1
+  },
+  {
+    "type": "トラクター",
+    "model": "-",
+    "maker": "日野",
+    "capacity": 20,
+    "info": "第五輪荷重20ｔ",
+    "unit": 1
+  },
+  {
+    "type": "トラクター",
+    "model": "-",
+    "maker": "日野",
+    "capacity": 11.5,
+    "info": "大五輪荷重11.5ｔ",
+    "unit": 1
+  },
+  {
+    "type": "トレーラー",
+    "model": "-",
+    "maker": "日通商事",
+    "capacity": 29,
+    "info": "16ｍ・29ｔ",
+    "unit": 1
+  },
+  {
+    "type": "トレーラー",
+    "model": "-",
+    "maker": "東急",
+    "capacity": 27,
+    "info": "11ｍ・27ｔ",
+    "unit": 1
+  },
+  {
+    "type": "スカイボックス",
+    "model": "SS-150",
+    "maker": "スカイボックス",
+    "capacity": 27,
+    "info": "-",
     "unit": 1
   }
 ]

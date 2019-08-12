@@ -1,18 +1,31 @@
 import React, { Component } from 'react';
-import compamny from '../data/company.json';
+import companies from '../data/company.json';
 
 class Company extends Component {
   state = {
-    title: "会社概要",
+    companies: companies,
   }
   render() {
-    const { title } = this.state;
+    const { companies } = this.state;
+    console.log('companies', companies)
     return (
-      <div className="company ">
-        <h2>{title}</h2>
-        <ul>
-          <li></li>
-        </ul>
+      <div className="company">
+        {
+          companies.map((company, index) => {
+            return (
+              <div className="campany-card">
+                <h1>{company.corporateName[1]}</h1>
+                <ul>
+                  <li>
+                    <p className="title">{company.establishment[0]}</p>
+                    <p className="content">{company.establishment[1]}</p>
+                  </li>
+                  <li><p>{company.president}</p></li>
+                </ul>
+              </div>
+            )
+          })
+        }
       </div>
     )
   }

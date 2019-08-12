@@ -7,22 +7,25 @@
    ============== */
 
 .navbar {
-  @include size(100%,15vh);
+  @include size(100%,null);
+  // min-height: 100px;
   @include flexbox(space-between,null,column);
   z-index: 100;
-  position: fixed;
+  // position: fixed;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
   background-color: $themeColor;
   .nav-title {
     @include flexbox(space-between);
+    border: 1px solid black;
   }
   .navbar-menu {
     display: flex;
     justify-content: center;
+    border: 1px solid black;
   }
   ul {
     @include flexbox(space-around,center);
-    @include size(null,10vh);
+    // @include size(null,10vh);
     top: 0;
     left: 0;
     list-style: none;
@@ -65,4 +68,19 @@ footer {
 
 .home {
   height:100vh;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.campany-card {
+  width: 500px;
+  height: 400px;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
 }

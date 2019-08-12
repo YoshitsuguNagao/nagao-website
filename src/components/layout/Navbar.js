@@ -13,8 +13,7 @@ class Navbar extends Component {
           </div>
         </div>
         <div className="navbar-menu">
-          <ul class="nav-links">
-            
+          <ul className="nav-links">
             <li><Link to="/home"><p>ホーム</p></Link></li>
             <li><a href="/company">会社概要</a></li>
             <li><a href="/lineup">保有機種</a></li>
@@ -22,10 +21,10 @@ class Navbar extends Component {
             <li><a href="/experience">実績</a></li>
             <li><a href="/contact">お問い合わせ</a></li>
           </ul>
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+          <div className="burger">
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
           </div>
         </div>
       </nav>
