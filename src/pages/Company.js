@@ -5,27 +5,38 @@ class Company extends Component {
   state = {
     companies: companies,
   }
+
+  showList = (key) => {
+    return (
+      <li className="company-list">
+        <p className="title">{key[0]}</p>
+        <p className="content">{key[1]}</p>
+      </li>
+    )
+  }
+
   render() {
     const { companies } = this.state;
     console.log('companies', companies)
     return (
       <div className="company">
+        <h2>会社概要</h2>
+        <div className="company-container">
         {
           companies.map((company, index) => {
             return (
-              <div className="campany-card">
-                <h1>{company.corporateName[1]}</h1>
+              <div className="company-card">
+                <h2>{company.corporateName[1]}</h2>
                 <ul>
-                  <li>
-                    <p className="title">{company.establishment[0]}</p>
-                    <p className="content">{company.establishment[1]}</p>
-                  </li>
-                  <li><p>{company.president}</p></li>
+                  {Object.keys(company).map((keyName, i) => (
+                    this.showList(company[keyName])
+                  ))}
                 </ul>
               </div>
             )
           })
         }
+        </div>
       </div>
     )
   }
