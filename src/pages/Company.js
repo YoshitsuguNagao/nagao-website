@@ -6,11 +6,11 @@ class Company extends Component {
     companies: companies,
   }
 
-  showList = (key) => {
+  showList = (keyName, i) => {
     return (
-      <li className="company-list">
-        <p className="title">{key[0]}</p>
-        <p className="content">{key[1]}</p>
+      <li className="company-list" key={i}>
+        <p className="title">{keyName[0]}</p>
+        <p className="content">{keyName[1]}</p>
       </li>
     )
   }
@@ -25,11 +25,11 @@ class Company extends Component {
         {
           companies.map((company, index) => {
             return (
-              <div className="company-card">
+              <div className="company-card" key={index}>
                 <h2>{company.corporateName[1]}</h2>
                 <ul>
                   {Object.keys(company).map((keyName, i) => (
-                    this.showList(company[keyName])
+                    this.showList(company[keyName], i)
                   ))}
                 </ul>
               </div>

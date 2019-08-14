@@ -144,39 +144,39 @@
     "unit": 1
   },
   {
-    "type": "トラクター",
-    "model": "-",
+    "type": "Truck",
+    "model": "トラクター",
     "maker": "日野",
     "capacity": 20,
     "info": "第五輪荷重20ｔ",
     "unit": 1
   },
   {
-    "type": "トラクター",
-    "model": "-",
+    "type": "Truck",
+    "model": "トラクター",
     "maker": "日野",
     "capacity": 11.5,
     "info": "大五輪荷重11.5ｔ",
     "unit": 1
   },
   {
-    "type": "トレーラー",
-    "model": "-",
+    "type": "Truck",
+    "model": "トレーラー",
     "maker": "日通商事",
     "capacity": 29,
     "info": "16ｍ・29ｔ",
     "unit": 1
   },
   {
-    "type": "トレーラー",
-    "model": "-",
+    "type": "Truck",
+    "model": "トレーラー",
     "maker": "東急",
     "capacity": 27,
     "info": "11ｍ・27ｔ",
     "unit": 1
   },
   {
-    "type": "スカイボックス",
+    "type": "ETC",
     "model": "SS-150",
     "maker": "スカイボックス",
     "capacity": 27,
