@@ -20,7 +20,7 @@ class Company extends Component {
     console.log('companies', companies)
     return (
       <div className="company">
-        <h2>会社概要</h2>
+        <h1>会社概要</h1>
         <div className="company-container">
         {
           companies.map((company, index) => {

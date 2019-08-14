@@ -11,7 +11,7 @@
   min-height: 100px;
   @include flexbox(space-between,null,column);
   z-index: 100;
-  // position: fixed;
+  position: fixed;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
   background-color: $themeColor;
   .nav-title {
@@ -67,24 +67,35 @@ footer {
 
 
 .home {
-  height:100vh;
+  // height:100vh;
+  color: $textColor;
+  .homepage-banner {
+    img {
+      // height: 90vh;
+      width: 100%;
+      // display: none;
+    }
+  }
+  .homepage-news {
+    height: 70vh;
+  }
+  .homepage-lineup {
+    height: 50vh;
+  }
 }
 
 .company {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: calc(100vh - 100px - 1.5rem);
+  color: $textColor;
+  @include flexbox(center,center,column);
+  padding-top: 100px;
+  min-height: calc(100vh - 1.5rem);
 }
 
 .company-container {
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // border: 1px solid black;
+  @include flexbox(center,center);
   flex-wrap: wrap;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .company-card {
@@ -98,8 +109,7 @@ footer {
   display: flex;
   p {
     height: 1.5rem;
-    display: flex;
-    align-items: center;
+    @include flexbox(null,center);
   }
   .title {
     width: 150px;

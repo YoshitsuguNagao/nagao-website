@@ -14,7 +14,7 @@ class Navbar extends Component {
         </div>
         <div className="navbar-menu">
           <ul className="nav-links">
-            <li><Link to="/home"><p>ホーム</p></Link></li>
+            <li><Link to="/"><p>ホーム</p></Link></li>
             <li><a href="/company">会社概要</a></li>
             <li><a href="/lineup">保有機種</a></li>
             <li><a href="/business-guide">事業内容</a></li>
