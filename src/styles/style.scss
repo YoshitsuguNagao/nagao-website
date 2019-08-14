@@ -92,26 +92,43 @@ footer {
   @include flexbox(center,center,column);
   padding-top: 100px;
   min-height: calc(100vh - 1.5rem);
+  .company-title {
+    padding: 2rem 0;
+  }
   .company-container {
     @include flexbox(center,center);
     flex-wrap: wrap;
     max-width: 1200px;
-  }
-  .company-card {
-    width: 500px;
-    border: 1px solid rgb(163, 163, 163);
-    padding: 2rem;
-    margin: 1rem;
-    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.5);
-  }
-  .company-list {
-    display: flex;
-    p {
-      height: 1.5rem;
-      @include flexbox(null,center);
+    .company-card {
+      width: 500px;
+      border: 1px solid rgb(163, 163, 163);
+      padding: 2rem;
+      margin: 1rem;
+      border-radius: 5px;
+      box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.5);
     }
-    .title {
-      width: 150px;
+    .company-name {
+      font-size: 1.3rem;
+    }
+    .company-list {
+      display: flex;
+      p {
+        height: 1.5rem;
+        @include flexbox(null,center);
+      }
+      .title {
+        width: 150px;
+      }
+    }
+  }
+  .history-container {
+    border: 1px solid rgb(163, 163, 163);
+    .history-card {
+      display: flex;
+      padding: 0.5rem 0;
+    }
+    .history-event {
+      white-space: pre-wrap;
     }
   }
 }
