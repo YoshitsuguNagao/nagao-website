@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Company from './pages/Company';
 import Lineup from './pages/Lineup';
 import BusinessGuide from './pages/BusinessGuide';
-import Job from './pages/Job';
+import Recruit from './pages/Recruits';
 import Contact from './pages/Contact';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/company" component={Company} />
           <Route exact path="/lineup" component={Lineup} />
           <Route exact path="/business-guide" component={BusinessGuide} />
-          <Route exact path="/job" component={Job} />
+          <Route exact path="/recruit" component={Recruit} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
         <Footer />

@@ -191,6 +191,27 @@ footer {
   }
 }
 
+.recruits {
+  padding: 100px 10vw;
+  min-height: calc(100vh - 21px);
+  color: $subColor;
+  .each-recruit {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  .recruit-item {
+    display: flex;
+    padding-bottom: 0.5rem;
+  }
+  .recruit-title {
+    width: 100px;
+  }
+  .recruit-content {
+    white-space: pre-wrap;
+  }
+}
+
 /* ============
     Components
    ============ */
