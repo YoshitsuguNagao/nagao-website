@@ -18,7 +18,7 @@ class Navbar extends Component {
             <li><a href="/company">会社概要</a></li>
             <li><a href="/lineup">保有機種</a></li>
             <li><a href="/business-guide">事業内容</a></li>
-            <li><a href="/experience">実績</a></li>
+            <li><a href="/job">採用情報</a></li>
             <li><a href="/contact">お問い合わせ</a></li>
           </ul>
           <div className="burger">

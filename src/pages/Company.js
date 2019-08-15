@@ -11,15 +11,15 @@ class Company extends Component {
   showCompany = (keyName, i) => {
     return (
       <li className="company-list" key={i}>
-        <p className="title">{keyName[0]}</p>
-        <p className="content">{keyName[1]}</p>
+        <p className="company-title">{keyName[0]}</p>
+        <p className="company-content">{keyName[1]}</p>
       </li>
     )
   }
 
   showHistory = (history,index) => {
     return (
-      <div className="history-card">
+      <div className="history-card" key={index}>
         <p className="history-year">{history.year}年 {history.month}月</p>
         <p className="history-event">{history.event}</p>
       </div>
@@ -28,10 +28,9 @@ class Company extends Component {
 
   render() {
     const { companies, histories } = this.state;
-    console.log('companies', companies)
     return (
       <div className="company">
-        <h2 className="company-title">会社概要</h2>
+        <h2 className="title">会社概要</h2>
         <div className="company-container">
         {
           companies.map((company, index) => {
@@ -48,7 +47,7 @@ class Company extends Component {
           })
         }
         </div>
-        <h2 className="company-title">沿革</h2>
+        <h2 className="title">沿革</h2>
         <div className="history-container">
           {
             histories.map((history,index) => {

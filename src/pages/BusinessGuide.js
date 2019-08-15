@@ -1,10 +1,49 @@
 import React, { Component } from 'react'
+import guides from '../data/business-guide.json'
+import experience from '../data/experience.json'
 
 class BusinessGuide extends Component {
+
+  showGuides = (guide,index) => {
+    return (
+      <div className="each-guide" key={index}>
+        <h3>{guide.name}</h3>
+        <ul>
+          {
+            guide.contents.map((content,i) => {
+              return <li key={i}>{content}</li>
+            })
+          }
+        </ul>
+      </div>
+    )
+  }
+
   render() {
     return (
       <div className="business-guide">
-        
+
+        <section className="guides">
+          <h2 className="title">業務内容</h2>
+          {
+            guides.map((guide,index) => {
+              return this.showGuides(guide,index)
+            })
+          }
+        </section>
+        <section className="experience">
+          <h2 className="title">実績(グループ含む)</h2>
+          {
+            experience.map((item,index) => {
+              return (
+                <div className="each-experience" key={index}>
+                  <p className="experience-title">{item.title}</p>
+                  <p>{item.content}</p>
+                </div>
+              )
+            })
+          }
+        </section>
       </div>
     )
   }

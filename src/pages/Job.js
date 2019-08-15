@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Experience extends Component {
+class Job extends Component {
   render() {
     return (
       <div className="experience">
@@ -10,4 +10,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience
+export default Job
