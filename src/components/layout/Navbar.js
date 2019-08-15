@@ -9,7 +9,7 @@ class Navbar extends Component {
           <Link className="nav-title" to="/"><h1>㈱長尾レッカー</h1></Link>
           <div className="nav-tel">
             <p>お気軽にお問い合わせください</p>
-            <p>TEL:</p>
+            <p>TEL: 0537-86-6410</p>
           </div>
         </div>
         <div className="navbar-menu">

@@ -20,8 +20,7 @@ class Company extends Component {
   showHistory = (history,index) => {
     return (
       <div className="history-card">
-        <p className="history-year">{history.year}年</p>
-        <p className="history-month">{history.month}月</p>
+        <p className="history-year">{history.year}年 {history.month}月</p>
         <p className="history-event">{history.event}</p>
       </div>
     )
