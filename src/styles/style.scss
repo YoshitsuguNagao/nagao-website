@@ -17,6 +17,9 @@
   .nav-title {
     margin: 0 10vw;
     @include flexbox(space-between);
+    h1 {
+      font-size: 2rem;
+    }
     a {
       color: black;
       margin: 0;
@@ -28,8 +31,8 @@
   }
   ul {
     @include flexbox(space-around,center);
-    top: 0;
-    left: 0;
+    // top: 0;
+    right: 0;
     list-style: none;
     font-size: 1rem;
     li {
@@ -45,7 +48,9 @@
         &::after{
           content: "";
           @include size(100%,100%);
-          @include pos(absolute,0,0);
+          position: absolute;
+          top: 0;
+          left: 0;
           transform: translateX(-100%);
           transition: transform 0.5s ease;
         }
@@ -55,6 +60,80 @@
       }
     }
   }
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  top: 50px;
+  // right: 80px;
+  cursor: pointer;
+  div {
+    @include size(25px,3px);
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .nav-title {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    @include flexbox(space-around,center,column);
+    @include size(200px,calc(100vh - 100px));
+    background-color: $themeColor;
+    position: absolute;
+    left: 100%;
+    // top: 10vh;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;
+    li {
+      opacity: 0;
+    }
+  }
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(-100%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px)
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px)
+  }
+}
+
+.toggle {
+  .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .line2 {
+    opacity: 0;
+  }
+  .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+
+a.active::after {
+  transform: translateX(0%);
 }
 
 footer {

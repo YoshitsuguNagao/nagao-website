@@ -2,6 +2,26 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
+
+  handleClick = () => {
+    const nav = document.querySelector('.nav-links');
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelectorAll('.nav-links li');
+      //Toggle Nav
+      nav.classList.toggle('nav-active');
+      //Animate Links
+      navLinks.forEach((link, index) => {
+        if(link.style.animation) {
+          link.style.animation = '';
+        } else {
+          link.style.animation = `navLinkFade 0.5s ease forwards ${index / 5 + 0.5}s`;
+        }
+      })
+      //Burger Animation
+      burger.classList.toggle('toggle');
+  }
+
+
   render() {
     return (
       <nav className="navbar">
@@ -21,7 +41,7 @@ class Navbar extends Component {
             <li><a href="/recruit">採用情報</a></li>
             <li><a href="/contact">お問い合わせ</a></li>
           </ul>
-          <div className="burger">
+          <div className="burger" onClick={() => {this.handleClick()}}>
             <div className="line1"></div>
             <div className="line2"></div>
             <div className="line3"></div>
