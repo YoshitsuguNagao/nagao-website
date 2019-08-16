@@ -31,7 +31,6 @@
   }
   ul {
     @include flexbox(space-around,center);
-    // top: 0;
     right: 0;
     list-style: none;
     font-size: 1rem;
@@ -40,7 +39,6 @@
       @include size(110px,50px);
       overflow: hidden;
       text-align: center;
-      // border: 1px solid red;
       a {
         color: $subDarkColor;
         text-decoration: none;
@@ -66,7 +64,6 @@
   display: none;
   position: absolute;
   top: 50px;
-  // right: 80px;
   cursor: pointer;
   div {
     @include size(25px,3px);
@@ -92,7 +89,6 @@
     background-color: $themeColor;
     position: absolute;
     left: 100%;
-    // top: 10vh;
     transform: translateX(0%);
     transition: transform 0.5s ease-in;
     li {
@@ -139,7 +135,6 @@ a.active::after {
 footer {
   @include flexbox(center,center);
   background-color: $themeColor;
-  // color: $textColor;
   font-size: 0.8rem;
 }
 
@@ -147,7 +142,6 @@ footer {
     Section Style
    =============== */
 .home {
-  // height:100vh;
   color: $subColor;
   .homepage-banner {
     img {
