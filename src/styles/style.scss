@@ -143,16 +143,61 @@ footer {
    =============== */
 .home {
   color: $subColor;
+  padding: 100px 0;
+
   .homepage-banner {
     img {
       width: 100%;
     }
   }
   .homepage-news {
-    height: 50vh;
+    padding: 0 10vw;
+    p {
+      line-height: 1rem;
+    }
+  }
+  .news-container {
+    .each-news {
+      border-bottom: 1px dashed gray;
+      display: flex;
+      margin: 1rem;
+      .news-date {
+        padding-right: 1rem;
+      }
+    }
   }
   .homepage-lineup {
-    height: 50vh;
+    padding: 0 10vw;
+  }
+  .lineup-container {
+    display: flex;
+    .lineup-text {
+      width: 50%;
+      padding: 0 1rem;
+    }
+    .lineup-img {
+      width: 50%;
+      padding: 0 1rem;
+    }
+    .lineup-link {
+      text-align: end;
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .home {
+    .lineup-container {
+      flex-direction: column;
+      align-items: center;
+      .lineup-text {
+        width: 100%;
+      }
+      .lineup-img {
+        width: 80%;
+        padding-top: 2rem;
+      }
+    }
   }
 }
 
@@ -291,7 +336,8 @@ footer {
    ============ */
 
 .title {
-  padding: 2rem 0;
+  border-bottom: 1px solid $themeDarkColor;
+  margin: 2rem 0;
 }
 
 .company-card {
