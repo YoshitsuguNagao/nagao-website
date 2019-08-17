@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import companies from '../data/company.json';
 import histories from '../data/history.json';
+import Maps from './Maps'
 
 class Company extends Component {
   state = {
@@ -20,7 +21,7 @@ class Company extends Component {
   showHistory = (history,index) => {
     return (
       <div className="history-card" key={index}>
-        <p className="history-year">{history.year}年 {history.month}月</p>
+        <p className="history-date">{history.year}年 {history.month}月</p>
         <p className="history-event">{history.event}</p>
       </div>
     )
@@ -56,6 +57,10 @@ class Company extends Component {
               )
             })
           }
+        </div>
+        <h2 className="title">事業所</h2>
+        <div className="company-map">
+         <Maps />
         </div>
       </div>
     )
