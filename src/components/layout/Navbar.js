@@ -24,12 +24,14 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar">
+      <nav className="navbar-top">
         <div className="nav-title">
-          <Link className="nav-title" to="/"><h1>㈱長尾レッカー</h1></Link>
+          <Link className="nav-title" to="/">
+            <h1 className="navbar-h1">㈱長尾レッカー</h1>
+          </Link>
           <div className="nav-tel">
-            <p>お気軽にお問い合わせください</p>
-            <p>TEL: 0537-86-6410</p>
+            <p className="navbar-text">お気軽にお問い合わせください</p>
+            <p className="navbar-text">TEL: 0537-86-6410</p>
           </div>
         </div>
         <div className="navbar-menu">

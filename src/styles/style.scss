@@ -6,7 +6,7 @@
     Navbar Style
    ============== */
 
-.navbar {
+.navbar-top {
   @include size(100%,null);
   min-height: 100px;
   @include flexbox(space-between,null,column);
@@ -17,7 +17,7 @@
   .nav-title {
     margin: 0 10vw;
     @include flexbox(space-between);
-    h1 {
+    .navbar-h1 {
       font-size: 2rem;
     }
     a {
