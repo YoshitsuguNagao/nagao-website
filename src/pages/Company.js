@@ -66,7 +66,6 @@ class Company extends Component {
           <h2 className="title">事業所</h2>
           <div className="company-map">
           {/* <Maps /> */}
-          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1088.5711297807525!2d138.1485851500282!3d34.63316777768507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa8331789715c191!2z77yI5qCq77yJ6ZW35bC-44Os44OD44Kr44O8!5e0!3m2!1sen!2ses!4v1566062843214!5m2!1sen!2ses" width="600" height="450" frameborder="0" allowfullscreen></iframe> */}
           </div>
         </section>
       </div>

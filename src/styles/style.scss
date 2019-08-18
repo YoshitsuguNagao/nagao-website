@@ -228,6 +228,7 @@ footer {
     @include flexbox(center,center);
     flex-wrap: wrap;
     max-width: 1200px;
+    margin: auto;
   }
   .history-container {
     margin: 0 10vw;
@@ -363,12 +364,25 @@ footer {
     }
   }
 }
+
 .recruits {
   padding: 100px 10vw;
   min-height: calc(100vh - 21px);
   color: $subColor;
-
 }
+
+.contact {
+  color: $subColor;
+  padding: 100px 10vw;
+  h3 {
+    padding: 0.5rem;
+  }
+  iframe {
+    padding-top: 50px;
+    width: 100%;
+  }
+}
+
 
 /* ============
     Components
