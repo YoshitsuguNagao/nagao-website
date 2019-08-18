@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div className="home">
         <section className="homepage-banner">
-         <img src={require('../images/IMG_3128.JPG')} alt=""/>
+         <img src={require('../images/home1.jpg')} alt=""/>
         </section>
         <section className="homepage-news">
           <h2 className="title">新着一覧</h2>
@@ -30,7 +30,7 @@ class Home extends Component {
               <p>油圧式クレーンやトレーラーは最新式を揃えており、最小１２トン吊りから最大４００トン吊りの能力までの各クレーン車を約２９台取り揃えております。</p>
               <p className="lineup-link"><a href="/lineup">保有機種一覧</a></p>
             </div>
-            <img className="lineup-img" src={require('../images/IMG_3128.JPG')} alt=""/>
+            <img className="lineup-img" src={require('../images/home2.JPG')} alt=""/>
           </div>
         </section>
       </div>

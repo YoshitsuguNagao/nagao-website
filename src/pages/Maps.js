@@ -12,7 +12,7 @@ export class Maps extends Component {
       style="mapbox://styles/mapbox/streets-v8"
       zoom={zoom}
       containerStyle={{
-        height: "100%",
+        height: "300px",
         width: "500px"
       }}>
         <Layer

@@ -6,7 +6,7 @@ class Recruit extends Component {
 
   showRecruit = (recruit,index) => {
     return (
-      <div className="each-recruit">
+      <div className="recruit-card">
         {
           Object.keys(recruit).map((keyName,i) => {
             return (

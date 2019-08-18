@@ -161,8 +161,10 @@ footer {
       border-bottom: 1px dashed gray;
       display: flex;
       margin: 1rem;
+      padding-bottom: 3px;
       .news-date {
         padding-right: 1rem;
+        color: $subLightColor;
       }
     }
   }
@@ -187,11 +189,22 @@ footer {
 
 @media screen and (max-width:768px) {
   .home {
+    .news-container {
+      .each-news {
+        flex-direction: column;
+        margin: 0rem;
+        .news-date {
+          font-size: 0.75rem;
+          padding: 3px 0;
+        }
+      }
+    }
     .lineup-container {
       flex-direction: column;
       align-items: center;
       .lineup-text {
         width: 100%;
+        padding: 0;
       }
       .lineup-img {
         width: 80%;
@@ -202,25 +215,49 @@ footer {
 }
 
 .company {
-  color: $subColor;
   @include flexbox(center,center,column);
+  color: $subColor;
   padding: 100px 0;
+  section {
+    width: 100%;
+    h2 {
+      margin: 2rem 10vw 1rem;
+    }
+  }
   .company-container {
     @include flexbox(center,center);
     flex-wrap: wrap;
     max-width: 1200px;
   }
   .history-container {
-    .history-card {
-      display: flex;
-      padding: 0.5rem 0;
+    margin: 0 10vw;
+  }
+  .history-card {
+    display: flex;
+    padding: 0.5rem 0;
+  }
+  .history-date {
+    width: 100px;
+  }
+  .history-event {
+    padding-left: 2rem;
+    white-space: pre-wrap;
+    width: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .company {
+    .history-container p {
+      font-size: 0.8rem;
     }
     .history-date {
-      width: 100px;
+      width: 75px;
     }
     .history-event {
-      padding-left: 2rem;
       white-space: pre-wrap;
+      padding-left: 1rem;
+      width: calc(100% - 75px);
     }
   }
 }
@@ -284,7 +321,7 @@ footer {
         &:before {
           color: $subLightColor;
           padding-right: 10px;
-          width: 150px;
+          width: 100px;
           font-size: .8rem;
           content: attr(data-label);
         }
@@ -313,25 +350,24 @@ footer {
   }
 }
 
+@media screen and (max-width:650px) {
+  .business-guide {
+    .each-experience {
+      flex-direction: column;
+      .experience-title {
+        width: 270px;
+      }
+      .experience-content {
+        padding-left: 1rem;
+      }
+    }
+  }
+}
 .recruits {
   padding: 100px 10vw;
   min-height: calc(100vh - 21px);
   color: $subColor;
-  .each-recruit {
-    border: 1px solid black;
-    padding: 1rem;
-    margin: 1rem 0;
-  }
-  .recruit-item {
-    display: flex;
-    padding-bottom: 0.5rem;
-  }
-  .recruit-title {
-    width: 100px;
-  }
-  .recruit-content {
-    white-space: pre-wrap;
-  }
+
 }
 
 /* ============
@@ -340,7 +376,7 @@ footer {
 
 .title {
   border-bottom: 1px solid $themeDarkColor;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
 }
 
 .company-card {
@@ -355,15 +391,64 @@ footer {
   }
   .company-name {
     font-size: 1.3rem;
+    margin-bottom: 0.5rem;
   }
   .company-list {
     display: flex;
+    border-bottom: 1px dashed $subLightColor;
+    margin-bottom: 5px;
     p {
-      height: 1.5rem;
+      // height: 1.5rem;
       @include flexbox(null,center);
     }
     .company-title {
       width: 150px;
+      color: $subLightColor;
+    }
+  }
+}
+
+@media screen and (max-width:500px) {
+  .company-card {
+    width: 90vw;
+    padding: 1rem;
+  }
+  .company-list {
+    flex-direction: column;
+    .company-title {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.recruit-card {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem 0;
+  .recruit-item {
+    display: flex;
+    padding-bottom: 0.5rem;
+  }
+  .recruit-title {
+    width: 100px;
+    color: $subLightColor;
+  }
+  .recruit-content {
+    white-space: pre-wrap;
+    width: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .recruit-card {
+    .recruit-item {
+      flex-direction: column;
+      .recruit-title {
+        font-size: 0.75rem;
+      }
+      .recruit-content {
+        width: 100%;
+      }
     }
   }
 }

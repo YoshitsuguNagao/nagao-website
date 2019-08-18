@@ -38,7 +38,7 @@ class BusinessGuide extends Component {
               return (
                 <div className="each-experience" key={index}>
                   <p className="experience-title">{item.title}</p>
-                  <p>{item.content}</p>
+                  <p className="experience-content">{item.content}</p>
                 </div>
               )
             })
