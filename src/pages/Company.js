@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import companies from '../data/company.json';
 import histories from '../data/history.json';
 import Maps from './Maps'
+import data from '../data/data.json'
+import addresses from '../data/address.json'
 
 class Company extends Component {
   state = {
@@ -31,6 +33,15 @@ class Company extends Component {
     const { companies, histories } = this.state;
     return (
       <div className="company">
+        <section className="introduction">
+          <h2 className="title">{data.introduction[0]}</h2>
+          <div className="intro-content">
+            <p className="intro-text">
+              {data.introduction[1]}
+            </p>
+            <img className="intro-img" src={require('../images/IMG_0828.JPG')} alt=""/>
+          </div>
+        </section>
         <section className="company-section">
           <h2 className="title">会社概要</h2>
           <div className="company-container">
@@ -62,9 +73,32 @@ class Company extends Component {
             }
           </div>
         </section>
-        <section>
+        <section className="address-section">
           <h2 className="title">事業所</h2>
-          <div className="company-map">
+          <div className="address-container">
+            {
+              addresses.map((address,index) => {
+                return (
+                  <>
+                  <h3 className="address-name">{address.name}</h3>
+                  <div className="address-card">
+                    {
+                      address.branches.map((branch,index) => {
+                        return (
+                          <div className="address-branch">
+                          <p>{branch.name}</p>
+                          <p>{branch.address}</p>
+                          <p>TEL: {branch.TEL}</p>
+                          <p>FAX: {branch.FAX}</p>
+                          </div>
+                        )
+                      })
+                    }
+                  </div>
+                  </>
+                )
+              })
+            }
           {/* <Maps /> */}
           </div>
         </section>

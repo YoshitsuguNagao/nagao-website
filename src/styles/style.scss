@@ -224,6 +224,20 @@ footer {
       margin: 2rem 10vw 1rem;
     }
   }
+  .intro-content {
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    padding: 0 10vw;
+  }
+  .intro-img {
+    height: 20vh;
+  }
+  .intro-text {
+    width: 40vw;
+  }
   .company-container {
     @include flexbox(center,center);
     flex-wrap: wrap;
@@ -245,10 +259,28 @@ footer {
     white-space: pre-wrap;
     width: calc(100% - 100px);
   }
+  .address-container {
+    margin: 0 10vw;
+  }
+  .address-name {
+    padding: 0.5rem;
+  }
+  .address-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .address-branch {
+    padding: 0.5rem;
+    width: 300px;
+    p {
+      // height: 1.5rem;
+    }
+  }
 }
 
 @media screen and (max-width:500px) {
   .company {
+
     .history-container p {
       font-size: 0.8rem;
     }
