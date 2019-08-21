@@ -6,7 +6,19 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
+        <section className="homepage-banner">
         <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={require('../images/home3.jpg')}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <h1>ATF-400G-6</h1>
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+            </Carousel.Caption>
+          </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -14,8 +26,8 @@ class Home extends Component {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h1>ATF-100G-4</h1>
+              {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -24,15 +36,13 @@ class Home extends Component {
               src={require('../images/home2.JPG')}
               alt="Third slide"
             />
-
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h1>12ton ~ 400tonのクレーン</h1>
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <section className="homepage-banner">
-         <img src={require('../images/home1.jpg')} alt=""/>
+         {/* <img src={require('../images/home1.jpg')} alt=""/> */}
         </section>
         <section className="homepage-news">
           <h2 className="title">新着一覧</h2>
@@ -57,6 +67,19 @@ class Home extends Component {
               <p className="lineup-link"><a href="/lineup">保有機種一覧</a></p>
             </div>
             <img className="lineup-img" src={require('../images/home2.JPG')} alt=""/>
+          </div>
+        </section>
+        <section className="homepage-pickup">
+          <h2 className="title">ピックアップ！</h2>
+          <div className="pickup-container">
+            <div className="pickup-card">
+              <img className="pickup-img" src={require('../images/home2.JPG')} alt=""/>
+              <p>スカイボックス</p>
+            </div>
+            <div className="pickup-card">
+              <img className="pickup-img" src={require('../images/home2.JPG')} alt=""/>
+              <p>トレーラー</p>
+            </div>
           </div>
         </section>
       </div>

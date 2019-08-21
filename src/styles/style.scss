@@ -187,6 +187,23 @@ footer {
       text-align: end;
     }
   }
+  .homepage-pickup {
+    padding: 0 10vw;
+  }
+  .pickup-container {
+    display: flex;
+    .pickup-card {
+      width: 33%;
+    }
+    .pickup-img {
+      width: 100%;
+      border-radius: 500px;
+      // padding: 0 1rem;
+    }
+    // .lineup-link {
+    //   text-align: end;
+    // }
+  }
 }
 
 @media screen and (max-width:768px) {
