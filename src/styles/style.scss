@@ -148,6 +148,8 @@ footer {
   .homepage-banner {
     img {
       width: 100%;
+      height: 50vh;
+      object-fit: cover;
     }
   }
   .homepage-news {
@@ -268,6 +270,7 @@ footer {
   .address-card {
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 1px solid $subLightColor;
   }
   .address-branch {
     padding: 0.5rem;
@@ -313,24 +316,33 @@ footer {
       font-size: .8rem;
       padding: 0.5rem;
       color: $subLightColor;
+      width: 80%;
+
     }
     .table-row {
-      margin: 3px 0;
-      padding: 0.5rem;
       border-bottom: 1px solid #cecece;
+      width: 80%;
+      padding: 0.5rem;
+    }
+    .lineup-card {
+      display: flex;
+      margin: 3px 0;
     }
     .lineup-model {
-      width: 20%;
+      width: 25%;
     }
     .lineup-maker {
-      width: 20%;
+      width: 25%;
       min-width: 120px;
     }
     .lineup-capacity {
-      width: 20%;
+      width: 25%;
     }
     .lineup-info {
-      width: 40%;
+      width: 25%;
+    }
+    .lineup-img {
+      width: 10%;
     }
 
     @media all and (max-width: 640px) {
@@ -491,6 +503,7 @@ footer {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
+  border-radius: 5px;
   .recruit-item {
     display: flex;
     padding-bottom: 0.5rem;

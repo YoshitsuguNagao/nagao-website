@@ -30,13 +30,15 @@ class Navbar extends Component {
             <h1 className="navbar-h1">㈱長尾レッカー</h1>
           </Link>
           <div className="nav-tel">
-            <p className="navbar-text">お気軽にお問い合わせください</p>
-            <p className="navbar-text">TEL: 0537-86-6410</p>
+            {/* <p className="navbar-text">お気軽にお問い合わせください</p>
+            <p className="navbar-text">TEL: 0537-86-6410</p> */}
+            <p>お気軽にお問い合わせください</p>
+            <p>TEL: 0537-86-6410</p>
           </div>
         </div>
         <div className="navbar-menu">
           <ul className="nav-links">
-            <li><Link to="/"><p>ホーム</p></Link></li>
+            <li><a href="/">ホーム</a></li>
             <li><a href="/company">会社概要</a></li>
             <li><a href="/lineup">保有機種</a></li>
             <li><a href="/business-guide">事業内容</a></li>

@@ -9,12 +9,18 @@ class Lineup extends Component {
 
   lineupCard = (lineup, index) => {
     return (
+      <div className="lineup-card">
       <li className="table-row" key={index}>
-        <p className="col lineup-model" data-label="機種">{lineup.model}</p>
-        <p className="col lineup-maker" data-label="メーカー">{lineup.maker}</p>
-        <p className="col lineup-capacity" data-label="吊上げ能力">{lineup.capacity} ton</p>
-        <p className="col lineup-info" data-label="その他">{lineup.info}</p>
+        {/* <div className="lineup-content"> */}
+          <p className="col lineup-model" data-label="機種">{lineup.model}</p>
+          <p className="col lineup-maker" data-label="メーカー">{lineup.maker}</p>
+          <p className="col lineup-capacity" data-label="吊上げ能力">{lineup.capacity} ton</p>
+          <p className="col lineup-info" data-label="その他">{lineup.info}</p>
+
+        {/* </div> */}
       </li>
+        <img className="lineup-img" src={require("../images/home1.jpg")} alt=""/>
+      </div>
     )
   }
 
@@ -51,21 +57,35 @@ class Lineup extends Component {
               })
           }
         </ul>
-        <h3 className="lineup-subtitle">トレーラー/トラック</h3>
+        <h3 className="lineup-subtitle">トラクター</h3>
         <ul className="responsive-table">
           <li className="table-header">
             <p className="col lineup-model">機種</p>
             <p className="col lineup-maker">メーカー</p>
-            <p className="col lineup-capacity">吊上げ能力</p>
+            <p className="col lineup-capacity">第五輪荷重</p>
             <p className="col lineup-info">その他</p>
           </li>
           {
             lineups.map((lineup, index) => {
-              return lineup.type === "Truck" ? this.lineupCard(lineup, index) : null
+              return lineup.type === "TR" ? this.lineupCard(lineup, index) : null
             })
           }
         </ul>
-        <h3 className="lineup-subtitle">その他</h3>
+        <h3 className="lineup-subtitle">トレーラー</h3>
+        <ul className="responsive-table">
+          <li className="table-header">
+            <p className="col lineup-model">機種</p>
+            <p className="col lineup-maker">メーカー</p>
+            <p className="col lineup-capacity"></p>
+            <p className="col lineup-info">その他</p>
+          </li>
+          {
+            lineups.map((lineup, index) => {
+              return lineup.type === "TRL" ? this.lineupCard(lineup, index) : null
+            })
+          }
+        </ul>
+        <h3 className="lineup-subtitle">スカイボックス</h3>
         <ul className="responsive-table">
           <li className="table-header">
             <p className="col lineup-model">機種</p>

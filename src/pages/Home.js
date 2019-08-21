@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import news from '../data/news.json'
-// import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel'
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
-        {/* <Carousel>
+        <Carousel>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -30,7 +30,7 @@ class Home extends Component {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
-        </Carousel> */}
+        </Carousel>
         <section className="homepage-banner">
          <img src={require('../images/home1.jpg')} alt=""/>
         </section>
