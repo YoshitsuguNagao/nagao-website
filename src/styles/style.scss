@@ -300,7 +300,21 @@ footer {
 
 @media screen and (max-width:500px) {
   .company {
+    .intro-content {
+      // display: null;
+      position: relative;
+      padding-top: 1rem;
+    }
+    .intro-img {
+      position: absolute;
+      width: 100%;
+    }
+    .intro-text {
+      width: 100%;
 
+      z-index: 10;
+      // overflow: visible;
+    }
     .history-container p {
       font-size: 0.8rem;
     }
@@ -430,6 +444,13 @@ footer {
   padding: 100px 10vw;
   min-height: calc(100vh - 21px);
   color: $subColor;
+}
+
+
+@media screen and (max-width:768px) {
+  .recruits {
+    padding: 100px 5vw;
+  }
 }
 
 .contact {

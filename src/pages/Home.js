@@ -12,7 +12,7 @@ class Home extends Component {
             <img
               className="d-block w-100"
               src={require('../images/home3.jpg')}
-              alt="Third slide"
+              alt="First slide"
             />
             <Carousel.Caption>
               <h1>ATF-400G-6</h1>
@@ -23,7 +23,7 @@ class Home extends Component {
             <img
               className="d-block w-100"
               src={require('../images/home1.jpg')}
-              alt="First slide"
+              alt="Second slide"
             />
             <Carousel.Caption>
               <h1>ATF-100G-4</h1>
