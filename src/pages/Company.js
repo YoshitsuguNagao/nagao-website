@@ -35,10 +35,13 @@ class Company extends Component {
       <div className="company">
         <section className="introduction">
           <h2 className="title">{data.introduction[0]}</h2>
-          <div className="intro-content">
-            <p className="intro-text">
-              {data.introduction[1]}
-            </p>
+          <div className="intro-container">
+            <div className="intro-content">
+              <p className="intro-text">
+                {data.introduction[1]}
+              </p>
+              <h4>代表 長尾享</h4>
+            </div>
             <img className="intro-img" src={require('../images/IMG_0828.JPG')} alt=""/>
           </div>
         </section>

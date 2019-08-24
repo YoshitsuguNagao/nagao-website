@@ -7,7 +7,7 @@ class BusinessGuide extends Component {
   showGuides = (guide,index) => {
     return (
       <div className="each-guide" key={index}>
-        <h3>{guide.name}</h3>
+        <h3 className="guide-name">{guide.name}</h3>
         <ul>
           {
             guide.contents.map((content,i) => {

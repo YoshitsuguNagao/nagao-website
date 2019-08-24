@@ -243,7 +243,7 @@ footer {
       margin: 2rem 10vw 1rem;
     }
   }
-  .intro-content {
+  .intro-container {
     display: flex;
     // flex-direction: column;
     justify-content: space-between;
@@ -252,10 +252,15 @@ footer {
     padding: 0 10vw;
   }
   .intro-img {
-    height: 20vh;
+    height: 30vh;
   }
-  .intro-text {
+  .intro-content h4 {
+    text-align: end;
+  }
+  .intro-content {
     width: 40vw;
+    // min-width: 450px;
+    margin-right: 2rem;
   }
   .company-container {
     @include flexbox(center,center);
@@ -300,7 +305,7 @@ footer {
 
 @media screen and (max-width:500px) {
   .company {
-    .intro-content {
+    .intro-container {
       // display: null;
       position: relative;
       padding-top: 1rem;
@@ -309,7 +314,7 @@ footer {
       position: absolute;
       width: 100%;
     }
-    .intro-text {
+    .intro-content {
       width: 100%;
 
       z-index: 10;
@@ -410,9 +415,18 @@ footer {
   padding: 100px 10vw;
   color: $subColor;
   .each-guide {
-    border: 1px solid $subLightColor;
+    border: 1px solid rgb(163, 163, 163);
+    // box-shadow: 0px 0px 15px -5px #62727b;
     padding: 1rem;
     margin: 0.5rem 0;
+    border-radius: 5px;
+    &:hover {
+      border: 1px solid $themeLightColor;
+      box-shadow: 0px 0px 15px -5px #62727b;
+    }
+    .guide-name {
+      padding-bottom: 1rem;
+    }
     li {
       margin-left: 1rem;
     }
@@ -428,6 +442,9 @@ footer {
 
 @media screen and (max-width:650px) {
   .business-guide {
+    ul {
+      font-size: 0.8rem;
+    }
     .each-experience {
       flex-direction: column;
       .experience-title {
@@ -501,9 +518,10 @@ footer {
   padding: 2rem;
   margin: 1rem;
   border-radius: 5px;
-  box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.5);
+  // box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.5);
   &:hover {
     border: 1px solid $themeLightColor;
+    box-shadow: 0px 0px 15px -5px #62727b;
   }
   .company-name {
     font-size: 1.3rem;
@@ -538,10 +556,16 @@ footer {
 }
 
 .recruit-card {
-  border: 1px solid black;
+  border: 1px solid rgb(163, 163, 163);
+  // box-shadow: 0px 0px 15px -5px #62727b;
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 5px;
+
+  &:hover {
+    border: 1px solid $themeLightColor;
+    box-shadow: 0px 0px 15px -5px #62727b;
+  }
   .recruit-item {
     display: flex;
     padding-bottom: 0.5rem;
