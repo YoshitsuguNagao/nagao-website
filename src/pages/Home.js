@@ -46,18 +46,16 @@ class Home extends Component {
         </section>
         <section className="homepage-news">
           <h2 className="title">新着一覧</h2>
-          <div className="news-container">
-            {
-              news.map((item,index) => {
-                return (
-                  <div className="each-news">
-                    <p className="news-date">{item.date}</p>
-                    <p className="news-content"><a href={`/news/${item.date}`}>{item.content}</a></p>
-                  </div>
-                )
-              })
-            }
-          </div>
+          {
+            news.map((item,index) => {
+              return (
+                <div className="each-news" key={index}>
+                  <p className="homepage-news-date">{item.date}</p>
+                  <p className="homepage-news-content"><a href={`/news/${item.date}`}>{item.title}</a></p>
+                </div>
+              )
+            })
+          }
         </section>
         <section className="homepage-lineup">
           <h2 className="title">充実のラインアップ</h2>

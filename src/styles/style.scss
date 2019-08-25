@@ -162,7 +162,7 @@ footer {
     display: flex;
     margin: 1rem;
     padding-bottom: 3px;
-    .news-date {
+    .homepage-news-date {
       padding-right: 1rem;
       color: $subLightColor;
     }
@@ -207,7 +207,7 @@ footer {
     .each-news {
       flex-direction: column;
       margin: 0rem;
-      .news-date {
+      .homepage-news-date {
         font-size: 0.75rem;
         padding: 3px 0;
       }
@@ -502,7 +502,35 @@ footer {
 /*----- News -----*/
 .news {
   color: $subColor;
-  padding: 100px 0;
+  padding: 100px 10vw;
+  min-height: calc(100vh - 19px);
+  .news-container {
+    display: flex;
+  }
+  .news-sidebar {
+    width: 300px;
+  }
+  .news-sidebar-date {
+    font-size: 0.75rem;
+  }
+  .news-sidebar-title {
+    font-size: 0.9rem;
+  }
+  .news-contents {
+    padding-left: 2rem;
+  }
+  .news-title {
+    padding-bottom: 1rem;
+  }
+  .news-content {
+    white-space: pre-wrap;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .news {
+    padding: 100px 5vw;
+  }
 }
 
 /* ============
