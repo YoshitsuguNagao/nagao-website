@@ -8,6 +8,7 @@ import Lineup from './pages/Lineup';
 import BusinessGuide from './pages/BusinessGuide';
 import Recruit from './pages/Recruits';
 import Contact from './pages/Contact';
+import News from './pages/News';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/business-guide" component={BusinessGuide} />
           <Route exact path="/recruit" component={Recruit} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/news/:newsId" component={News} />
         </Switch>
         <Footer />
       </div>

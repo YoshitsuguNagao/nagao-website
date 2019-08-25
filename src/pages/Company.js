@@ -33,7 +33,7 @@ class Company extends Component {
     const { companies, histories } = this.state;
     return (
       <div className="company">
-        <section className="introduction">
+        {/* <section className="introduction">
           <h2 className="title">{data.introduction[0]}</h2>
           <div className="intro-container">
             <div className="intro-content">
@@ -44,7 +44,7 @@ class Company extends Component {
             </div>
             <img className="intro-img" src={require('../images/IMG_0828.JPG')} alt=""/>
           </div>
-        </section>
+        </section> */}
         <section className="company-section">
           <h2 className="title">会社概要</h2>
           <div className="company-container">

@@ -6,12 +6,12 @@ class BusinessGuide extends Component {
 
   showGuides = (guide,index) => {
     return (
-      <div className="each-guide" key={index}>
+      <div className="guide-card" key={index}>
         <h3 className="guide-name">{guide.name}</h3>
-        <ul>
+        <ul className="guide-contents">
           {
             guide.contents.map((content,i) => {
-              return <li key={i}>{content}</li>
+              return <li className="guide-content" key={i}>{content}</li>
             })
           }
         </ul>

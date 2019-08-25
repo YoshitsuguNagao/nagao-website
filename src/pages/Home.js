@@ -52,7 +52,7 @@ class Home extends Component {
                 return (
                   <div className="each-news">
                     <p className="news-date">{item.date}</p>
-                    <p className="news-content">{item.content}</p>
+                    <p className="news-content"><a href={`/news/${item.date}`}>{item.content}</a></p>
                   </div>
                 )
               })
