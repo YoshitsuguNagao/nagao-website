@@ -11,10 +11,14 @@ class Lineup extends Component {
     return (
       <div className="lineup-card">
         <li className="table-row" key={index}>
-            <p className="col lineup-model" data-label="機種">{lineup.model}</p>
-            <p className="col lineup-maker" data-label="メーカー">{lineup.maker}</p>
-            <p className="col lineup-capacity" data-label="吊上げ能力">{lineup.capacity} ton</p>
-            <p className="col lineup-info" data-label="その他">{lineup.info}</p>
+          <p className="col lineup-model" data-label="機種">
+            <a href={`/lineup/${lineup.model}`}>
+              {lineup.model}
+            </a>
+          </p>
+          <p className="col lineup-maker" data-label="メーカー">{lineup.maker}</p>
+          <p className="col lineup-capacity" data-label="吊上げ能力">{lineup.capacity} ton</p>
+          <p className="col lineup-info" data-label="その他">{lineup.info}</p>
         </li>
         {/* <img className="lineup-img" src={require("../images/home1.jpg")} alt=""/> */}
       </div>
