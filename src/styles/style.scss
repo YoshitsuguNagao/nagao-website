@@ -556,6 +556,7 @@ footer {
 
 .lineup-link {
   text-align: end;
+  padding-top: 2rem;
 }
 
 .company-card {
@@ -637,20 +638,43 @@ footer {
 }
 
 .detail-card {
+  display: flex;
   .detail-item {
     display: flex;
     flex-direction: column;
-    padding-bottom: 5px;;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed;
   }
   .detail-model {
     margin: 1rem 0;
+  }
+  .detail-images {
+    width: calc(100% - 400px);
   }
   .detail-image {
     // height: 20vh;
     width: 100%;
   }
+  .detail-contents {
+    width: 400px;
+    padding-left: 2rem;
+  }
+  .detail-title {
+    font-size: 0.75rem;
+  }
 }
-
+@media screen and (max-width:1000px) {
+  .detail-card {
+    flex-direction: column;
+    .detail-images {
+      width: 100%;
+    }
+    .detail-contents {
+      width: 100%;
+      padding: 0;
+    }
+  }
+}
 @media screen and (max-width:500px) {
   .detail-card {
     .each-detail {

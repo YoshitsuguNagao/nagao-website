@@ -12,17 +12,19 @@ console.log('lineup', lineup)
           <div className="detail-images">
             <img className="detail-image" src={require("../images/home3.jpg")} alt=""/>
           </div>
-          <h3 className="detail-model">{lineup.model}</h3>
-        {
-          lineup.details.map(item => {
-            return (
-              <div className="detail-item">
-                <p className="detail-title">{item.title}</p>
-                <p className="detail-content">{item.content}</p>
-              </div>
-            )
-          })
-        }
+          <div className="detail-contents">
+            <h3 className="detail-model">{lineup.model}</h3>
+            {
+              lineup.details.map(item => {
+                return (
+                  <div className="detail-item">
+                    <p className="detail-title">{item.title}</p>
+                    <p className="detail-content">{item.content}</p>
+                  </div>
+                )
+              })
+            }
+          </div>
         </div>
         <p className="lineup-link"><a href="/lineup">保有機種一覧へ</a></p>
       </div>
