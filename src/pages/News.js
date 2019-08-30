@@ -12,7 +12,7 @@ export class News extends Component {
         <h2 className="title">News</h2>
         <div className="news-container">
           <div className="news-sidebar">
-            <h2 className="news-title">新着一覧</h2>
+            <h3 className="news-title">新着一覧</h3>
             {
               news.map((item,index) => {
                 return (
