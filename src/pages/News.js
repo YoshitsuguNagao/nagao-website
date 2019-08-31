@@ -6,7 +6,6 @@ export class News extends Component {
 
   render() {
     const item = news.filter(item => item.date === this.props.match.params.newsId)[0]
-    console.log('this.props', item)
     return (
       <div className="news">
         <h2 className="title">News</h2>

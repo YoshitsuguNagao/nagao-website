@@ -11,7 +11,7 @@ class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require('../images/home3.jpg')}
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/inflnmyqae8hdo18ouam.jpg'
               alt="First slide"
             />
             <Carousel.Caption>
@@ -22,7 +22,7 @@ class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require('../images/home1.jpg')}
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/ymaduvjtqqnwrvbh4yj7.jpg'
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -33,7 +33,7 @@ class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require('../images/home2.JPG')}
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg'
               alt="Third slide"
             />
             <Carousel.Caption>
@@ -64,18 +64,18 @@ class Home extends Component {
               <p>油圧式クレーンやトレーラーは最新式を揃えており、最小１２トン吊りから最大４００トン吊りの能力までの各クレーン車を約２９台取り揃えております。</p>
               <p className="lineup-link"><a href="/lineup">保有機種一覧</a></p>
             </div>
-            <img className="lineup-img" src={require('../images/home2.JPG')} alt=""/>
+            <img className="lineup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
           </div>
         </section>
         <section className="homepage-pickup">
           <h2 className="title">ピックアップ！</h2>
           <div className="pickup-container">
             <div className="pickup-card">
-              <img className="pickup-img" src={require('../images/home2.JPG')} alt=""/>
+              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
               <p>スカイボックス</p>
             </div>
             <div className="pickup-card">
-              <img className="pickup-img" src={require('../images/home2.JPG')} alt=""/>
+              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
               <p>トレーラー</p>
             </div>
           </div>

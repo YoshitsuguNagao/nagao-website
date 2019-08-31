@@ -10,7 +10,7 @@ console.log('lineup', lineup)
         <h2 className="title">ラフテレーンクレーン</h2>
         <div className="detail-card">
           <div className="detail-images">
-            <img className="detail-image" src={require("../images/home3.jpg")} alt=""/>
+            <img className="detail-image" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/inflnmyqae8hdo18ouam.jpg" alt=""/>
           </div>
           <div className="detail-contents">
             <h3 className="detail-model">{lineup.model}</h3>

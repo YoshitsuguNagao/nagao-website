@@ -685,35 +685,107 @@
   },
   {
     "type": "TR",
-    "model": "トラクター",
+    "model": "トラクター1",
     "maker": "日野",
     "capacity": 20,
     "info": "20ｔ",
-    "unit": 1
+    "unit": 1,
+    "details": [
+      {
+        "title": "タイプ",
+        "content": "低床"
+      },
+      {
+        "title": "全幅 / 全長 / 全高",
+        "content": "2,490mm / 11,910mm / 2,860mmm"
+      },
+      {
+        "title": "車両重量",
+        "content": "10,880kg"
+      },
+      {
+        "title": "最大積載量",
+        "content": "14,000kg"
+      }
+    ]
   },
   {
     "type": "TR",
-    "model": "トラクター",
+    "model": "トラクター2",
     "maker": "日野",
     "capacity": 11.5,
     "info": "11.5ｔ",
-    "unit": 1
+    "unit": 1,
+    "details": [
+      {
+        "title": "タイプ",
+        "content": "低床"
+      },
+      {
+        "title": "全幅 / 全長 / 全高",
+        "content": "2,490mm / 11,910mm / 2,860mmm"
+      },
+      {
+        "title": "車両重量",
+        "content": "10,880kg"
+      },
+      {
+        "title": "最大積載量",
+        "content": "14,000kg"
+      }
+    ]
   },
   {
     "type": "TRL",
-    "model": "トレーラー",
+    "model": "トレーラー1",
     "maker": "日通商事",
     "capacity": 29,
     "info": "16ｍ・29ｔ",
-    "unit": 1
+    "unit": 1,
+    "details": [
+      {
+        "title": "タイプ",
+        "content": "低床"
+      },
+      {
+        "title": "全幅 / 全長 / 全高",
+        "content": "2,490mm / 11,910mm / 2,860mmm"
+      },
+      {
+        "title": "車両重量",
+        "content": "10,880kg"
+      },
+      {
+        "title": "最大積載量",
+        "content": "14,000kg"
+      }
+    ]
   },
   {
     "type": "TRL",
-    "model": "トレーラー",
+    "model": "トレーラー2",
     "maker": "東急",
     "capacity": 27,
     "info": "11ｍ・27ｔ",
-    "unit": 1
+    "unit": 1,
+    "details": [
+      {
+        "title": "タイプ",
+        "content": "低床"
+      },
+      {
+        "title": "全幅 / 全長 / 全高",
+        "content": "2,490mm / 11,910mm / 2,860mmm"
+      },
+      {
+        "title": "車両重量",
+        "content": "10,880kg"
+      },
+      {
+        "title": "最大積載量",
+        "content": "14,000kg"
+      }
+    ]
   },
   {
     "type": "ETC",
@@ -721,6 +793,24 @@
     "maker": "SKYBOX",
     "capacity": 0,
     "info": "-",
-    "unit": 1
+    "unit": 1,
+    "details": [
+      {
+        "title": "寸法",
+        "content": "1500(D)×1500(W)×950(H)"
+      },
+      {
+        "title": "積載荷重",
+        "content": "メインブーム取付時300kg(搭乗者含む)"
+      },
+      {
+        "title": "材質",
+        "content": "鋼管フレーム、鋼板"
+      },
+      {
+        "title": "本体重量",
+        "content": "400kg"
+      }
+    ]
   }
 ]
