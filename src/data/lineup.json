@@ -3,7 +3,7 @@
     "type": "AC",
     "model": "ATF400G-6",
     "maker": "TADANO",
-    "capacity": 400,
+    "capacity": "400 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -41,7 +41,7 @@
     "type": "AC",
     "model": "ATF220G-5",
     "maker": "TADANO",
-    "capacity": 220,
+    "capacity": "220 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -79,7 +79,7 @@
     "type": "AC",
     "model": "AR1200M",
     "maker": "TADANO",
-    "capacity": 120,
+    "capacity": "120 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -117,7 +117,7 @@
     "type": "AC",
     "model": "ATF100G-4",
     "maker": "TADANO",
-    "capacity": 100,
+    "capacity": "100 ton",
     "info": "-",
     "unit": 2,
     "details": [
@@ -155,7 +155,7 @@
     "type": "RC",
     "model": "GR-1000N-1",
     "maker": "TADANO",
-    "capacity": 100,
+    "capacity": "100 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -193,7 +193,7 @@
     "type": "RC",
     "model": "GR-700N-2",
     "maker": "TADANO",
-    "capacity": 70,
+    "capacity": "70 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -231,7 +231,7 @@
     "type": "RC",
     "model": "GR-700N-1",
     "maker": "TADANO",
-    "capacity": 70,
+    "capacity": "70 ton",
     "info": "-",
     "unit": 2,
     "details": [
@@ -269,7 +269,7 @@
     "type": "RC",
     "model": "GR-600N-2",
     "maker": "TADANO",
-    "capacity": 60,
+    "capacity": "60 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -307,7 +307,7 @@
     "type": "RC",
     "model": "GR-600N-1",
     "maker": "TADANO",
-    "capacity": 60,
+    "capacity": "60 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -345,7 +345,7 @@
     "type": "RC",
     "model": "GR-500N-1",
     "maker": "TADANO",
-    "capacity": 50,
+    "capacity": "50 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -383,7 +383,7 @@
     "type": "RC",
     "model": "TR-500M-3",
     "maker": "TADANO",
-    "capacity": 50,
+    "capacity": "50 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -421,7 +421,7 @@
     "type": "RC",
     "model": "GR-250N−3",
     "maker": "TADANO",
-    "capacity": 25,
+    "capacity": "25 ton",
     "info": "-",
     "unit": 4,
     "details": [
@@ -459,7 +459,7 @@
     "type": "RC",
     "model": "GR-250N−2",
     "maker": "TADANO",
-    "capacity": 25,
+    "capacity": "25 ton",
     "info": "-",
     "unit": 3,
     "details": [
@@ -497,7 +497,7 @@
     "type": "RC",
     "model": "GR-250N−1",
     "maker": "TADANO",
-    "capacity": 25,
+    "capacity": "25 ton",
     "info": "-",
     "unit": 2,
     "details": [
@@ -535,7 +535,7 @@
     "type": "RC",
     "model": "GR-160N-3",
     "maker": "TADANO",
-    "capacity": 16,
+    "capacity": "16 ton",
     "info": "-",
     "unit": 2,
     "details": [
@@ -573,7 +573,7 @@
     "type": "RC",
     "model": "GR160N-1",
     "maker": "TADANO",
-    "capacity": 16,
+    "capacity": "16 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -611,7 +611,7 @@
     "type": "RC",
     "model": "GR-130NL-1",
     "maker": "TADANO",
-    "capacity": 13,
+    "capacity": "13 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -649,7 +649,7 @@
     "type": "RC",
     "model": "GR-120NL-2",
     "maker": "TADANO",
-    "capacity": 12,
+    "capacity": "12 ton",
     "info": "-",
     "unit": 1,
     "details": [
@@ -687,7 +687,7 @@
     "type": "TR",
     "model": "トラクター1",
     "maker": "日野",
-    "capacity": 20,
+    "capacity": "20 ton",
     "info": "20ｔ",
     "unit": 1,
     "details": [
@@ -713,7 +713,7 @@
     "type": "TR",
     "model": "トラクター2",
     "maker": "日野",
-    "capacity": 11.5,
+    "capacity": "11.5 ton",
     "info": "11.5ｔ",
     "unit": 1,
     "details": [
@@ -739,7 +739,7 @@
     "type": "TRL",
     "model": "トレーラー1",
     "maker": "日通商事",
-    "capacity": 29,
+    "capacity": "29 ton",
     "info": "16ｍ・29ｔ",
     "unit": 1,
     "details": [
@@ -765,7 +765,7 @@
     "type": "TRL",
     "model": "トレーラー2",
     "maker": "東急",
-    "capacity": 27,
+    "capacity": "27 ton",
     "info": "11ｍ・27ｔ",
     "unit": 1,
     "details": [
@@ -791,7 +791,7 @@
     "type": "ETC",
     "model": "SS-150",
     "maker": "SKYBOX",
-    "capacity": 0,
+    "capacity": "300kg(搭乗者含む)",
     "info": "-",
     "unit": 1,
     "details": [

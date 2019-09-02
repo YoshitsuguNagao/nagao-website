@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import news from '../data/news.json'
-import { isTemplateElement } from '@babel/types';
 
 export class News extends Component {
 
