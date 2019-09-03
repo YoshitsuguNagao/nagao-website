@@ -7,7 +7,7 @@ export class Details extends Component {
 console.log('lineup', lineup)
     return (
       <div className="details">
-        <h2 className="title">ラフテレーンクレーン</h2>
+        <h2 className="title">{lineup.type2}</h2>
         <div className="detail-card">
           <div className="detail-images">
             <img className="detail-image" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/inflnmyqae8hdo18ouam.jpg" alt=""/>

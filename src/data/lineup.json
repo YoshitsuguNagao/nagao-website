@@ -1,9 +1,11 @@
 [
   {
     "type": "AC",
+    "type2": "オールテレーンクレーン",
     "model": "ATF400G-6",
     "maker": "TADANO",
     "capacity": "400 ton",
+    "year": ["H29"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -39,9 +41,11 @@
   },
   {
     "type": "AC",
+    "type2": "オールテレーンクレーン",
     "model": "ATF220G-5",
     "maker": "TADANO",
     "capacity": "220 ton",
+    "year": ["H24"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -77,9 +81,11 @@
   },
   {
     "type": "AC",
+    "type2": "オールテレーンクレーン",
     "model": "AR1200M",
     "maker": "TADANO",
     "capacity": "120 ton",
+    "year": ["H14"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -115,9 +121,11 @@
   },
   {
     "type": "AC",
+    "type2": "オールテレーンクレーン",
     "model": "ATF100G-4",
     "maker": "TADANO",
     "capacity": "100 ton",
+    "year": ["H27", "H28"],
     "info": "-",
     "unit": 2,
     "details": [
@@ -153,9 +161,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-1000N-1",
     "maker": "TADANO",
     "capacity": "100 ton",
+    "year": ["R01"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -191,9 +201,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-700N-2",
     "maker": "TADANO",
     "capacity": "70 ton",
+    "year": ["H30"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -229,9 +241,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-700N-1",
     "maker": "TADANO",
     "capacity": "70 ton",
+    "year": ["H21", "H25"],
     "info": "-",
     "unit": 2,
     "details": [
@@ -267,9 +281,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-600N-2",
     "maker": "TADANO",
     "capacity": "60 ton",
+    "year": ["H21"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -305,9 +321,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-600N-1",
     "maker": "TADANO",
     "capacity": "60 ton",
+    "year": ["H20"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -343,9 +361,11 @@
   },
   {
     "type": "RC",
-    "model": "GR-500N-1",
+    "type2": "ラフテレーンクレーン",
+    "model": "GR-500N-2",
     "maker": "TADANO",
     "capacity": "50 ton",
+    "year": ["H27"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -381,9 +401,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "TR-500M-3",
     "maker": "TADANO",
     "capacity": "50 ton",
+    "year": ["H13"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -419,9 +441,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-250N−3",
     "maker": "TADANO",
     "capacity": "25 ton",
+    "year": ["H26", "H26", "H27", "H28"],
     "info": "-",
     "unit": 4,
     "details": [
@@ -457,9 +481,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-250N−2",
     "maker": "TADANO",
     "capacity": "25 ton",
+    "year": ["H20", "H22", "H25"],
     "info": "-",
     "unit": 3,
     "details": [
@@ -495,11 +521,13 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-250N−1",
     "maker": "TADANO",
     "capacity": "25 ton",
+    "year": ["H20"],
     "info": "-",
-    "unit": 2,
+    "unit": 1,
     "details": [
       {
         "title": "吊能力",
@@ -533,9 +561,51 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
+    "model": "TR-250M−6",
+    "maker": "TADANO",
+    "capacity": "25 ton",
+    "year": ["H14"],
+    "info": "-",
+    "unit": 1,
+    "details": [
+      {
+        "title": "吊能力",
+        "content": "25t×3.5m"
+      },
+      {
+        "title": "最大地上揚程",
+        "content": "ブーム31.3m / ジブ44.2m"
+      },
+      {
+        "title": "最大作業半径",
+        "content": "ブーム28.0m / ジブ35.0m"
+      },
+      {
+        "title": "ブーム長",
+        "content": "9.5m ～ 30.5m"
+      },
+      {
+        "title": "走行時寸法",
+        "content": "全長11,130mm / 全幅2,620mm / 全高3,410mm"
+      },
+      {
+        "title": "車輌総重量",
+        "content": "26,495kg"
+      },
+      {
+        "title": "メーカー仕様書",
+        "content": "PDF"
+      }
+    ]
+  },
+  {
+    "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-160N-3",
     "maker": "TADANO",
     "capacity": "16 ton",
+    "year": ["H25", "H27"],
     "info": "-",
     "unit": 2,
     "details": [
@@ -571,9 +641,11 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR160N-1",
     "maker": "TADANO",
     "capacity": "16 ton",
+    "year": ["H20"],
     "info": "-",
     "unit": 1,
     "details": [
@@ -609,11 +681,13 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-130NL-1",
     "maker": "TADANO",
     "capacity": "13 ton",
+    "year": ["H27", "H28"],
     "info": "-",
-    "unit": 1,
+    "unit": 2,
     "details": [
       {
         "title": "吊能力",
@@ -647,11 +721,13 @@
   },
   {
     "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-120NL-2",
     "maker": "TADANO",
     "capacity": "12 ton",
+    "year": ["H14", "H17"],
     "info": "-",
-    "unit": 1,
+    "unit": 2,
     "details": [
       {
         "title": "吊能力",
@@ -685,9 +761,11 @@
   },
   {
     "type": "TR",
+    "type2": "トラクター",
     "model": "トラクター1",
     "maker": "日野",
     "capacity": "20 ton",
+    "year": [],
     "info": "20ｔ",
     "unit": 1,
     "details": [
@@ -711,10 +789,12 @@
   },
   {
     "type": "TR",
+    "type2": "トラクター",
     "model": "トラクター2",
     "maker": "日野",
     "capacity": "11.5 ton",
     "info": "11.5ｔ",
+    "year": [],
     "unit": 1,
     "details": [
       {
@@ -737,10 +817,12 @@
   },
   {
     "type": "TRL",
+    "type2": "トレーラー",
     "model": "トレーラー1",
     "maker": "日通商事",
     "capacity": "29 ton",
     "info": "16ｍ・29ｔ",
+    "year": [],
     "unit": 1,
     "details": [
       {
@@ -763,10 +845,12 @@
   },
   {
     "type": "TRL",
+    "type2": "トレーラー",
     "model": "トレーラー2",
     "maker": "東急",
     "capacity": "27 ton",
     "info": "11ｍ・27ｔ",
+    "year": [],
     "unit": 1,
     "details": [
       {
@@ -789,10 +873,12 @@
   },
   {
     "type": "ETC",
+    "type2": "スカイボックス",
     "model": "SS-150",
     "maker": "SKYBOX",
     "capacity": "300kg(搭乗者含む)",
     "info": "-",
+    "year": [],
     "unit": 1,
     "details": [
       {
