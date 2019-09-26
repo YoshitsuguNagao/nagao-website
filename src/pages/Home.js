@@ -22,7 +22,7 @@ class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/ymaduvjtqqnwrvbh4yj7.jpg'
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569521089/nagao-website/vbj2clpvjd5bcjekl9ar.jpg'
               alt="Second slide"
             />
             <Carousel.Caption>

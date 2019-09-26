@@ -258,6 +258,9 @@ footer {
     width: 40vw;
     margin-right: 2rem;
   }
+  .intro-name {
+    padding-top: 2rem;
+  }
   .company-container {
     @include flexbox(center,center);
     flex-wrap: wrap;
