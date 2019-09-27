@@ -146,8 +146,9 @@ footer {
   color: $subColor;
   padding: 100px 0;
   .homepage-banner {
+    padding: 0 10%;
     img {
-      @include size(100%, 50vh);
+      @include size(100%, auto);
       object-fit: cover;
     }
   }
@@ -198,6 +199,10 @@ footer {
 
 @media screen and (max-width:768px) {
   .home {
+    padding: 100px 0;
+    .homepage-banner {
+      padding: 0;
+    }
     .homepage-news {
       padding: 0 5vw;
     }

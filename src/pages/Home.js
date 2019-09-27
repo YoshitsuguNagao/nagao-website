@@ -11,7 +11,7 @@ class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/inflnmyqae8hdo18ouam.jpg'
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner4.jpg'
               alt="First slide"
             />
             <Carousel.Caption>
@@ -22,7 +22,7 @@ class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569521089/nagao-website/vbj2clpvjd5bcjekl9ar.jpg'
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616105/nagao-website/banner3.jpg'
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -33,11 +33,22 @@ class Home extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg'
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner1.jpg'
               alt="Third slide"
             />
             <Carousel.Caption>
               <h1>12ton ~ 400tonのクレーン</h1>
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616102/nagao-website/banner2.jpg'
+              alt="Firth slide"
+            />
+            <Carousel.Caption>
+              <h1>様々な作業</h1>
               {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
