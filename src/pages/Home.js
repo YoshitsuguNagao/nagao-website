@@ -86,8 +86,12 @@ class Home extends Component {
               <p>スカイボックス</p>
             </div>
             <div className="pickup-card">
-              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
-              <p>トレーラー</p>
+              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756237/nagao-website/trucks_sq.jpg" alt=""/>
+              <p>大型車両</p>
+            </div>
+            <div className="pickup-card">
+              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756256/nagao-website/drawing_sq.jpg" alt=""/>
+              <p>CAD</p>
             </div>
           </div>
         </section>
