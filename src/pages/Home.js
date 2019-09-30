@@ -82,16 +82,28 @@ class Home extends Component {
           <h2 className="title">ピックアップ！</h2>
           <div className="pickup-container">
             <div className="pickup-card">
-              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
-              <p>スカイボックス</p>
+              <a href="/">
+                <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788773/nagao-website/skybox_sq.jpg" alt=""/>
+                <p className="pickup-title">
+                  スカイボックス
+                </p>
+              </a>
             </div>
             <div className="pickup-card">
-              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756237/nagao-website/trucks_sq.jpg" alt=""/>
-              <p>大型車両</p>
+              <a href="/">
+                <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756237/nagao-website/trucks_sq.jpg" alt=""/>
+                <p className="pickup-title">
+                  大型車両
+                </p>
+              </a>
             </div>
             <div className="pickup-card">
-              <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756256/nagao-website/drawing_sq.jpg" alt=""/>
-              <p>CAD</p>
+              <a href="/">
+                <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756256/nagao-website/drawing_sq.jpg" alt=""/>
+                <p className="pickup-title">
+                  CADによる施工計画
+                </p>
+              </a>
             </div>
           </div>
         </section>

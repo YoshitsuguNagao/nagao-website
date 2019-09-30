@@ -405,12 +405,13 @@ footer {
 }
 
 .home .pickup-container .pickup-card {
-  width: 33%;
+  width: 300px;
 }
 
 .home .pickup-container .pickup-img {
   width: 100%;
-  border-radius: 500px;
+  padding: 2rem;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) {
