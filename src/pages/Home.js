@@ -82,7 +82,7 @@ class Home extends Component {
           <h2 className="title">ピックアップ！</h2>
           <div className="pickup-container">
             <div className="pickup-card">
-              <a href="/">
+              <a href="/skybox">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788773/nagao-website/skybox_sq.jpg" alt=""/>
                 <p className="pickup-title">
                   スカイボックス
@@ -90,7 +90,7 @@ class Home extends Component {
               </a>
             </div>
             <div className="pickup-card">
-              <a href="/">
+              <a href="/large-vehicles">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756237/nagao-website/trucks_sq.jpg" alt=""/>
                 <p className="pickup-title">
                   大型車両
@@ -98,7 +98,7 @@ class Home extends Component {
               </a>
             </div>
             <div className="pickup-card">
-              <a href="/">
+              <a href="/cad">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756256/nagao-website/drawing_sq.jpg" alt=""/>
                 <p className="pickup-title">
                   CADによる施工計画

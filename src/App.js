@@ -10,6 +10,9 @@ import Recruit from './pages/Recruits';
 import Contact from './pages/Contact';
 import News from './pages/News';
 import Details from './pages/Details';
+import Skybox from './pages/Skybox';
+import LargeVehicles from './pages/LargeVehicles';
+import Cad from './pages/Cad';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route exact path="/business-guide" component={BusinessGuide} />
           <Route exact path="/recruit" component={Recruit} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/skybox" component={Skybox} />
+          <Route exact path="/large-vehicles" component={LargeVehicles} />
+          <Route exact path="/cad" component={Cad} />
           <Route exact path="/news/:newsId" component={News} />
         </Switch>
         <Footer />
