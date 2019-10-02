@@ -586,6 +586,16 @@ footer {
   }
 }
 
+.cad {
+  color: $subColor;
+  padding: 100px 10vw;
+  min-height: calc(100vh - 19px);
+  img {
+    width: 100%;
+    border: 1px solid $subColor;
+    margin: 1rem 0;
+  }
+}
 
 
 /* ============
