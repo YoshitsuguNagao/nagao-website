@@ -8,7 +8,7 @@
     "year": ["H29"],
     "info": "-",
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/ATF400G-6.jpg"],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/LineUp/ATF400G-6.jpg"],
     "details": [
       {
         "title": "吊能力",
@@ -131,7 +131,7 @@
     "year": ["H27", "H28"],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786905/nagao-website/ATF100G-4.jpg"],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786905/nagao-website/LineUp/ATF100G-4.jpg"],
     "details": [
       {
         "title": "吊能力",
@@ -172,7 +172,7 @@
     "year": ["R01"],
     "info": "-",
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788267/nagao-website/GR-1000N-1.jpg.jpg"],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788267/nagao-website/LineUp/GR-1000N-1.jpg.jpg"],
     "details": [
       {
         "title": "吊能力",
@@ -541,7 +541,7 @@
     "year": ["H20"],
     "info": "-",
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/GR-250N-1.jpg"],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-250N-1.jpg"],
     "details": [
       {
         "title": "吊能力",
@@ -623,7 +623,7 @@
     "year": ["H25", "H27"],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/GR-160N-3.jpg"],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-160N-3.jpg"],
     "details": [
       {
         "title": "吊能力",
@@ -705,7 +705,7 @@
     "year": ["H27", "H28"],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/GR-130NL-1.jpg"],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-130NL-1.jpg"],
     "details": [
       {
         "title": "吊能力",
@@ -746,7 +746,7 @@
     "year": ["H14", "H17"],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/GR-120NL-2.jpg"],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-120NL-2.jpg"],
     "details": [
       {
         "title": "吊能力",

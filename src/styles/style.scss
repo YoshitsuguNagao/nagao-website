@@ -590,10 +590,14 @@ footer {
   color: $subColor;
   padding: 100px 10vw;
   min-height: calc(100vh - 19px);
+  .cad-images {
+    padding-top: 2rem;
+  }
   img {
     width: 100%;
     border: 1px solid $subColor;
-    margin: 1rem 0;
+    margin: 1rem;
+    max-width: 270px;
   }
 }
 
