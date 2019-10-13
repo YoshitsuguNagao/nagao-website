@@ -49,7 +49,7 @@
     "year": ["H24"],
     "info": "-",
     "unit": 1,
-    "images": [],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1570999919/nagao-website/LineUp/ATF220G-5.jpg"],
     "details": [
       {
         "title": "吊能力",
@@ -90,7 +90,7 @@
     "year": ["H14"],
     "info": "-",
     "unit": 1,
-    "images": [],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571000311/nagao-website/LineUp/AR1200M.jpg"],
     "details": [
       {
         "title": "吊能力",
