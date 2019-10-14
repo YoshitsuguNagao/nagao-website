@@ -13,7 +13,7 @@ class Lineup extends Component {
         <li className="table-row" key={index}>
           <p className="col lineup-model" data-label="機種">
             <a href={`/lineup/${lineup.model}`}>
-              {lineup.model}
+            {lineup.images.length ? "★ " : "☆ "}{lineup.model}
             </a>
           </p>
           <p className="col lineup-maker" data-label="メーカー">{lineup.maker}</p>
