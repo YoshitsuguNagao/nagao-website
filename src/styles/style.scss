@@ -263,20 +263,19 @@ footer {
   }
   .intro-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+    justify-content: center;
     align-items: center;
-    padding: 0 10vw;
-  }
-  .intro-img {
-    height: 30vh;
+    padding: 2rem 10vw;
   }
   .intro-content h4 {
-    text-align: end;
+    text-align: start;
   }
   .intro-content {
-    width: 40vw;
-    margin-right: 2rem;
+    max-width: 600px;
+    width: 80%;
+  }
+  .intro-text {
+    line-height: 2rem;
   }
   .intro-name {
     padding-top: 2rem;
@@ -301,6 +300,9 @@ footer {
     padding-left: 2rem;
     white-space: pre-wrap;
     width: calc(100% - 100px);
+  }
+  .csr-container {
+    margin: 0 10vw;
   }
   .address-container {
     margin: 0 10vw;

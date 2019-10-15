@@ -42,7 +42,6 @@ class Company extends Component {
               </p>
               <h4 className="intro-name">代表 長尾享</h4>
             </div>
-            <img className="intro-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/lrz0h7bj2kptxl1pulm4.jpg" alt=""/>
           </div>
         </section>
         <section className="company-section">
