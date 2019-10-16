@@ -303,6 +303,12 @@ footer {
   }
   .csr-container {
     margin: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .csr-img {
+    width: 30%;
+    padding: 2rem;
   }
   .address-container {
     margin: 0 10vw;

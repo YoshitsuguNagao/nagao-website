@@ -75,6 +75,13 @@ class Company extends Component {
             }
           </div>
         </section>
+        <section className="csr-section">
+          <h2 className="title">地域貢献</h2>
+          <div className="csr-container">
+            <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr1.jpg" alt=""/>
+            <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr2.jpg" alt=""/>
+          </div>
+        </section>
         <section className="address-section">
           <h2 className="title">事業所</h2>
           <div className="address-container">
