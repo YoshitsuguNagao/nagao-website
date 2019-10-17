@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import companies from '../data/company.json';
 import histories from '../data/history.json';
-import Maps from './Maps'
+// import Maps from './Maps'
 import data from '../data/data.json'
 import addresses from '../data/address.json'
 
@@ -78,8 +78,11 @@ class Company extends Component {
         <section className="csr-section">
           <h2 className="title">地域貢献</h2>
           <div className="csr-container">
-            <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr1.jpg" alt=""/>
-            <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr2.jpg" alt=""/>
+            <p>初倉まつり2018に参加しました。静岡県重機建設業工業組合青年部の一員として地域の子供たちに建設機械と触れ合ってもらいました。</p>
+            <div className="csr-img-container">
+              <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr1.jpg" alt=""/>
+              <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr2.jpg" alt=""/>
+            </div>
           </div>
         </section>
         <section className="address-section">
