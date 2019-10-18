@@ -19,9 +19,7 @@ class Lineup extends Component {
           <p className="col lineup-maker" data-label="メーカー">{lineup.maker}</p>
           <p className="col lineup-capacity" data-label="吊上げ能力">{lineup.capacity}</p>
           <p className="col lineup-unit" data-label="保有台数">{lineup.unit} 台</p>
-          {/* <p className="col lineup-info" data-label="その他">{lineup.info}</p> */}
         </li>
-        {/* <img className="lineup-img" src={require("../images/home1.jpg")} alt=""/> */}
       </div>
     )
   }
@@ -38,7 +36,6 @@ class Lineup extends Component {
             <p className="col lineup-maker">メーカー</p>
             <p className="col lineup-capacity">吊上げ能力</p>
             <p className="col lineup-unit">保有台数</p>
-            {/* <p className="col lineup-info">その他</p> */}
           </li>
           {
             lineups.map((lineup, index) => {
@@ -53,7 +50,6 @@ class Lineup extends Component {
             <p className="col lineup-maker">メーカー</p>
             <p className="col lineup-capacity">吊上げ能力</p>
             <p className="col lineup-unit">保有台数</p>
-            {/* <p className="col lineup-info">その他</p> */}
           </li>
           {
             lineups.map((lineup, index) => {
@@ -68,7 +64,6 @@ class Lineup extends Component {
             <p className="col lineup-maker">メーカー</p>
             <p className="col lineup-capacity">第五輪荷重</p>
             <p className="col lineup-unit">保有台数</p>
-            {/* <p className="col lineup-info">その他</p> */}
           </li>
           {
             lineups.map((lineup, index) => {
@@ -81,9 +76,8 @@ class Lineup extends Component {
           <li className="table-header">
             <p className="col lineup-model">機種</p>
             <p className="col lineup-maker">メーカー</p>
-            <p className="col lineup-capacity"></p>
+            <p className="col lineup-capacity">第五輪荷重</p>
             <p className="col lineup-unit">保有台数</p>
-            {/* <p className="col lineup-info">その他</p> */}
           </li>
           {
             lineups.map((lineup, index) => {
@@ -98,7 +92,6 @@ class Lineup extends Component {
             <p className="col lineup-maker">メーカー</p>
             <p className="col lineup-capacity">積載能力</p>
             <p className="col lineup-unit">保有台数</p>
-            {/* <p className="col lineup-info">その他</p> */}
           </li>
           {
             lineups.map((lineup, index) => {
