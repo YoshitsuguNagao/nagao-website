@@ -4,7 +4,6 @@ import lineups from '../data/lineup.json'
 export class Details extends Component {
   render() {
     const lineup = lineups.filter(lineup => lineup.model === this.props.match.params.model)[0]
-console.log('lineup', lineup)
     return (
       <div className="details">
         <h2 className="title">{lineup.type2}</h2>

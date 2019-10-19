@@ -612,6 +612,29 @@ footer {
   }
 }
 
+.skybox {
+  color: $subColor;
+  padding: 100px 10vw;
+  min-height: calc(100vh - 19px);
+  .subtitle {
+  border-bottom: 1px solid $themeDarkColor;
+  }
+  .detail-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed;
+  }
+  .detail-model {
+    margin: 1rem 0;
+  }
+  .detail-contents {
+    // padding-left: 2rem;
+  }
+  .detail-title {
+    font-size: 0.75rem;
+  }
+}
 
 /* ============
     Components

@@ -903,7 +903,7 @@
     "info": "-",
     "year": [],
     "unit": 1,
-    "images": [],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515465/nagao-website/skybox1.jpg","https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515466/nagao-website/skybox2.jpg"],
     "details": [
       {
         "title": "寸法",

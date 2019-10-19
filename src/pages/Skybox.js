@@ -1,10 +1,32 @@
 import React, { Component } from 'react'
+import lineups from '../data/lineup.json'
 
 class Skybox extends Component {
   render() {
+    const lineup = lineups.filter(lineup => lineup.model === "SS-150")[0]
     return (
-      <div>
-        
+      <div className="skybox">
+        <h2 className="title">Skybox</h2>
+        <p>
+          SKyboxとは、移動式クレーンに先端に装着する作業デッキで、従来の高所作業車では出来ない範囲をカバーする事ができます。
+          弊社の所有しているATF〇〇に装着する事で高さ〇〇mの作業が可能になります。
+          通常の高所作業車では届かない作業（風力発電の点検等）にとても便利です。
+        </p>
+        <h3 className="title">取り付け可能機種</h3>
+        <p>ATF100G-4</p>
+        <div className="detail-contents">
+          <h3 className="detail-model title">{lineup.model}仕様</h3>
+          {
+            lineup.details.map(item => {
+              return (
+                <div className="detail-item">
+                  <p className="detail-title">{item.title}</p>
+                  <p className="detail-content">{item.content}</p>
+                </div>
+              )
+            })
+          }
+        </div>
       </div>
     )
   }
