@@ -27,6 +27,16 @@ export class Details extends Component {
                 )
               })
             }
+            {
+              lineup.link
+              ? <div className="detail-item">
+                  <p className="detail-title">備考</p>
+                  <p className="detail-content">
+                    <a href={lineup.link}>メーカー製品ページ</a>
+                  </p>
+                </div>
+              : null
+            }
           </div>
         </div>
         <p className="lineup-link"><a href="/lineup">保有機種一覧へ</a></p>
