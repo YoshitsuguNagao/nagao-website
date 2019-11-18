@@ -753,7 +753,7 @@
   {
     "type": "TR",
     "type2": "トラクター",
-    "model": "トラクター2",
+    "model": "QPG-SH1EDDG",
     "maker": "日野",
     "capacity": "11.5 ton",
     "info": "11.5ｔ",
@@ -767,15 +767,15 @@
       },
       {
         "title": "全幅 / 全長 / 全高",
-        "content": "2,490mm / 11,910mm / 2,860mmm"
+        "content": "2,490mm / 5,520mm / 3,470mmm"
       },
       {
         "title": "車両重量",
-        "content": "10,880kg"
+        "content": "7,180kg"
       },
       {
         "title": "最大積載量",
-        "content": "14,000kg"
+        "content": "11,500kg"
       }
     ]
   },
