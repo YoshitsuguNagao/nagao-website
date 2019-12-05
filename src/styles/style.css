@@ -112,9 +112,9 @@ a {
           flex-direction: column;
   z-index: 100;
   position: fixed;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-  background-color: #FF6600;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  background-color: #ff983f;
 }
 
 .navbar-top .nav-title {
@@ -134,6 +134,10 @@ a {
 .navbar-top .nav-title a {
   color: black;
   margin: 0;
+}
+
+.navbar-top .nav-title .nav-tel {
+  color: white;
 }
 
 .navbar-top .navbar-menu {
@@ -177,7 +181,7 @@ a {
 }
 
 .navbar-top ul li a {
-  color: #102027;
+  color: white;
   text-decoration: none;
   position: relative;
 }
@@ -198,7 +202,7 @@ a {
 }
 
 .navbar-top ul li a:hover {
-  color: white;
+  color: #c43300;
 }
 
 .burger {
@@ -245,7 +249,7 @@ a {
             flex-direction: column;
     width: 200px;
     height: calc(100vh - 100px);
-    background-color: #FF6600;
+    background-color: #ff983f;
     position: absolute;
     left: 100%;
     -webkit-transform: translateX(0%);

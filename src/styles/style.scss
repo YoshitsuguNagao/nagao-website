@@ -12,8 +12,8 @@
   @include flexbox(space-between,null,column);
   z-index: 100;
   position: fixed;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
-  background-color: $themeColor;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  background-color: $themeLightColor;
   .nav-title {
     margin: 0 10vw;
     @include flexbox(space-between);
@@ -23,6 +23,9 @@
     a {
       color: black;
       margin: 0;
+    }
+    .nav-tel {
+      color: white;
     }
   }
   .navbar-menu {
@@ -40,7 +43,7 @@
       overflow: hidden;
       text-align: center;
       a {
-        color: $subDarkColor;
+        color: white;
         text-decoration: none;
         position: relative;
         &::after{
@@ -53,7 +56,7 @@
           transition: transform 0.5s ease;
         }
         &:hover {
-          color: white;
+          color: $themeDarkColor;
         }
       }
     }
@@ -86,7 +89,7 @@
   .nav-links {
     @include flexbox(space-around,center,column);
     @include size(200px,calc(100vh - 100px));
-    background-color: $themeColor;
+    background-color: $themeLightColor;
     position: absolute;
     left: 100%;
     transform: translateX(0%);
