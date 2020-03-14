@@ -1,0 +1,30 @@
+[
+  {
+    "name": "御前崎本社",
+    "address": "〒437-1604 静岡県御前崎市佐倉1041-1",
+    "tel": "0537-86-6410",
+    "fax": "0537-86-3556",
+    "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10079.048334492865!2d138.14452086082804!3d34.63292143319265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601a60c5f3d7da49%3A0xfa8331789715c191!2z77yI5qCq77yJ6ZW35bC-44Os44OD44Kr44O8!5e0!3m2!1sen!2ses!4v1566155177452!5m2!1sen!2ses"
+  },
+  {
+    "name": "静岡営業所",
+    "address": "〒422-8034 静岡県静岡市駿河区高松１丁目179番地",
+    "tel": "054-236-6410",
+    "fax": "054-236-6411",
+    "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20022.12472445547!2d138.4118058955139!3d34.95028446060851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf010ec4332c6690!2z77yI5qCq77yJ6ZW35bC-44Os44OD44Kr44O8IOmdmeWyoeaUr-W6lw!5e0!3m2!1sen!2ses!4v1566244913960!5m2!1sen!2ses"
+  },
+  {
+    "name": "東京営業所",
+    "address": "〒141-0031 東京都品川区西五反田１丁目４−８",
+    "tel": "054-236-6410",
+    "fax": "054-236-6411",
+    "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6463.624051496258!2d139.72019250376908!3d35.626928039189764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188afb1f0dd369%3A0x6f8b01d96e501837!2z44CSMTQxLTAwMzEg5p2x5Lqs6YO95ZOB5bed5Yy66KW_5LqU5Y-N55Sw77yR5LiB55uu77yU4oiS77yYIOengOWSjOS6lOWPjeeUsOmnheWJjeODrOOCuOODh-ODs-OCuQ!5e0!3m2!1sja!2sjp!4v1584173482071!5m2!1sja!2sjp"
+  },
+  {
+    "name": "都筑区置場",
+    "address": "〒224-0057 神奈川県横浜市都筑区川和町",
+    "tel": "--",
+    "fax": "--",
+    "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.5534528767853!2d139.54673994598136!3d35.52609424523064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f7ea2eb30ecb%3A0x55b696b94fdc9d01!2z77yI5qCq77yJ6ZW35bC-44Os44OD44Kr44O8IOmDveetkeWMuue9ruWgtA!5e0!3m2!1sja!2sjp!4v1584173743680!5m2!1sja!2sjp"
+  }
+]
