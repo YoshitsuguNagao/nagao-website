@@ -743,6 +743,7 @@ footer {
 
 .detail-card {
   display: flex;
+  justify-content: flex-end;
   .detail-item {
     display: flex;
     flex-direction: column;
