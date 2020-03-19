@@ -76,9 +76,19 @@
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
   .nav-title {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .navbar-top {
+    .nav-title {
+      .navbar-h1 {
+        font-size: 1.5rem;
+      }
+    }
   }
 }
 
@@ -342,7 +352,7 @@ footer {
   }
   .address-branch {
     padding: 0.5rem;
-    width: 300px;
+    width: 320px;
   }
 }
 
