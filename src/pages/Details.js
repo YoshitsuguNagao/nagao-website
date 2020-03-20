@@ -12,8 +12,10 @@ export class Details extends Component {
             lineup.images[0] ?
             <div className="detail-images">
               <img className="detail-image" src={lineup.images[0]} alt=""/>
+            </div> :
+            <div className="no-image">
+                <p>no image<br></br>avarable</p>
             </div>
-            : null
           }
           <div className="detail-contents">
             <h3 className="detail-model">{lineup.model}</h3>
