@@ -5,10 +5,14 @@
     "model": "ATF400G-6",
     "maker": "TADANO",
     "capacity": "400 ton",
-    "year": ["H29"],
+    "year": [
+      "H29"
+    ],
     "info": "-",
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/LineUp/ATF400G-6.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/LineUp/ATF400G-6.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -33,9 +37,18 @@
       {
         "title": "車輌総重量",
         "content": "45,400kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/ac/atf400g-6/"
+      },
+      {
+        "title": "仕様書",
+        "content": "ブーム、フルオートラフィングジブ、フィックスジブ、油圧チルトジブ、ラフィングジブ、ＰＳ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/atf400g6.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/ac/atf400g-6/"
+    ]
   },
   {
     "type": "AC",
@@ -43,10 +56,14 @@
     "model": "ATF220G-5",
     "maker": "TADANO",
     "capacity": "220 ton",
-    "year": ["H24"],
+    "year": [
+      "H24"
+    ],
     "info": "-",
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1570999919/nagao-website/LineUp/ATF220G-5.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1570999919/nagao-website/LineUp/ATF220G-5.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -71,20 +88,38 @@
       {
         "title": "車輌総重量",
         "content": "40,750kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/ac/atf220g-5_old/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "ESPブーム",
+        "link": "https://www.tadano.co.jp/service/data/pdf/atf220g5b.pdf"
+      },
+      {
+        "title": "仕様書",
+        "content": "フルオートラフィングジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/atf220g5flj.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/ac/atf220g-5_old/index.html"
+    ]
   },
   {
     "type": "AC",
     "type2": "オールテレーンクレーン",
-    "model": "AR1200M",
+    "model": "AR-1200M",
     "maker": "TADANO",
     "capacity": "120 ton",
-    "year": ["H14"],
+    "year": [
+      "H14"
+    ],
     "info": "-",
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571000311/nagao-website/LineUp/AR1200M.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571000311/nagao-website/LineUp/AR1200M.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -109,9 +144,19 @@
       {
         "title": "車輌総重量",
         "content": "34,180kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/ac/ar-1200m-1_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "メインブーム 3段フルオートジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/ar1201mb.pdf"
       }
     ],
-    "link": "http://www.tadano.co.jp/products/crane/ac/ar-1200m-1_old/"
+    "link": ""
   },
   {
     "type": "AC",
@@ -119,10 +164,15 @@
     "model": "ATF100G-4",
     "maker": "TADANO",
     "capacity": "100 ton",
-    "year": ["H27", "H28"],
+    "year": [
+      "H27",
+      "H28"
+    ],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786905/nagao-website/LineUp/ATF100G-4.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786905/nagao-website/LineUp/ATF100G-4.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -147,9 +197,23 @@
       {
         "title": "車輌総重量",
         "content": "39,800kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/ac/atf100g-4/"
+      },
+      {
+        "title": "仕様書",
+        "content": "メインブーム フルオートラフィングジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/atf100g4-2.pdf"
+      },
+      {
+        "title": "仕様書",
+        "content": "メインブーム 油圧チルトジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/atf100g4.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/ac/atf100g-4/"
+    ]
   },
   {
     "type": "RC",
@@ -157,10 +221,14 @@
     "model": "GR-1000N-1",
     "maker": "TADANO",
     "capacity": "100 ton",
-    "year": ["R01"],
+    "year": [
+      "R01"
+    ],
     "info": "-",
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788267/nagao-website/LineUp/GR-1000N-1.jpg.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788267/nagao-website/LineUp/GR-1000N-1.jpg.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -185,9 +253,18 @@
       {
         "title": "車輌総重量",
         "content": "41,295kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-1000n/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+3段フルオートジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr1000n1.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-1000n/index.html"
+    ]
   },
   {
     "type": "RC",
@@ -195,7 +272,9 @@
     "model": "GR-700N-2",
     "maker": "TADANO",
     "capacity": "70 ton",
-    "year": ["H30"],
+    "year": [
+      "H30"
+    ],
     "info": "-",
     "unit": 1,
     "images": [],
@@ -223,9 +302,18 @@
       {
         "title": "車輌総重量",
         "content": "41,295kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-700n/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+3段フルオートジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr700n2h.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-700n/index.html"
+    ]
   },
   {
     "type": "RC",
@@ -233,7 +321,10 @@
     "model": "GR-700N-1",
     "maker": "TADANO",
     "capacity": "70 ton",
-    "year": ["H21", "H25"],
+    "year": [
+      "H21",
+      "H25"
+    ],
     "info": "-",
     "unit": 2,
     "images": [],
@@ -261,9 +352,18 @@
       {
         "title": "車輌総重量",
         "content": "41,295kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-700n-1_old/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+3段フルオートジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr700n1.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-700n-1_old/index.html"
+    ]
   },
   {
     "type": "RC",
@@ -271,7 +371,9 @@
     "model": "GR-600N-2",
     "maker": "TADANO",
     "capacity": "60 ton",
-    "year": ["H21"],
+    "year": [
+      "H21"
+    ],
     "info": "-",
     "unit": 1,
     "images": [],
@@ -299,9 +401,18 @@
       {
         "title": "車輌総重量",
         "content": "41,295kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-600n-2_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+2段フルオートジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr6002.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-600n-2_old/"
+    ]
   },
   {
     "type": "RC",
@@ -309,7 +420,9 @@
     "model": "GR-600N-1",
     "maker": "TADANO",
     "capacity": "60 ton",
-    "year": ["H20"],
+    "year": [
+      "H20"
+    ],
     "info": "-",
     "unit": 1,
     "images": [],
@@ -337,9 +450,18 @@
       {
         "title": "車輌総重量",
         "content": "39,635kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-600n-1_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+2段フルオートジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr6001.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-600n-1_old/"
+    ]
   },
   {
     "type": "RC",
@@ -347,7 +469,9 @@
     "model": "GR-500N-2",
     "maker": "TADANO",
     "capacity": "50 ton",
-    "year": ["H27"],
+    "year": [
+      "H27"
+    ],
     "info": "-",
     "unit": 1,
     "images": [],
@@ -375,9 +499,18 @@
       {
         "title": "車輌総重量",
         "content": "38,895kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-500n-2_old/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "5段ブーム+3段フルオートジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr5002h.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-500n-2_old/index.html"
+    ]
   },
   {
     "type": "RC",
@@ -385,7 +518,9 @@
     "model": "TR-500M-3",
     "maker": "TADANO",
     "capacity": "50 ton",
-    "year": ["H13"],
+    "year": [
+      "H13"
+    ],
     "info": "-",
     "unit": 1,
     "images": [],
@@ -413,9 +548,19 @@
       {
         "title": "車輌総重量",
         "content": "37,795kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/tr-500m-3_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+2段パワーチルトジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/tr5003x.pdf"
       }
     ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/tr-500m-3_old/"
+    "link": ""
   },
   {
     "type": "RC",
@@ -423,7 +568,12 @@
     "model": "GR-250N−3",
     "maker": "TADANO",
     "capacity": "25 ton",
-    "year": ["H26", "H26", "H27", "H28"],
+    "year": [
+      "H26",
+      "H26",
+      "H27",
+      "H28"
+    ],
     "info": "-",
     "unit": 4,
     "images": [],
@@ -451,9 +601,23 @@
       {
         "title": "車輌総重量",
         "content": "25,595kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-3_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "4段ブーム+2段パワーチルトジブ X型アウトリガ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr250n3x.pdf"
+      },
+      {
+        "title": "仕様書",
+        "content": "4段ブーム+2段パワーチルトジブ H型アウトリガ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr250n3h.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-3_old/"
+    ]
   },
   {
     "type": "RC",
@@ -461,7 +625,11 @@
     "model": "GR-250N−2",
     "maker": "TADANO",
     "capacity": "25 ton",
-    "year": ["H20", "H22", "H25"],
+    "year": [
+      "H20",
+      "H22",
+      "H25"
+    ],
     "info": "-",
     "unit": 3,
     "images": [],
@@ -489,9 +657,19 @@
       {
         "title": "車輌総重量",
         "content": "25,595kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-2_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "4段ブーム+2段パワーチルトジブ X型アウトリガ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr2502x.pdf"
       }
     ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-2_old/"
+    "link": ""
   },
   {
     "type": "RC",
@@ -499,10 +677,15 @@
     "model": "GR-250N−1",
     "maker": "TADANO",
     "capacity": "25 ton",
-    "year": ["H20"],
+    "year": [
+      "H14",
+      "H19"
+    ],
     "info": "-",
-    "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-250N-1.jpg"],
+    "unit": 2,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-250N-1.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -527,47 +710,18 @@
       {
         "title": "車輌総重量",
         "content": "26,495kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-1_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "4段ブーム+2段パワーチルトジブ X型アウトリガ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr2501x.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-1_old/"
-  },
-  {
-    "type": "RC",
-    "type2": "ラフテレーンクレーン",
-    "model": "TR-250M−6",
-    "maker": "TADANO",
-    "capacity": "25 ton",
-    "year": ["H14"],
-    "info": "-",
-    "unit": 1,
-    "images": [],
-    "details": [
-      {
-        "title": "吊能力",
-        "content": "25t×3.5m"
-      },
-      {
-        "title": "最大地上揚程",
-        "content": "ブーム31.3m / ジブ44.2m"
-      },
-      {
-        "title": "最大作業半径",
-        "content": "ブーム28.0m / ジブ35.0m"
-      },
-      {
-        "title": "ブーム長",
-        "content": "9.5m ～ 30.5m"
-      },
-      {
-        "title": "走行時寸法",
-        "content": "全長11,130mm / 全幅2,620mm / 全高3,410mm"
-      },
-      {
-        "title": "車輌総重量",
-        "content": "26,495kg"
-      }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/tr-250m-6_old/"
+    ]
   },
   {
     "type": "RC",
@@ -575,10 +729,15 @@
     "model": "GR-160N-3",
     "maker": "TADANO",
     "capacity": "16 ton",
-    "year": ["H25", "H27"],
+    "year": [
+      "H25",
+      "H27"
+    ],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-160N-3.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-160N-3.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -603,9 +762,18 @@
       {
         "title": "車輌総重量",
         "content": "19,915kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-160n-3_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+1段ジブ X型アウトリガ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr160n3x.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-160n-3_old/index.html"
+    ]
   },
   {
     "type": "RC",
@@ -613,7 +781,9 @@
     "model": "GR-160N-1",
     "maker": "TADANO",
     "capacity": "16 ton",
-    "year": ["H20"],
+    "year": [
+      "H20"
+    ],
     "info": "-",
     "unit": 1,
     "images": [],
@@ -641,9 +811,19 @@
       {
         "title": "車輌総重量",
         "content": "19,715kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-160n-1_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+1段ジブ X型アウトリガ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr1601x.pdf"
       }
     ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-160n-1_old/"
+    "link": ""
   },
   {
     "type": "RC",
@@ -651,10 +831,15 @@
     "model": "GR-130NL-1",
     "maker": "TADANO",
     "capacity": "13 ton",
-    "year": ["H27", "H28"],
+    "year": [
+      "H27",
+      "H28"
+    ],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-130NL-1.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-130NL-1.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -679,9 +864,18 @@
       {
         "title": "車輌総重量",
         "content": "14,415kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-130nl-1_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+2段パワーチルトジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr130n1.pdf"
       }
-    ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-130nl-1_old/index.html"
+    ]
   },
   {
     "type": "RC",
@@ -689,10 +883,15 @@
     "model": "GR-120NL-2",
     "maker": "TADANO",
     "capacity": "12 ton",
-    "year": ["H14", "H17"],
+    "year": [
+      "H14",
+      "H17"
+    ],
     "info": "-",
     "unit": 2,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-120NL-2.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-120NL-2.jpg"
+    ],
     "details": [
       {
         "title": "吊能力",
@@ -717,75 +916,55 @@
       {
         "title": "車輌総重量",
         "content": "14,415kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.tadano.co.jp/products/crane/rc/gr-120nl_n-2_old/"
+      },
+      {
+        "title": "仕様書",
+        "content": "6段ブーム+2段パワーチルトジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/gr1201ptj.pdf"
       }
     ],
-    "link": "http://www.tadano.co.jp/products/crane/rc/gr-120nl_n-2_old/"
+    "link": ""
   },
   {
-    "type": "TR",
-    "type2": "トラクター",
-    "model": "トラクター1",
-    "maker": "日野",
-    "capacity": "20 ton",
+    "type": "CC",
+    "type2": "クローラークレーン",
+    "model": "SCX1200-3",
+    "maker": "HSC",
+    "capacity": "120 ton",
     "year": [],
-    "info": "20ｔ",
+    "info": "120ｔ",
     "unit": 1,
     "images": [],
     "details": [
-      {
-        "title": "タイプ",
-        "content": "低床"
-      },
-      {
-        "title": "全幅 / 全長 / 全高",
-        "content": "2,490mm / 11,910mm / 2,860mmm"
-      },
-      {
-        "title": "車両重量",
-        "content": "10,880kg"
-      },
-      {
-        "title": "最大積載量",
-        "content": "14,000kg"
-      }
+
     ]
   },
   {
-    "type": "TR",
-    "type2": "トラクター",
-    "model": "QPG-SH1EDDG",
-    "maker": "日野",
-    "capacity": "11.5 ton",
-    "info": "11.5ｔ",
+    "type": "CC",
+    "type2": "クローラークレーン",
+    "model": "SCX2000-3",
+    "maker": "HSC",
+    "capacity": "200 ton",
+    "info": "200ｔ",
     "year": [],
     "unit": 1,
     "images": [],
     "details": [
-      {
-        "title": "タイプ",
-        "content": "低床"
-      },
-      {
-        "title": "全幅 / 全長 / 全高",
-        "content": "2,490mm / 5,520mm / 3,470mmm"
-      },
-      {
-        "title": "車両重量",
-        "content": "7,180kg"
-      },
-      {
-        "title": "最大積載量",
-        "content": "11,500kg"
-      }
+
     ]
   },
   {
     "type": "TRL",
     "type2": "トレーラー",
-    "model": "トレーラー1",
+    "model": "3軸伸縮舵切装置付き",
     "maker": "日通商事",
-    "capacity": "29 ton",
-    "info": "16ｍ・29ｔ",
+    "capacity": "30 ton",
+    "info": "16ｍ・30ｔ",
     "year": [],
     "unit": 1,
     "images": [],
@@ -811,10 +990,10 @@
   {
     "type": "TRL",
     "type2": "トレーラー",
-    "model": "トレーラー2",
+    "model": "高床トレーラー",
     "maker": "東急",
-    "capacity": "27 ton",
-    "info": "11ｍ・27ｔ",
+    "capacity": "28 ton",
+    "info": "11ｍ・28ｔ",
     "year": [],
     "unit": 1,
     "images": [],
@@ -846,7 +1025,10 @@
     "info": "-",
     "year": [],
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515465/nagao-website/skybox1.jpg","https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515466/nagao-website/skybox2.jpg"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515465/nagao-website/skybox1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515466/nagao-website/skybox2.jpg"
+    ],
     "details": [
       {
         "title": "寸法",
@@ -863,8 +1045,12 @@
       {
         "title": "本体重量",
         "content": "400kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "https://skybox.co.jp"
       }
-    ],
-    "link": "https://skybox.co.jp"
+    ]
   }
 ]
