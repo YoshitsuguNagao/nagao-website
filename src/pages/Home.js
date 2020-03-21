@@ -89,14 +89,14 @@ class Home extends Component {
                 </p>
               </a>
             </div>
-            <div className="pickup-card">
+            {/* <div className="pickup-card">
               <a href="/large-vehicles">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756237/nagao-website/trucks_sq.jpg" alt=""/>
                 <p className="pickup-title">
                   大型車両
                 </p>
               </a>
-            </div>
+            </div> */}
             <div className="pickup-card">
               <a href="/cad">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756256/nagao-website/drawing_sq.jpg" alt=""/>
