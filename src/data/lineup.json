@@ -933,7 +933,7 @@
   {
     "type": "CC",
     "type2": "クローラークレーン",
-    "model": "SCX1200-3",
+    "model": "SCX1200-3(導入予定)",
     "maker": "HSC",
     "capacity": "120 ton",
     "year": [],
@@ -941,13 +941,26 @@
     "unit": 1,
     "images": [],
     "details": [
-
+      {
+        "title": "吊能力",
+        "content": "120t×5.0m"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.hsc-cranes.com/j/products/hs1.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "クレーン、タワー仕様",
+        "link": "http://www.hsc-cranes.com/j/_common/pdf/scx1200-3_2014_sp.pdf"
+      }
     ]
   },
   {
     "type": "CC",
     "type2": "クローラークレーン",
-    "model": "SCX2000-3",
+    "model": "SCX2000-3(導入予定)",
     "maker": "HSC",
     "capacity": "200 ton",
     "info": "200ｔ",
@@ -955,7 +968,20 @@
     "unit": 1,
     "images": [],
     "details": [
-
+      {
+        "title": "吊能力",
+        "content": "200t×5.0m"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.hsc-cranes.com/j/products/hs1.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "クレーン、タワー仕様",
+        "link": "http://www.hsc-cranes.com/j/_common/pdf/scx2000-3_sp.pdf"
+      }
     ]
   },
   {
@@ -996,7 +1022,7 @@
     "info": "11ｍ・28ｔ",
     "year": [],
     "unit": 1,
-    "images": [],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1584880146/nagao-website/Trailer2.png"],
     "details": [
       {
         "title": "タイプ",
