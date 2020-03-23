@@ -13,7 +13,8 @@ class Lineup extends Component {
         <li className="table-row" key={index}>
           <p className="col lineup-model" data-label="機種">
             <a href={`/lineup/${lineup.model}`}>
-            {lineup.images.length ? "★ " : "☆ "}{lineup.model}
+              {/* {lineup.images.length ? "★ " : "☆ "}{lineup.model} */}
+              {lineup.model}
             </a>
           </p>
           <p className="col lineup-maker" data-label="メーカー">{lineup.maker}</p>
@@ -54,20 +55,20 @@ class Lineup extends Component {
           {
             lineups.map((lineup, index) => {
               return lineup.type === "RC" ? this.lineupCard(lineup, index) : null
-              })
+            })
           }
         </ul>
-        <h3 className="lineup-subtitle">トラクター</h3>
+        <h3 className="lineup-subtitle">クローラークレーン (new)</h3>
         <ul className="responsive-table">
           <li className="table-header">
             <p className="col lineup-model">機種</p>
             <p className="col lineup-maker">メーカー</p>
-            <p className="col lineup-capacity">第五輪荷重</p>
+            <p className="col lineup-capacity">吊上げ能力</p>
             <p className="col lineup-unit">保有台数</p>
           </li>
           {
             lineups.map((lineup, index) => {
-              return lineup.type === "TR" ? this.lineupCard(lineup, index) : null
+              return lineup.type === "CC" ? this.lineupCard(lineup, index) : null
             })
           }
         </ul>
@@ -76,7 +77,7 @@ class Lineup extends Component {
           <li className="table-header">
             <p className="col lineup-model">機種</p>
             <p className="col lineup-maker">メーカー</p>
-            <p className="col lineup-capacity">第五輪荷重</p>
+            <p className="col lineup-capacity">積載重量</p>
             <p className="col lineup-unit">保有台数</p>
           </li>
           {
