@@ -352,7 +352,7 @@ footer {
   }
   .address-branch {
     padding: 0.5rem;
-    width: 320px;
+    width: 340px;
   }
 }
 
@@ -788,6 +788,9 @@ footer {
       width: 100%;
       padding: 0;
     }
+  }
+  .no-image {
+    display: none;
   }
 }
 @media screen and (max-width:500px) {
