@@ -62,7 +62,7 @@
     "info": "-",
     "unit": 1,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1570999919/nagao-website/LineUp/ATF220G-5.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/ATF220G-5.jpg"
     ],
     "details": [
       {
@@ -118,7 +118,7 @@
     "info": "-",
     "unit": 1,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571000311/nagao-website/LineUp/AR1200M.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145681/nagao-website/LineUp/AR1200M.jpg"
     ],
     "details": [
       {
@@ -171,7 +171,7 @@
     "info": "-",
     "unit": 2,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786905/nagao-website/LineUp/ATF100G-4.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145520/nagao-website/LineUp/ATF100G-4.jpg"
     ],
     "details": [
       {
@@ -227,7 +227,7 @@
     "info": "-",
     "unit": 1,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788267/nagao-website/LineUp/GR-1000N-1.jpg.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-1000N-1.jpg"
     ],
     "details": [
       {
@@ -684,7 +684,7 @@
     "info": "-",
     "unit": 2,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-250N-1.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145681/nagao-website/LineUp/GR-250N-1.jpg"
     ],
     "details": [
       {
@@ -736,7 +736,7 @@
     "info": "-",
     "unit": 2,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-160N-3.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-160N-3.jpg"
     ],
     "details": [
       {
@@ -838,7 +838,7 @@
     "info": "-",
     "unit": 2,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-130NL-1.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-130NL-1.jpg"
     ],
     "details": [
       {
@@ -880,7 +880,7 @@
   {
     "type": "RC",
     "type2": "ラフテレーンクレーン",
-    "model": "GR-120NL-2",
+    "model": "GR-120NL-1",
     "maker": "TADANO",
     "capacity": "12 ton",
     "year": [
@@ -890,7 +890,7 @@
     "info": "-",
     "unit": 2,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569786902/nagao-website/LineUp/GR-120NL-2.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-120NL-2.jpg"
     ],
     "details": [
       {
