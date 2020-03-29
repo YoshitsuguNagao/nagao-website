@@ -41,12 +41,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/ac/atf400g-6/"
+        "link": "https://www.tadano.co.jp/products/ac/atf400g/index.html"
       },
       {
         "title": "仕様書",
         "content": "ブーム、フルオートラフィングジブ、フィックスジブ、油圧チルトジブ、ラフィングジブ、ＰＳ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/atf400g6.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/atf400g6.pdf"
       }
     ]
   },
@@ -62,6 +62,7 @@
     "info": "-",
     "unit": 1,
     "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/ATF220G-5.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/ATF220G-5.jpg"
     ],
     "details": [
@@ -92,17 +93,17 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/ac/atf220g-5_old/index.html"
+        "link": "https://www.tadano.co.jp/products/ac/atf220g-5_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "ESPブーム",
-        "link": "https://www.tadano.co.jp/service/data/pdf/atf220g5b.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/atf220g5b.pdf"
       },
       {
         "title": "仕様書",
         "content": "フルオートラフィングジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/atf220g5flj.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/atf220g5flj.pdf"
       }
     ]
   },
@@ -148,12 +149,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/ac/ar-1200m-1_old/"
+        "link": "https://www.tadano.co.jp/products/ac/ar-1200m-1_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "メインブーム 3段フルオートジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/ar1201mb.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/ar1201mb.pdf"
       }
     ],
     "link": ""
@@ -201,17 +202,17 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/ac/atf100g-4/"
+        "link": "https://www.tadano.co.jp/products/ac/atf100g/index.html"
       },
       {
         "title": "仕様書",
         "content": "メインブーム フルオートラフィングジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/atf100g4-2.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/atf100g4-2.pdf"
       },
       {
         "title": "仕様書",
         "content": "メインブーム 油圧チルトジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/atf100g4.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/atf100g4.pdf"
       }
     ]
   },
@@ -257,12 +258,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-1000n/index.html"
+        "link": "http://www.tadano.co.jp/products/rc/gr-1000n/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+3段フルオートジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr1000n1.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr1000n1.pdf"
       }
     ]
   },
@@ -306,12 +307,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-700n/index.html"
+        "link": "http://www.tadano.co.jp/products/rc/gr-700n/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+3段フルオートジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr700n2h.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr700n2h.pdf"
       }
     ]
   },
@@ -356,12 +357,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-700n-1_old/index.html"
+        "link": "http://www.tadano.co.jp/products/rc/gr-700n_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+3段フルオートジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr700n1.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr700n1.pdf"
       }
     ]
   },
@@ -405,12 +406,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-600n-2_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-600n-2_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+2段フルオートジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr6002.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr6002.pdf"
       }
     ]
   },
@@ -454,12 +455,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-600n-1_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-600n-1_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+2段フルオートジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr6001.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr6001.pdf"
       }
     ]
   },
@@ -478,37 +479,37 @@
     "details": [
       {
         "title": "吊能力",
-        "content": "51t×3.0m"
+        "content": "50t×2.6m"
       },
       {
         "title": "最大地上揚程",
-        "content": "ブーム42.2m / ジブ55.2m"
+        "content": "ブーム38.1m / ジブ55.7m"
       },
       {
         "title": "最大作業半径",
-        "content": "ブーム34.0m / ジブ38.5m"
+        "content": "ブーム33.0m / ジブ38.0m（39.0m）"
       },
       {
         "title": "ブーム長",
-        "content": "9.7m ～ 41.2m"
+        "content": "9.6m ～ 37.0m"
       },
       {
         "title": "走行時寸法",
-        "content": "全長11,870mm / 全幅2,960mm / 全高3,760mm"
+        "content": "全長12,600mm / 全幅2,780mm / 全高3,745mm"
       },
       {
         "title": "車輌総重量",
-        "content": "38,895kg"
+        "content": "35,795kg"
       },
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-500n-2_old/index.html"
+        "link": "http://www.tadano.co.jp/products/rc/gr-500n-2_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "5段ブーム+3段フルオートジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr5002h.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr5002h.pdf"
       }
     ]
   },
@@ -552,12 +553,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/tr-500m-3_old/"
+        "link": "http://www.tadano.co.jp/products/rc/tr-500m-3_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+2段パワーチルトジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/tr5003x.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/tr5003x.pdf"
       }
     ],
     "link": ""
@@ -605,17 +606,17 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-3_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-250n-3_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "4段ブーム+2段パワーチルトジブ X型アウトリガ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr250n3x.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr250n3x.pdf"
       },
       {
         "title": "仕様書",
         "content": "4段ブーム+2段パワーチルトジブ H型アウトリガ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr250n3h.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr250n3h.pdf"
       }
     ]
   },
@@ -661,12 +662,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-2_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-250n-2_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "4段ブーム+2段パワーチルトジブ X型アウトリガ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr2502x.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr2502x.pdf"
       }
     ],
     "link": ""
@@ -714,12 +715,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-250n-1_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-250n-1_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "4段ブーム+2段パワーチルトジブ X型アウトリガ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr2501x.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr2501x.pdf"
       }
     ]
   },
@@ -766,12 +767,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-160n-3_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-160n-3_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+1段ジブ X型アウトリガ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr160n3x.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr160n3x.pdf"
       }
     ]
   },
@@ -815,12 +816,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-160n-1_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-160n-1_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+1段ジブ X型アウトリガ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr1601x.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr1601x.pdf"
       }
     ],
     "link": ""
@@ -868,12 +869,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-130nl-1_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-130nl-1_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+2段パワーチルトジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr130n1.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr130n1.pdf"
       }
     ]
   },
@@ -920,12 +921,12 @@
       {
         "title": "備考",
         "content": "メーカー製品ページ",
-        "link": "http://www.tadano.co.jp/products/crane/rc/gr-120nl_n-2_old/"
+        "link": "http://www.tadano.co.jp/products/rc/gr-120nl_n-1_old/index.html"
       },
       {
         "title": "仕様書",
         "content": "6段ブーム+2段パワーチルトジブ",
-        "link": "https://www.tadano.co.jp/service/data/pdf/gr1201ptj.pdf"
+        "link": "https://www2.tadano.co.jp/service/data/pdf/gr1201ptj.pdf"
       }
     ],
     "link": ""
