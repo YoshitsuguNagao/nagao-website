@@ -86,6 +86,34 @@ class Lineup extends Component {
             })
           }
         </ul>
+        <h3 className="lineup-subtitle">トラック</h3>
+        <ul className="responsive-table">
+          <li className="table-header">
+            <p className="col lineup-model">機種</p>
+            <p className="col lineup-maker">メーカー</p>
+            <p className="col lineup-capacity">積載能力</p>
+            <p className="col lineup-unit">保有台数</p>
+          </li>
+          {
+            lineups.map((lineup, index) => {
+              return lineup.type === "TRK" ? this.lineupCard(lineup, index) : null
+            })
+          }
+        </ul>
+        <h3 className="lineup-subtitle">高所作業車</h3>
+        <ul className="responsive-table">
+          <li className="table-header">
+            <p className="col lineup-model">機種</p>
+            <p className="col lineup-maker">メーカー</p>
+            <p className="col lineup-capacity">積載能力</p>
+            <p className="col lineup-unit">保有台数</p>
+          </li>
+          {
+            lineups.map((lineup, index) => {
+              return lineup.type === "AT" ? this.lineupCard(lineup, index) : null
+            })
+          }
+        </ul>
         <h3 className="lineup-subtitle">スカイボックス</h3>
         <ul className="responsive-table">
           <li className="table-header">
@@ -96,7 +124,7 @@ class Lineup extends Component {
           </li>
           {
             lineups.map((lineup, index) => {
-              return lineup.type === "ETC" ? this.lineupCard(lineup, index) : null
+              return lineup.type === "SKYBOX" ? this.lineupCard(lineup, index) : null
             })
           }
         </ul>
