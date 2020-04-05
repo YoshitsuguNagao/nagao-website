@@ -7,53 +7,48 @@ class Home extends Component {
     return (
       <div className="home">
         <section className="homepage-banner">
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner4.jpg'
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h1>ATF-400G-6</h1>
-              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616105/nagao-website/banner3.jpg'
-              alt="Second slide"
-            />
-            <Carousel.Caption>
-              <h1>ATF-100G-4</h1>
-              {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner1.jpg'
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h1>12ton ~ 400tonのクレーン</h1>
-              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616102/nagao-website/banner2.jpg'
-              alt="Firth slide"
-            />
-            <Carousel.Caption>
-              <h1>様々な作業</h1>
-              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-         {/* <img src={require('../images/home1.jpg')} alt=""/> */}
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner4.jpg'
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h1>ATF-400G-6</h1>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616105/nagao-website/banner3.jpg'
+                alt="Second slide"
+              />
+              <Carousel.Caption>
+                <h1>ATF-100G-4</h1>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner1.jpg'
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h1>12ton ~ 400tonのクレーン</h1>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616102/nagao-website/banner2.jpg'
+                alt="Firth slide"
+              />
+              <Carousel.Caption>
+                <h1>様々な作業</h1>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </section>
         <section className="homepage-news">
           <h2 className="title">新着一覧</h2>
