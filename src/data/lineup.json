@@ -31,7 +31,7 @@
         "content": "15.0m ～ 60.0m"
       },
       {
-        "title": "走行時寸法\n(キャリアのみ)",
+        "title": "走行時寸法(キャリアのみ)",
         "content": "全長15,620mm / 全幅3,000mm / 全高3,990mm"
       },
       {
@@ -62,7 +62,6 @@
     "info": "-",
     "unit": 1,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/ATF220G-5.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/ATF220G-5.jpg"
     ],
     "details": [
@@ -994,23 +993,18 @@
     "info": "16ｍ・30ｔ",
     "year": [],
     "unit": 1,
-    "images": [],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585995131/nagao-website/Trailer1-1.png",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585995132/nagao-website/Trailer1-2.png"
+    ],
     "details": [
       {
-        "title": "タイプ",
-        "content": "低床"
-      },
-      {
         "title": "全幅 / 全長 / 全高",
-        "content": "2,490mm / 11,910mm / 2,860mmm"
+        "content": "2,490mm / 10,855~16,155mm / 1,500mmm"
       },
       {
         "title": "車両重量",
-        "content": "10,880kg"
-      },
-      {
-        "title": "最大積載量",
-        "content": "14,000kg"
+        "content": "11,060kg"
       }
     ]
   },
@@ -1023,7 +1017,9 @@
     "info": "11ｍ・28ｔ",
     "year": [],
     "unit": 1,
-    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1584880146/nagao-website/Trailer2.png"],
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1584880146/nagao-website/Trailer2.png"
+    ],
     "details": [
       {
         "title": "タイプ",
@@ -1031,20 +1027,16 @@
       },
       {
         "title": "全幅 / 全長 / 全高",
-        "content": "2,490mm / 11,910mm / 2,860mmm"
+        "content": "2,490mm / 10,140mm / 1,580mmm"
       },
       {
         "title": "車両重量",
         "content": "10,880kg"
-      },
-      {
-        "title": "最大積載量",
-        "content": "14,000kg"
       }
     ]
   },
   {
-    "type": "ETC",
+    "type": "SKYBOX",
     "type2": "スカイボックス",
     "model": "SS-150",
     "maker": "SKYBOX",
@@ -1078,6 +1070,56 @@
         "content": "メーカー製品ページ",
         "link": "https://skybox.co.jp"
       }
+    ]
+  },
+  {
+    "type": "AT",
+    "type2": "高所作業車",
+    "model": "AT-220TG",
+    "maker": "日野/TADANO",
+    "capacity": "200kgまたは2名",
+    "info": "-",
+    "year": [],
+    "unit": 1,
+    "images": [],
+    "details": [
+      {
+        "title": "積載荷重",
+        "content": "200kgまたは2名"
+      },
+      {
+        "title": "最大地上高",
+        "content": "22.4m"
+      },
+      {
+        "title": "最大作業半径",
+        "content": "14.7m"
+      },
+      {
+        "title": "バスケット内寸法",
+        "content": "0.7m × 1.2m × 0.96m"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "https://www.tadano.co.jp/products/skyboy/at-220tg/index.html"
+      }
+    ]
+  },
+  {
+    "type": "TRK",
+    "type2": "カーゴクレーン",
+    "model": "4tユニック",
+    "maker": "三菱ふそう,日野/TADANO",
+    "capacity": "4 ton",
+    "info": "-",
+    "year": [],
+    "unit": 3,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1586074480/nagao-website/LineUp/4t-unic.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1586074482/nagao-website/LineUp/4t-unic2.jpg"
+    ],
+    "details": [
     ]
   }
 ]
