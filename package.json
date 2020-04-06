@@ -1,6 +1,6 @@
 {
   "name": "nagao-website",
-  "homepage": "https://nagao-inc.net/",
+  "homepage": "https://nagao-inc.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
