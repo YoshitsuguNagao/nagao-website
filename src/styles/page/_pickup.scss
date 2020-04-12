@@ -1,0 +1,35 @@
+.cad {
+  color: $subColor;
+  padding: 100px 10vw;
+  min-height: calc(100vh - 19px);
+  .cad-images {
+    padding-top: 2rem;
+  }
+  img {
+    width: 100%;
+    border: 1px solid $subColor;
+    margin: 1rem;
+    max-width: 270px;
+  }
+}
+
+.skybox {
+  color: $subColor;
+  padding: 100px 10vw;
+  min-height: calc(100vh - 19px);
+  .subtitle {
+  border-bottom: 1px solid $themeDarkColor;
+  }
+  .detail-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed;
+  }
+  .detail-model {
+    margin: 1rem 0;
+  }
+  .detail-title {
+    font-size: 0.75rem;
+  }
+}

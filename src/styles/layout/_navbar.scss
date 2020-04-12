@@ -1,0 +1,142 @@
+/* ==============
+    Navbar Style
+   ============== */
+
+.navbar-top {
+  @include size(100%,null);
+  min-height: 100px;
+  @include flexbox(space-between,null,column);
+  z-index: 100;
+  position: fixed;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  background-color: $themeLightColor;
+  .nav-title {
+    margin: 0 10vw;
+    @include flexbox(space-between);
+    .navbar-title {
+      font-size: 2rem;
+    }
+    a {
+      color: black;
+      margin: 0;
+    }
+    .nav-tel {
+      color: white;
+    }
+  }
+  .navbar-menu {
+    margin: 0 10vw;
+    @include flexbox(flex-end);
+  }
+  ul {
+    @include flexbox(space-around,center);
+    right: 0;
+    list-style: none;
+    font-size: 1rem;
+    li {
+      @include flexbox(center,center);
+      @include size(110px,50px);
+      overflow: hidden;
+      text-align: center;
+      a {
+        color: white;
+        text-decoration: none;
+        position: relative;
+        &::after{
+          content: "";
+          @include size(100%,100%);
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: translateX(-100%);
+          transition: transform 0.5s ease;
+        }
+        &:hover {
+          color: $themeDarkColor;
+        }
+      }
+    }
+  }
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  top: 50px;
+  cursor: pointer;
+  div {
+    @include size(25px,3px);
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .nav-title {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .navbar-top {
+    .nav-title {
+      .navbar-title {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    @include flexbox(space-around,center,column);
+    @include size(200px,calc(100vh - 100px));
+    background-color: $themeLightColor;
+    position: absolute;
+    left: 100%;
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;
+    li {
+      opacity: 0;
+    }
+  }
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(-100%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px)
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px)
+  }
+}
+
+.toggle {
+  .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .line2 {
+    opacity: 0;
+  }
+  .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+
+a.active::after {
+  transform: translateX(0%);
+}

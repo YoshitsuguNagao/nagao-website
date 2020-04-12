@@ -1,0 +1,118 @@
+/*----- Home -----*/
+.home {
+  color: $subColor;
+  padding: 100px 0;
+  .homepage-banner {
+    padding: 0 10%;
+    img {
+      @include size(100%, auto);
+      max-height: 500px;
+      object-fit: cover;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  .homepage-news {
+    padding: 0 10vw;
+    p {
+      line-height: 1rem;
+    }
+  }
+  .each-news {
+    border-bottom: 1px dashed gray;
+    display: flex;
+    margin: 1rem;
+    padding-bottom: 3px;
+    .homepage-news-date {
+      padding-right: 1rem;
+      color: $subLightColor;
+    }
+  }
+  .homepage-lineup {
+    padding: 0 10vw;
+  }
+  .lineup-container {
+    display: flex;
+    .lineup-text {
+      width: 50%;
+      padding: 0 1rem;
+    }
+    .lineup-img {
+      width: 50%;
+      padding: 0 1rem;
+    }
+  }
+  .homepage-pickup {
+    padding: 0 10vw;
+  }
+  .pickup-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .pickup-card {
+      width: 250px;
+      padding: 2rem;
+    }
+    .pickup-img {
+      width: 100%;
+      border-radius: 50%;
+      &:hover {
+        border: 1px solid #ff983f;
+        box-shadow: 0px 0px 15px -5px #62727b;
+      }
+    }
+    .pickup-title {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .home {
+    padding: 100px 0;
+    .homepage-banner {
+      padding: 0;
+    }
+    .homepage-news {
+      padding: 0 5vw;
+    }
+    .each-news {
+      flex-direction: column;
+      margin: 0rem;
+      .homepage-news-date {
+        font-size: 0.75rem;
+        padding: 3px 0;
+      }
+    }
+    .homepage-lineup {
+      padding: 0 5vw;
+    }
+    .lineup-container {
+      flex-direction: column;
+      align-items: center;
+      .lineup-text {
+        width: 100%;
+        padding: 0;
+      }
+      .lineup-img {
+        width: 80%;
+        padding-top: 2rem;
+      }
+    }
+    .homepage-pickup {
+      padding: 0 5vw;
+    }
+  }
+}
+
+@media screen and (max-width:576px) {
+  .home {
+    .lineup-container {
+      .lineup-img {
+        width: 100%;
+        padding-top: 2rem;
+      }
+    }
+  }
+}

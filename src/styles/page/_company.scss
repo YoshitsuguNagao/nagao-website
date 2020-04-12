@@ -1,0 +1,108 @@
+/*----- Company -----*/
+.company {
+  @include flexbox(center,center,column);
+  color: $subColor;
+  padding: 100px 0;
+  section {
+    width: 100%;
+    h2 {
+      margin: 2rem 10vw 1rem;
+    }
+  }
+  .intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 10vw;
+  }
+  .intro-content h4 {
+    text-align: start;
+  }
+  .intro-content {
+    max-width: 600px;
+    width: 80%;
+  }
+  .intro-text {
+    line-height: 2rem;
+  }
+  .intro-name {
+    padding-top: 2rem;
+  }
+  .company-container {
+    @include flexbox(center,center);
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .history-container {
+    margin: 0 10vw;
+  }
+  .history-card {
+    display: flex;
+    padding: 0.5rem 0;
+  }
+  .history-date {
+    width: 100px;
+  }
+  .history-event {
+    padding-left: 2rem;
+    white-space: pre-wrap;
+    width: calc(100% - 100px);
+  }
+  .csr-container {
+    margin: 0 10vw;
+  }
+  .csr-img-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .csr-img {
+    width: 350px;
+    height: 100%;
+    padding: 2rem;
+  }
+  .address-container {
+    margin: 0 10vw;
+  }
+  .address-name {
+    padding: 0.5rem;
+  }
+  .address-card {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid $subLightColor;
+  }
+  .address-branch {
+    padding: 0.5rem;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .company {
+    .intro-container {
+      position: relative;
+      padding-top: 1rem;
+    }
+    .intro-img {
+      position: absolute;
+      width: 100%;
+    }
+    .intro-content {
+      width: 100%;
+      z-index: 10;
+    }
+    .history-container p {
+      font-size: 0.8rem;
+    }
+    .history-date {
+      width: 75px;
+    }
+    .history-event {
+      white-space: pre-wrap;
+      padding-left: 1rem;
+      width: calc(100% - 75px);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+/*----- Business Guide -----*/
+.business-guide {
+  padding: 100px 10vw;
+  color: $subColor;
+  .guide-card {
+    border: 1px solid rgb(163, 163, 163);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    &:hover {
+      border: 1px solid $themeLightColor;
+      box-shadow: 0px 0px 15px -5px #62727b;
+    }
+  }
+  .guide-name {
+    padding-bottom: 1rem;
+  }
+  .guide-content {
+    margin-left: 1rem;
+  }
+  .experience-card {
+    display: flex;
+    width: 100%;
+    .experience-title {
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width:650px) {
+  .business-guide {
+    padding: 100px 5vw;
+    .guide-contents {
+      font-size: 0.8rem;
+    }
+    .experience-card {
+      flex-direction: column;
+    }
+    .experience-title {
+      width: 270px;
+    }
+    .experience-content {
+      padding-left: 1rem;
+    }
+  }
+}
