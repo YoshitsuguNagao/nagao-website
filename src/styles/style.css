@@ -94,6 +94,14 @@ a {
   min-height: 100vh;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
 /* ==============
     Navbar Style
    ============== */
@@ -127,7 +135,7 @@ a {
           justify-content: space-between;
 }
 
-.navbar-top .nav-title .navbar-h1 {
+.navbar-top .nav-title .navbar-title {
   font-size: 2rem;
 }
 
@@ -221,12 +229,18 @@ a {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .nav-title {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar-top .nav-title .navbar-title {
+    font-size: 1.5rem;
   }
 }
 
@@ -327,7 +341,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #FF6600;
+  background-color: #ff983f;
   font-size: 0.8rem;
 }
 
@@ -413,7 +427,7 @@ footer {
 }
 
 .home .pickup-container .pickup-card {
-  width: 300px;
+  width: 250px;
   padding: 2rem;
 }
 
@@ -429,7 +443,6 @@ footer {
 }
 
 .home .pickup-container .pickup-title {
-  text-align: center;
   font-size: 1.2rem;
 }
 
@@ -620,7 +633,7 @@ footer {
 
 .company .address-branch {
   padding: 0.5rem;
-  width: 300px;
+  width: 340px;
 }
 
 @media screen and (max-width: 500px) {
@@ -766,14 +779,14 @@ footer {
   margin-left: 1rem;
 }
 
-.business-guide .each-experience {
+.business-guide .experience-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
 
-.business-guide .each-experience .experience-title {
+.business-guide .experience-card .experience-title {
   width: 300px;
 }
 
@@ -784,7 +797,7 @@ footer {
   .business-guide .guide-contents {
     font-size: 0.8rem;
   }
-  .business-guide .each-experience {
+  .business-guide .experience-card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -985,7 +998,6 @@ footer {
 }
 
 .lineup-link {
-  text-align: end;
   padding-top: 2rem;
 }
 
@@ -1095,6 +1107,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .detail-card .detail-item {
@@ -1144,6 +1159,9 @@ footer {
     width: 100%;
     padding: 0;
   }
+  .no-image {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1155,5 +1173,24 @@ footer {
   .detail-card .detail-title {
     font-size: 0.75rem;
   }
+}
+
+.no-image {
+  text-align: center;
+  font-size: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+  border: 1px solid #62727b;
+}
+
+.no-image p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */

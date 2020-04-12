@@ -1,6 +1,7 @@
 @import "reset";
 @import "variables";
 @import "mixins";
+@import "common";
 
 /* ==============
     Navbar Style
@@ -17,7 +18,7 @@
   .nav-title {
     margin: 0 10vw;
     @include flexbox(space-between);
-    .navbar-h1 {
+    .navbar-title {
       font-size: 2rem;
     }
     a {
@@ -85,7 +86,7 @@
 @media screen and (max-width:420px) {
   .navbar-top {
     .nav-title {
-      .navbar-h1 {
+      .navbar-title {
         font-size: 1.5rem;
       }
     }
@@ -147,7 +148,7 @@ a.active::after {
 
 footer {
   @include flexbox(center,center);
-  background-color: $themeColor;
+  background-color: $themeLightColor;
   font-size: 0.8rem;
 }
 
@@ -207,7 +208,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     .pickup-card {
-      width: 300px;
+      width: 250px;
       padding: 2rem;
     }
     .pickup-img {
@@ -219,7 +220,6 @@ footer {
       }
     }
     .pickup-title {
-      text-align: center;
       font-size: 1.2rem;
     }
   }
@@ -478,7 +478,7 @@ footer {
   .guide-content {
     margin-left: 1rem;
   }
-  .each-experience {
+  .experience-card {
     display: flex;
     width: 100%;
     .experience-title {
@@ -493,7 +493,7 @@ footer {
     .guide-contents {
       font-size: 0.8rem;
     }
-    .each-experience {
+    .experience-card {
       flex-direction: column;
     }
     .experience-title {
@@ -669,7 +669,6 @@ footer {
 }
 
 .lineup-link {
-  text-align: end;
   padding-top: 2rem;
 }
 

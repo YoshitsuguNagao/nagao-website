@@ -68,7 +68,7 @@ class Home extends Component {
           <div className="lineup-container">
             <div className="lineup-text">
               <p>油圧式クレーンやトレーラーは最新式を揃えており、最小１２トン吊りから最大４００トン吊りの能力までの各クレーン車を約２９台取り揃えております。</p>
-              <p className="lineup-link"><a href="/lineup">保有機種一覧</a></p>
+              <p className="lineup-link text-right"><a href="/lineup">保有機種一覧</a></p>
             </div>
             <img className="lineup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
           </div>
@@ -79,7 +79,7 @@ class Home extends Component {
             <div className="pickup-card">
               <a href="/skybox">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788773/nagao-website/skybox_sq.jpg" alt=""/>
-                <p className="pickup-title">
+                <p className="pickup-title text-center mt10">
                   スカイボックス
                 </p>
               </a>
@@ -95,7 +95,7 @@ class Home extends Component {
             <div className="pickup-card">
               <a href="/cad">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569756256/nagao-website/drawing_sq.jpg" alt=""/>
-                <p className="pickup-title">
+                <p className="pickup-title text-center mt10">
                   CADによる施工計画
                 </p>
               </a>

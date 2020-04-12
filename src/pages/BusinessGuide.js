@@ -33,10 +33,11 @@ class BusinessGuide extends Component {
         </section>
         <section className="experience">
           <h2 className="title">実績(グループ含む)</h2>
+          <p className="text-right mb10">(五十音順・敬称略)</p>
           {
             experience.map((item,index) => {
               return (
-                <div className="each-experience" key={index}>
+                <div className="experience-card" key={index}>
                   <p className="experience-title">{item.title}</p>
                   <p className="experience-content">{item.content}</p>
                 </div>

@@ -81,7 +81,7 @@ export class Details extends Component {
               }
             </div>
           </div>
-          <p className="lineup-link"><a href="/lineup">保有機種一覧へ</a></p>
+          <p className="lineup-link text-right"><a href="/lineup">保有機種一覧へ</a></p>
         </div>
     )
   }
