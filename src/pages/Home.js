@@ -67,7 +67,7 @@ class Home extends Component {
           <h2 className="title">充実のラインアップ</h2>
           <div className="lineup-container">
             <div className="lineup-text">
-              <p>油圧式クレーンやトレーラーは最新式を揃えており、最小１２トン吊りから最大４００トン吊りの能力までの各クレーン車を約２９台取り揃えております。</p>
+              <p>油圧式クレーンやトレーラーは最新式を揃えており、最小１２トン吊りから最大４００トン吊りの能力までの各クレーン車を取り揃えております。</p>
               <p className="lineup-link text-right"><a href="/lineup">保有機種一覧</a></p>
             </div>
             <img className="lineup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
