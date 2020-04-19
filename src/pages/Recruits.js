@@ -23,13 +23,15 @@ class Recruit extends Component {
 
   render() {
     return (
-      <div className="recruits">
-        <h2 className="title">採用情報</h2>
-        {
-          recruits.map((recruit,index) => {
-            return this.showRecruit(recruit,index)
-          })
-        }
+      <div className="recruits main-container">
+        <section className="wrap">
+          <h2 className="main-header">採用情報</h2>
+          {
+            recruits.map((recruit,index) => {
+              return this.showRecruit(recruit,index)
+            })
+          }
+        </section>
       </div>
     )
   }

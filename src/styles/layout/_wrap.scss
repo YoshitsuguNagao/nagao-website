@@ -1,0 +1,4 @@
+.wrap {
+  max-width: $maxSectionWidth;
+  width: calc(100% - #{$sideSpace});
+}

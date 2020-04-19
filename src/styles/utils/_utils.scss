@@ -1,6 +1,6 @@
 @for $i from 1 through 10{
   .ma#{$i * 5} {
-    margin-bottom:#{$i * 5}px;
+    margin:#{$i * 5}px;
   }
 }
 
@@ -42,7 +42,7 @@
 
 @for $i from 1 through 10{
   .pa#{$i * 5} {
-    padding-bottom:#{$i * 5}px;
+    padding:#{$i * 5}px;
   }
 }
 

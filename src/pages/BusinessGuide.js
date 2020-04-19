@@ -21,18 +21,18 @@ class BusinessGuide extends Component {
 
   render() {
     return (
-      <div className="business-guide">
+      <div className="business-guide main-container">
 
-        <section className="guides">
-          <h2 className="title">業務内容</h2>
+        <section className="guides wrap">
+          <h2 className="main-header">業務内容</h2>
           {
             guides.map((guide,index) => {
               return this.showGuides(guide,index)
             })
           }
         </section>
-        <section className="experience">
-          <h2 className="title">実績(グループ含む)</h2>
+        <section className="experience wrap">
+          <h2 className="main-header">実績(グループ含む)</h2>
           <p className="text-right mb10">(五十音順・敬称略)</p>
           {
             experience.map((item,index) => {

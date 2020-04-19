@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 class Home extends Component {
   render() {
     return (
-      <div className="home">
+      <main className="home main-container">
         <section className="homepage-banner">
           <Carousel>
             <Carousel.Item>
@@ -50,8 +50,8 @@ class Home extends Component {
             </Carousel.Item>
           </Carousel>
         </section>
-        <section className="homepage-news">
-          <h2 className="title">新着一覧</h2>
+        <section className="homepage-news wrap">
+          <h2 className="main-header">新着一覧</h2>
           {
             news.map((item,index) => {
               return (
@@ -63,8 +63,8 @@ class Home extends Component {
             })
           }
         </section>
-        <section className="homepage-lineup">
-          <h2 className="title">充実のラインアップ</h2>
+        <section className="homepage-lineup wrap">
+          <h2 className="main-header">充実のラインアップ</h2>
           <div className="lineup-container">
             <div className="lineup-text">
               <p>油圧式クレーンやトレーラーは最新式を揃えており、最小１２トン吊りから最大４００トン吊りの能力までの各クレーン車を取り揃えております。</p>
@@ -73,8 +73,8 @@ class Home extends Component {
             <img className="lineup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
           </div>
         </section>
-        <section className="homepage-pickup">
-          <h2 className="title">ピックアップ！</h2>
+        <section className="homepage-pickup wrap">
+          <h2 className="main-header">ピックアップ！</h2>
           <div className="pickup-container">
             <div className="pickup-card">
               <a href="/skybox">
@@ -102,7 +102,7 @@ class Home extends Component {
             </div>
           </div>
         </section>
-      </div>
+      </main>
     )
   }
 }

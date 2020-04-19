@@ -1,36 +1,25 @@
 /*----- Home -----*/
 .home {
-  color: $subColor;
-  padding: 100px 0;
   .homepage-banner {
-    padding: 0 10%;
     img {
       @include size(100%, auto);
       max-height: 500px;
       object-fit: cover;
+      max-width: 1024px;
     }
     h1 {
       font-size: 1.5rem;
     }
   }
-  .homepage-news {
-    padding: 0 10vw;
-    p {
-      line-height: 1rem;
-    }
-  }
   .each-news {
     border-bottom: 1px dashed gray;
     display: flex;
-    margin: 1rem;
+    margin: 0.5rem;
     padding-bottom: 3px;
-    .homepage-news-date {
-      padding-right: 1rem;
-      color: $subLightColor;
-    }
   }
-  .homepage-lineup {
-    padding: 0 10vw;
+  .homepage-news-date {
+    padding-right: 1rem;
+    color: $subLightColor;
   }
   .lineup-container {
     display: flex;
@@ -42,9 +31,6 @@
       width: 50%;
       padding: 0 1rem;
     }
-  }
-  .homepage-pickup {
-    padding: 0 10vw;
   }
   .pickup-container {
     display: flex;
@@ -74,9 +60,6 @@
     .homepage-banner {
       padding: 0;
     }
-    .homepage-news {
-      padding: 0 5vw;
-    }
     .each-news {
       flex-direction: column;
       margin: 0rem;
@@ -84,9 +67,6 @@
         font-size: 0.75rem;
         padding: 3px 0;
       }
-    }
-    .homepage-lineup {
-      padding: 0 5vw;
     }
     .lineup-container {
       flex-direction: column;
@@ -99,9 +79,6 @@
         width: 80%;
         padding-top: 2rem;
       }
-    }
-    .homepage-pickup {
-      padding: 0 5vw;
     }
   }
 }

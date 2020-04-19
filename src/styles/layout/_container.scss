@@ -1,0 +1,7 @@
+.main-container {
+  padding-top: $navHeight;
+  padding-bottom: 100px;
+  min-height: calc(100vh - #{$footerHeight});
+  @include flexbox(null, center, column);
+  width: 100vw;
+}

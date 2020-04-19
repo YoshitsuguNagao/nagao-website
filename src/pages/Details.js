@@ -55,33 +55,36 @@ export class Details extends Component {
     const { lineup } = this.state;
     if(!lineup) return null
     return (
-        <div className="details">
-          <h2 className="title">{lineup.type2}</h2>
-          <div className="detail-card">
-            {
-              this.showImages(lineup)
-            }
-            <div className="detail-contents">
-              <h3 className="detail-model">{lineup.model}</h3>
+      <div className="details main-container">
+        <section className="wrap">
+          <h2 className="main-header">{lineup.type2}</h2>
+            <div className="detail-card">
               {
-                lineup.details ? lineup.details.map(item => {
-                  return (
-                    <div className="detail-item">
-                      <p className="detail-title">{item.title}</p>
-                      {
-                        item.link ?
-                          <p className="detail-content">
-                            <a href={item.link}>{item.content}</a>
-                          </p>
-                        : <p className="detail-content">{item.content}</p>
-                      }
-                    </div>
-                  )
-                }) : null
+                this.showImages(lineup)
               }
+              <div className="detail-contents">
+                <h3 className="detail-model">{lineup.model}</h3>
+                {
+                  lineup.details ? lineup.details.map(item => {
+                    return (
+                      <div className="detail-item">
+                        <p className="detail-title">{item.title}</p>
+                        {
+                          item.link ?
+                            <p className="detail-content">
+                              <a href={item.link}>{item.content}</a>
+                            </p>
+                          : <p className="detail-content">{item.content}</p>
+                        }
+                      </div>
+                    )
+                  }) : null
+                }
+              </div>
             </div>
-          </div>
-          <p className="lineup-link text-right"><a href="/lineup">保有機種一覧へ</a></p>
+            <p className="lineup-link text-right"><a href="/lineup">保有機種一覧へ</a></p>
+
+        </section>
         </div>
     )
   }

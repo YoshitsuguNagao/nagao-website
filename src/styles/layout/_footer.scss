@@ -2,4 +2,5 @@ footer {
   @include flexbox(center,center);
   background-color: $themeLightColor;
   font-size: 0.8rem;
+  height: $footerHeight;
 }

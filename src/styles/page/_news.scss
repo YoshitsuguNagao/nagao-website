@@ -1,8 +1,5 @@
 /*----- News -----*/
 .news {
-  color: $subColor;
-  padding: 100px 10vw;
-  min-height: calc(100vh - 19px);
   .news-container {
     display: flex;
   }
@@ -44,10 +41,5 @@
       width: 100%;
 
     }
-  }
-}
-@media screen and (max-width:768px) {
-  .news {
-    padding: 100px 5vw;
   }
 }

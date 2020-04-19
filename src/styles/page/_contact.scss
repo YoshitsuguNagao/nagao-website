@@ -1,10 +1,7 @@
-
 /*----- Contact -----*/
 .contact {
-  color: $subColor;
-  padding: 100px 0;
   .contact-title {
-    margin: 2rem 10vw 1rem;
+    margin: 2rem 0 1rem;
     border-bottom: 1px solid $themeDarkColor;
   }
   .contact-name,
@@ -12,7 +9,6 @@
     padding: 0.5rem;
   }
   .contact-info {
-    padding: 0 10vw;
     &:nth-last-child(2) {
     padding-top: 2rem;
     }
@@ -21,14 +17,14 @@
     padding-top: 1rem;
     height: 400px;
     width: 100%;
-    padding: 0 10vw;
+    max-width: $maxSectionWidth;
   }
 }
 
 @media screen and (max-width:650px) {
   .contact {
     .contact-title {
-      margin: 2rem 5vw 1rem;
+      margin: 2rem 0 1rem;
     }
     iframe {
       height: 300px;

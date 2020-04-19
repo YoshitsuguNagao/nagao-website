@@ -1,7 +1,4 @@
 .cad {
-  color: $subColor;
-  padding: 100px 10vw;
-  min-height: calc(100vh - 19px);
   .cad-images {
     padding-top: 2rem;
   }
@@ -15,8 +12,7 @@
 
 .skybox {
   color: $subColor;
-  padding: 100px 10vw;
-  min-height: calc(100vh - 19px);
+  min-height: calc(100vh - #{$footerHeight});
   .subtitle {
   border-bottom: 1px solid $themeDarkColor;
   }

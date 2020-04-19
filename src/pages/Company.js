@@ -32,9 +32,9 @@ class Company extends Component {
   render() {
     const { companies, histories } = this.state;
     return (
-      <div className="company">
-        <section className="introduction">
-          <h2 className="title">{data.introduction[0]}</h2>
+      <div className="company main-container">
+        <section className="introduction wrap">
+          <h2 className="main-header">{data.introduction[0]}</h2>
           <div className="intro-container">
             <div className="intro-content">
               <p className="intro-text">
@@ -44,8 +44,8 @@ class Company extends Component {
             </div>
           </div>
         </section>
-        <section className="company-section">
-          <h2 className="title">会社概要</h2>
+        <section className="company-section wrap">
+          <h2 className="main-header">会社概要</h2>
           <div className="company-container">
           {
             companies.map((company, index) => {
@@ -63,8 +63,8 @@ class Company extends Component {
           }
           </div>
         </section>
-        <section className="history-section">
-          <h2 className="title">沿革</h2>
+        <section className="history-section wrap">
+          <h2 className="main-header">沿革</h2>
           <div className="history-container">
             {
               histories.map((history,index) => {
@@ -75,8 +75,8 @@ class Company extends Component {
             }
           </div>
         </section>
-        <section className="csr-section">
-          <h2 className="title">地域貢献</h2>
+        <section className="csr-section wrap">
+          <h2 className="main-header">地域貢献</h2>
           <div className="csr-container">
             <p>初倉まつり2018に参加。静岡県重機建設業工業組合青年部の一員として地域の子供たちに建設機械と触れ合ってもらいました。</p>
             <div className="csr-img-container">
@@ -85,8 +85,8 @@ class Company extends Component {
             </div>
           </div>
         </section>
-        <section className="address-section">
-          <h2 className="title">事業所</h2>
+        <section className="address-section wrap">
+          <h2 className="main-header">事業所</h2>
           <div className="address-container">
             {
               addresses.map((address,index) => {
@@ -98,7 +98,8 @@ class Company extends Component {
                       address.branches.map((branch,index) => {
                         return (
                           <div className="address-branch">
-                          <p>{branch.name}</p>
+                          <h4>{branch.name}</h4>
+                          <p>{branch.postcode}</p>
                           <p>{branch.address}</p>
                           <p>TEL: {branch.TEL}</p>
                           <p>FAX: {branch.FAX}</p>
@@ -106,7 +107,7 @@ class Company extends Component {
                         )
                       })
                     }
-                  </div>
+                    </div>
                   </>
                 )
               })
