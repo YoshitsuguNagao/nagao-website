@@ -55,9 +55,9 @@ class Home extends Component {
           {
             news.map((item,index) => {
               return (
-                <div className="each-news" key={index}>
+                <div className="each-news m-2" key={index}>
                   <p className="homepage-news-date">{item.date}</p>
-                  <p className="homepage-news-content"><a href={`/news/${item.date}`}>{item.title}</a></p>
+                  <p><a href={`/news/${item.date}`}>{item.title}</a></p>
                 </div>
               )
             })

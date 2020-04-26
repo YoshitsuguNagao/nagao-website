@@ -10,6 +10,7 @@
     padding: 0.5rem;
     color: $subLightColor;
     width: 100%;
+    border-bottom: 1px solid #cecece;
   }
   .table-row {
     border-bottom: 1px solid #cecece;
@@ -20,24 +21,6 @@
   .lineup-card {
     display: flex;
     margin: 3px 0;
-  }
-  .lineup-model {
-    width: 25%;
-    min-width: 125px;
-  }
-  .lineup-maker {
-    width: 25%;
-    min-width: 120px;
-  }
-  .lineup-capacity {
-    width: 25%;
-    min-width: 100px;
-  }
-  .lineup-info {
-    width: 25%;
-  }
-  .lineup-img {
-    width: 10%;
   }
 }
 
@@ -126,10 +109,6 @@
   .detail-card {
     .each-detail {
       display: flex;
-    }
-    .detail-title {
-
-      font-size: 0.75rem;
     }
   }
 }

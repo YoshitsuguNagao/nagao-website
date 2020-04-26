@@ -917,13 +917,16 @@ footer {
 }
 
 /*----- Home -----*/
+.home .homepage-banner {
+  max-width: 1024px;
+}
+
 .home .homepage-banner img {
   width: 100%;
   height: auto;
   max-height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: 1024px;
 }
 
 .home .homepage-banner h1 {
@@ -935,7 +938,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0.5rem;
   padding-bottom: 3px;
 }
 
@@ -1127,11 +1129,6 @@ footer {
 .company .csr-img {
   width: 350px;
   height: 100%;
-  padding: 2rem;
-}
-
-.company .address-name {
-  padding: 0.5rem;
 }
 
 .company .address-card {
@@ -1204,29 +1201,6 @@ footer {
   display: -ms-flexbox;
   display: flex;
   margin: 3px 0;
-}
-
-.lineup .lineup-model {
-  width: 25%;
-  min-width: 125px;
-}
-
-.lineup .lineup-maker {
-  width: 25%;
-  min-width: 120px;
-}
-
-.lineup .lineup-capacity {
-  width: 25%;
-  min-width: 100px;
-}
-
-.lineup .lineup-info {
-  width: 25%;
-}
-
-.lineup .lineup-img {
-  width: 10%;
 }
 
 @media all and (max-width: 640px) {
@@ -1396,9 +1370,6 @@ footer {
 }
 
 @media screen and (max-width: 650px) {
-  .business-guide {
-    padding: 100px 5vw;
-  }
   .business-guide .guide-contents {
     font-size: 0.8rem;
   }
@@ -1417,17 +1388,12 @@ footer {
 }
 
 /*----- Contact -----*/
-.contact .contact-title {
-  margin: 2rem 0 1rem;
-  border-bottom: 1px solid #c43300;
-}
-
 .contact .contact-name,
 .contact .contact-content {
   padding: 0.5rem;
 }
 
-.contact .contact-info:nth-last-child(2) {
+.contact .contact-info {
   padding-top: 2rem;
 }
 
@@ -1439,9 +1405,6 @@ footer {
 }
 
 @media screen and (max-width: 650px) {
-  .contact .contact-title {
-    margin: 2rem 0 1rem;
-  }
   .contact iframe {
     height: 300px;
     padding: 0;

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { Component } from "react";
-import Map from "../components/Map";
+import Map from "../components/layout/Map";
 import maps from "../data/maps.json";
 
 class Contact extends Component {

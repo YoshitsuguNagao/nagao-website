@@ -40,7 +40,7 @@ class Company extends Component {
               <p className="intro-text">
                 {data.introduction[1]}
               </p>
-              <h4 className="intro-name">代表 長尾享</h4>
+              <h4 className="intro-name pt-4">代表 長尾享</h4>
             </div>
           </div>
         </section>
@@ -80,8 +80,8 @@ class Company extends Component {
           <div className="csr-container">
             <p>初倉まつり2018に参加。静岡県重機建設業工業組合青年部の一員として地域の子供たちに建設機械と触れ合ってもらいました。</p>
             <div className="csr-img-container">
-              <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr1.jpg" alt=""/>
-              <img className="csr-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr2.jpg" alt=""/>
+              <img className="csr-img p-4" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr1.jpg" alt=""/>
+              <img className="csr-img p-4" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571205516/nagao-website/csr2.jpg" alt=""/>
             </div>
           </div>
         </section>
@@ -92,12 +92,12 @@ class Company extends Component {
               addresses.map((address,index) => {
                 return (
                   <>
-                  <h3 className="address-name">{address.name}</h3>
+                  <h3 className="address-name p-2">{address.name}</h3>
                   <div className="address-card">
                     {
                       address.branches.map((branch,index) => {
                         return (
-                          <div className="address-branch">
+                          <div className="address-branch p-2">
                           <h4>{branch.name}</h4>
                           <p>{branch.postcode}</p>
                           <p>{branch.address}</p>
