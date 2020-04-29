@@ -94,6 +94,11 @@ a {
   min-height: 100vh;
 }
 
+.logo {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 700;
+}
+
 .ma5 {
   margin: 5px;
 }
@@ -760,7 +765,7 @@ a {
 .navbar-container {
   margin: 0 5%;
   min-height: 100px;
-  width: 1000px;
+  width: 1024px;
 }
 
 .burger {
@@ -912,7 +917,7 @@ footer {
 }
 
 .wrap {
-  max-width: 1000px;
+  max-width: 1024px;
   width: calc(100% - 10%);
 }
 
@@ -924,7 +929,7 @@ footer {
 .home .homepage-banner img {
   width: 100%;
   height: auto;
-  max-height: 500px;
+  max-height: 525px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1008,7 +1013,6 @@ footer {
   }
   .home .each-news .homepage-news-date {
     font-size: 0.75rem;
-    padding: 3px 0;
   }
   .home .lineup-container {
     -webkit-box-orient: vertical;
@@ -1063,7 +1067,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .company .intro-content h4 {
@@ -1079,10 +1083,6 @@ footer {
   line-height: 2rem;
 }
 
-.company .intro-name {
-  padding-top: 2rem;
-}
-
 .company .company-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1095,7 +1095,6 @@ footer {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: auto;
 }
 
 .company .history-card {
@@ -1141,14 +1140,12 @@ footer {
 }
 
 .company .address-branch {
-  padding: 0.5rem;
   width: 320px;
 }
 
 @media screen and (max-width: 500px) {
   .company .intro-container {
     position: relative;
-    padding-top: 1rem;
   }
   .company .intro-img {
     position: absolute;
@@ -1185,6 +1182,7 @@ footer {
   padding: 0.5rem;
   color: #62727b;
   width: 100%;
+  border-bottom: 1px solid #cecece;
 }
 
 .lineup .table-row {
@@ -1312,9 +1310,6 @@ footer {
     display: -ms-flexbox;
     display: flex;
   }
-  .detail-card .detail-title {
-    font-size: 0.75rem;
-  }
 }
 
 .no-image {
@@ -1388,20 +1383,11 @@ footer {
 }
 
 /*----- Contact -----*/
-.contact .contact-name,
-.contact .contact-content {
-  padding: 0.5rem;
-}
-
-.contact .contact-info {
-  padding-top: 2rem;
-}
-
 .contact iframe {
   padding-top: 1rem;
   height: 400px;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1024px;
 }
 
 @media screen and (max-width: 650px) {
@@ -1461,10 +1447,6 @@ footer {
     margin-left: 0;
     width: 100%;
   }
-}
-
-.cad .cad-images {
-  padding-top: 2rem;
 }
 
 .cad img {

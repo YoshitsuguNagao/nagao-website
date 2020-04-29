@@ -11,7 +11,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner4.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133447/nagao-website/banner4n.jpg'
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -21,7 +21,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616105/nagao-website/banner3.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133417/nagao-website/banner3n.jpg'
                 alt="Second slide"
               />
               <Carousel.Caption>
@@ -31,7 +31,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner1.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133292/nagao-website/banner1n.jpg'
                 alt="Third slide"
               />
               <Carousel.Caption>
@@ -41,11 +41,11 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616102/nagao-website/banner2.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133470/nagao-website/banner5n.jpg'
                 alt="Firth slide"
               />
               <Carousel.Caption>
-                <h1>様々な作業</h1>
+                {/* <h1></h1> */}
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

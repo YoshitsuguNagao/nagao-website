@@ -27,7 +27,7 @@ class Navbar extends Component {
         <div className="navbar-container">
           <div className="navbar-titles">
             <Link to="/">
-              <h1 className="navbar-title">株式会社長尾レッカー</h1>
+              <h1 className="navbar-title logo">株式会社長尾レッカー</h1>
             </Link>
             <div className="navbar-contact">
               {/* <p className="navbar-text">お気軽にお問い合わせください</p>

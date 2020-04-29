@@ -11,7 +11,9 @@
     "info": "-",
     "unit": 1,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/LineUp/ATF400G-6.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/LineUp/ATF400G-6.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588124951/nagao-website/LineUp/ATF400G-6-2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588124951/nagao-website/LineUp/ATF400G-6-3.jpg"
     ],
     "details": [
       {
@@ -1081,7 +1083,7 @@
     "info": "-",
     "year": [],
     "unit": 1,
-    "images": [],
+    "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145680/nagao-website/LineUp/AT-220TG.jpg"],
     "details": [
       {
         "title": "積載荷重",
