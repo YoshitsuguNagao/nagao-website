@@ -41,7 +41,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133470/nagao-website/banner5n.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588139613/nagao-website/banner5n.jpg'
                 alt="Firth slide"
               />
               <Carousel.Caption>
