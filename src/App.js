@@ -23,11 +23,11 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/company" component={Company} />
           <Route exact path="/lineup" component={Lineup} />
+          <Route exact path="/lineup/SS-150" component={Skybox} />
           <Route exact path="/lineup/:model" component={Details} />
           <Route exact path="/business-guide" component={BusinessGuide} />
           <Route exact path="/recruit" component={Recruit} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/skybox" component={Skybox} />
           <Route exact path="/large-vehicles" component={LargeVehicles} />
           <Route exact path="/cad" component={Cad} />
           <Route exact path="/news/:newsId" component={News} />

@@ -77,7 +77,7 @@ class Home extends Component {
           <h2 className="main-header">ピックアップ！</h2>
           <div className="pickup-container">
             <div className="pickup-card">
-              <a href="/skybox">
+              <a href="/lineup/SS-150">
                 <img className="pickup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569788773/nagao-website/skybox_sq.jpg" alt=""/>
                 <p className="pickup-title text-center mt10">
                   スカイボックス

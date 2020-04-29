@@ -1053,8 +1053,10 @@
     "year": [],
     "unit": 1,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515465/nagao-website/skybox1.jpg",
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515466/nagao-website/skybox2.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515465/nagao-website/skybox/skybox1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1571515466/nagao-website/skybox/skybox2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588163216/nagao-website/skybox/skybox3.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588163219/nagao-website/skybox/skybox4.jpg"
     ],
     "details": [
       {

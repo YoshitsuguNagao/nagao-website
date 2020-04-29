@@ -28,4 +28,11 @@
   .detail-title {
     font-size: 0.75rem;
   }
+  .available-type {
+    list-style-type: none;
+  }
+}
+
+.image-gallery-slide img {
+  max-height: 400px !important;
 }

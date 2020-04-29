@@ -26,6 +26,9 @@ class Skybox extends Component {
           showThumbnails={true}
           lazyLoad={true}
           showPlayButton={false}
+          showFullscreenButton={false}
+          autoPlay={true}
+          slideInterval={5000}
         />
       </div>
     )
@@ -46,7 +49,7 @@ class Skybox extends Component {
         <section className="wrap">
           <h2 className="main-header">Skybox</h2>
           <p className="mb30">
-            SKyboxとは、移動式クレーンに先端に装着する作業デッキで、従来の高所作業車では出来ない範囲をカバーする事ができます。
+            Skyboxとは、移動式クレーンに先端に装着する作業デッキで、従来の高所作業車では出来ない範囲をカバーする事ができます。
             弊社の所有しているATF220G-5に装着する事で高さ86mの作業が可能になります。
             通常の高所作業車では届かない作業（風力発電の点検等）にとても便利です。
           </p>
@@ -56,7 +59,7 @@ class Skybox extends Component {
             }
             <div className="detail-contents">
               <h3 className="detail-model">取り付け可能機種</h3>
-              <ul>
+              <ul className="available-type">
                 <li>ATF220G-5</li>
                 <li>ATF100G-4</li>
                 <li>GR-700N</li>

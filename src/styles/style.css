@@ -1485,6 +1485,14 @@ footer {
   font-size: 0.75rem;
 }
 
+.skybox .available-type {
+  list-style-type: none;
+}
+
+.image-gallery-slide img {
+  max-height: 400px !important;
+}
+
 .main-header {
   color: #37474F;
   border-bottom: 1px solid #c43300;

@@ -39,6 +39,9 @@ export class Details extends Component {
             showThumbnails={true}
             lazyLoad={true}
             showPlayButton={false}
+            showFullscreenButton={false}
+            autoPlay={true}
+            slideInterval={5000}
           />
         </div>
       )
