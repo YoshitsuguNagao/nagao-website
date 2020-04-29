@@ -11,7 +11,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133447/nagao-website/banner4n.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133447/nagao-website/banner/banner4n.jpg'
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -21,7 +21,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133417/nagao-website/banner3n.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133417/nagao-website/banner/banner3n.jpg'
                 alt="Second slide"
               />
               <Carousel.Caption>
@@ -31,7 +31,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133292/nagao-website/banner1n.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133292/nagao-website/banner/banner1n.jpg'
                 alt="Third slide"
               />
               <Carousel.Caption>
@@ -41,7 +41,7 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588139613/nagao-website/banner5n.jpg'
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588139613/nagao-website/banner/banner5n.jpg'
                 alt="Firth slide"
               />
               <Carousel.Caption>
