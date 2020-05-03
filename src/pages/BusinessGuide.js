@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import guides from '../data/business-guide.json'
 import experience from '../data/experience.json'
+import PhotoGallery from './PhotoGallery'
 
 class BusinessGuide extends Component {
 
@@ -44,6 +45,10 @@ class BusinessGuide extends Component {
               )
             })
           }
+        </section>
+        <section className="wrap">
+          <h2 className="main-header">ギャラリー</h2>
+          <PhotoGallery/>
         </section>
       </div>
     )
