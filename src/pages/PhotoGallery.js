@@ -20,7 +20,7 @@ export function PhotoGallery() {
   return (
     <div>
       <Gallery photos={photos} onClick={openLightbox}/>
-      <ModalGateway>
+      {/* <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
@@ -33,7 +33,7 @@ export function PhotoGallery() {
             />
           </Modal>
         ) : null}
-      </ModalGateway>
+      </ModalGateway> */}
     </div>
   )
 }

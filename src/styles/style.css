@@ -1431,6 +1431,10 @@ footer {
   white-space: pre-wrap;
 }
 
+.news .news-images {
+  width: 100%;
+}
+
 @media screen and (max-width: 1000px) {
   .news .news-sidebar {
     width: 100%;
