@@ -27,7 +27,7 @@ export class News extends Component {
         })
       });
       return (
-        <div className="news-images">
+        <div className="news-images pt30">
           <ImageGallery
             items={this.state.images}
             showBullets={true}

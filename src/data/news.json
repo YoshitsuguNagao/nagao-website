@@ -1,10 +1,19 @@
 [
   {
+    "date": "2020-05-15",
+    "title": "大型平ボディを導入しました。",
+    "content": "ISUZU社製の大型平ボディ納車しました。",
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1589694861/nagao-website/LineUp/%E5%A4%A7%E5%9E%8B%E5%B9%B3%E3%83%9C%E3%83%87%E3%82%A3-1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1589694861/nagao-website/LineUp/%E5%A4%A7%E5%9E%8B%E5%B9%B3%E3%83%9C%E3%83%87%E3%82%A3-2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1589694861/nagao-website/LineUp/%E5%A4%A7%E5%9E%8B%E5%B9%B3%E3%83%9C%E3%83%87%E3%82%A3-3.jpg"
+    ]
+  },
+  {
     "date": "2020-04-01",
     "title": "ホームページをリニューアルしました。",
     "content": "いつも株式会社長尾レッカーをお引き立ていただきましてまことに有難うございます。\nこのたび弊社WEBサイトがリニューアルいたしました。\n今後とも長尾レッカーをよろしくお願いいたします。",
-    "images": [
-    ]
+    "images": []
   },
   {
     "date": "2019-08-07",
