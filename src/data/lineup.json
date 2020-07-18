@@ -227,10 +227,10 @@
     "maker": "TADANO",
     "capacity": "100 ton",
     "year": [
-      "R01"
+      "R01", "R02"
     ],
     "info": "-",
-    "unit": 1,
+    "unit": 2,
     "images": [
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-1000N-1.jpg"
     ],

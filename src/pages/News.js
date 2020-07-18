@@ -65,13 +65,19 @@ export class News extends Component {
                 })
               }
             </div>
-            <div className="news-contents">
-              <h3 className="news-title">{item.title}</h3>
-              <p className="news-content">{item.content}</p>
-                {
-                  this.showImages(item)
-                }
-            </div>
+            {
+              item ?
+              <div className="news-contents">
+                <h3 className="news-title">{item.title}</h3>
+                <p className="news-content">{item.content}</p>
+                  {
+                    this.showImages(item)
+                  }
+              </div>
+                : <div className="news-contents">
+                  <h3 className="news-title">該当するニュースがありません</h3>
+              </div>
+            }
           </div>
         </section>
       </div>

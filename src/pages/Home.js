@@ -52,23 +52,28 @@ class Home extends Component {
         </section>
         <section className="homepage-news wrap">
           <h2 className="main-header">新着一覧</h2>
-          {
-            news.map((item,index) => {
-              return (
-                <div className="each-news m-2" key={index}>
-                  <p className="homepage-news-date">{item.date}</p>
-                  <p><a href={`/news/${item.date}`}>{item.title}</a></p>
-                </div>
-              )
-            })
-          }
+          <div className="home-news-list">
+            {
+              news.map((item, index) => {
+                return (
+                  index < 3 ?
+                    <div className="news-item m-2" key={index}>
+                      <p className="home-news-date">{item.date}</p>
+                      <p><a href={`/news/${item.date}`}>{item.title}</a></p>
+                    </div>
+                    : null
+                )
+              })
+            }
+            <p className="text-right"><a href={`/news/${news[0].date}`}>過去のニュース ＞</a></p>
+          </div>
         </section>
         <section className="homepage-lineup wrap">
           <h2 className="main-header">充実のラインアップ</h2>
           <div className="lineup-container">
             <div className="lineup-text">
               <p>油圧式クレーンやトレーラーは最新式を揃えており、最小１２トン吊りから最大４００トン吊りの能力までの各クレーン車を取り揃えております。</p>
-              <p className="lineup-link text-right"><a href="/lineup">保有機種一覧</a></p>
+              <p className="lineup-link text-right"><a href="/lineup">保有機種一覧 ＞</a></p>
             </div>
             <img className="lineup-img" src="https://res.cloudinary.com/yoshitsugunagao/image/upload/v1567262614/nagao-website/g15hejsxalljd15frjp4.jpg" alt=""/>
           </div>

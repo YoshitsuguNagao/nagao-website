@@ -11,12 +11,12 @@
       font-size: 1.5rem;
     }
   }
-  .each-news {
+  .news-item {
     border-bottom: 1px dashed gray;
     display: flex;
     padding-bottom: 3px;
   }
-  .homepage-news-date {
+  .home-news-date {
     padding-right: 1rem;
     color: $subLightColor;
   }
@@ -59,10 +59,10 @@
     .homepage-banner {
       padding: 0;
     }
-    .each-news {
+    .news-item {
       flex-direction: column;
       margin: 0rem;
-      .homepage-news-date {
+      .home-news-date {
         font-size: 0.75rem;
       }
     }
