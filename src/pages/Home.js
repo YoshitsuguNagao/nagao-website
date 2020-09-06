@@ -11,6 +11,16 @@ class Home extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
+                src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1599392140/nagao-website/banner/banner6n.jpg'
+                alt="Zero slide"
+              />
+              <Carousel.Caption>
+                <h1>新機種導入！</h1>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
                 src='https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133447/nagao-website/banner/banner4n.jpg'
                 alt="First slide"
               />
