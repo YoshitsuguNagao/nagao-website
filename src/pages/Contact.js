@@ -5,7 +5,6 @@ import maps from "../data/maps.json";
 
 class Contact extends Component {
   render() {
-    console.log(maps);
     return (
       <div className="contact main-container">
         <h2 className="main-header wrap">お問い合わせ／アクセス</h2>

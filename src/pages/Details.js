@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 import lineups from '../data/lineup.json'
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -85,7 +86,7 @@ export class Details extends Component {
                 }
               </div>
             </div>
-            <p className="lineup-link text-right"><a href="/lineup">保有機種一覧へ</a></p>
+            <p className="lineup-link text-right"><Link to="/lineup">保有機種一覧へ</Link></p>
 
         </section>
         </div>

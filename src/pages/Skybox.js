@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import lineups from '../data/lineup.json'
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
+import { Link } from "react-router-dom";
 
 class Skybox extends Component {
   state = {
@@ -43,7 +44,6 @@ class Skybox extends Component {
   render() {
     const { lineup } = this.state;
     if (!lineup) return null
-    console.log("object", lineup)
     return (
       <div className="skybox main-container">
         <section className="wrap">
@@ -75,7 +75,7 @@ class Skybox extends Component {
                       {
                         item.link ?
                           <p className="detail-content">
-                            <a href={item.link}>{item.content}</a>
+                            <Link to={item.link}>{item.content}</Link>
                           </p>
                           : <p className="detail-content">{item.content}</p>
                       }
@@ -85,7 +85,7 @@ class Skybox extends Component {
               }
             </div>
           </div>
-          <p className="lineup-link text-right"><a href="/lineup">保有機種一覧へ</a></p>
+          <p className="lineup-link text-right"><Link to="/lineup">保有機種一覧へ</Link></p>
         </section>
       </div>
     )

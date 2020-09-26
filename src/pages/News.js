@@ -1,11 +1,47 @@
 import React, { Component } from 'react'
 import news from '../data/news.json'
 import ImageGallery from 'react-image-gallery';
+import { Link } from "react-router-dom";
 
 export class News extends Component {
   state = {
     images: [],
-    lineup: {}
+    lineup: {},
+    item: {}
+  }
+
+  componentDidMount() {
+    const item = news.filter(item => item.date === this.props.match.params.newsId)[0]
+    if (item !== this.state.item) {
+      this.setState({
+        item
+      })
+      let newImages = [];
+      item.images.forEach(image => {
+        newImages.push({
+          original: image,
+          thumbnail: image
+        })
+      });
+      this.setState({images: newImages})
+    }
+  }
+
+  componentDidUpdate() {
+    const item = news.filter(item => item.date === this.props.match.params.newsId)[0]
+    if (item !== this.state.item) {
+      this.setState({
+        item
+      })
+      let newImages = [];
+      item.images.forEach(image => {
+        newImages.push({
+          original: image,
+          thumbnail: image
+        })
+      });
+      this.setState({images: newImages})
+    };
   }
 
   showImages = (news) => {
@@ -14,18 +50,11 @@ export class News extends Component {
       return null
     } else if (news.images.length === 1) {
       return (
-        <div className="news-images">
-          <img className="detail-image" src={news.images[0]} alt="" />
+        <div className="news-images pt30">
+          <img className="news-image" src={news.images[0]} alt="" />
         </div>
       )
     } else {
-      console.log('news', news)
-      news.images.forEach(image => {
-        this.state.images.push({
-          original: image,
-          thumbnail: image
-        })
-      });
       return (
         <div className="news-images pt30">
           <ImageGallery
@@ -59,7 +88,7 @@ export class News extends Component {
                   return (
                     <div className="news-sidebar-container" key={index}>
                       <p className="news-sidebar-date">{item.date}</p>
-                      <p className="news-sidebar-title"><a href={`/news/${item.date}`}>{item.title}</a></p>
+                      <p className="news-sidebar-title"><Link to={`/news/${item.date}`}>{item.title}</Link></p>
                     </div>
                   )
                 })

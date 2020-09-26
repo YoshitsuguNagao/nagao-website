@@ -25,7 +25,12 @@
     white-space: pre-wrap;
   }
   .news-images {
-      width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .news-image {
+      height: 400px;
+    }
   }
 }
 

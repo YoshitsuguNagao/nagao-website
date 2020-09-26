@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 import lineups from '../data/lineup.json'
 
 
@@ -31,23 +32,25 @@ class Lineup extends Component {
 
   lineupCard = (lineup, index) => {
     return (
-      <div className="lineup-card">
-        <li className="table-row" key={index}>
-          <p className="col" data-label="機種">
-            <a href={`/lineup/${lineup.model}`}>
-              {/* {lineup.images.length ? "★ " : "☆ "}{lineup.model} */}
-              {lineup.model}
-            </a>
-          </p>
-          <p className="col" data-label="メーカー">{lineup.maker}</p>
-          {
-            ["AC", "RC", "CC"].includes(lineup.type, 0) ?
-            <p className="col" data-label="吊上げ能力">{lineup.capacity}</p> :
-            <p className="col" data-label="積載能力">{lineup.capacity}</p>
-          }
-          <p className="col" data-label="保有台数">{lineup.unit} 台</p>
-        </li>
-      </div>
+      <React.Fragment key={`${lineup.model}${index}`}>
+        <div className="lineup-card">
+          <li className="table-row" key={lineup.model}>
+            <p className="col" data-label="機種">
+              <Link to={`/lineup/${lineup.model}`}>
+                {/* {lineup.images.length ? "★ " : "☆ "}{lineup.model} */}
+                {lineup.model}
+              </Link>
+            </p>
+            <p className="col" data-label="メーカー">{lineup.maker}</p>
+            {
+              ["AC", "RC", "CC"].includes(lineup.type, 0) ?
+              <p className="col" data-label="吊上げ能力">{lineup.capacity}</p> :
+              <p className="col" data-label="積載能力">{lineup.capacity}</p>
+            }
+            <p className="col" data-label="保有台数">{lineup.unit} 台</p>
+          </li>
+        </div>
+      </React.Fragment>
     )
   }
 

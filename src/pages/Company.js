@@ -91,24 +91,26 @@ class Company extends Component {
             {
               addresses.map((address,index) => {
                 return (
-                  <>
-                  <h3 className="address-name p-2">{address.name}</h3>
-                  <div className="address-card">
+                  <React.Fragment key={`${address.name}${index}`}>
+                    <h3 className="address-name p-2">{address.name}</h3>
+                    <div className="address-card">
                     {
-                      address.branches.map((branch,index) => {
+                      address.branches.map((branch,idx) => {
                         return (
-                          <div className="address-branch p-2">
-                          <h4>{branch.name}</h4>
-                          <p>{branch.postcode}</p>
-                          <p>{branch.address}</p>
-                          <p>TEL: {branch.TEL}</p>
-                          <p>FAX: {branch.FAX}</p>
-                          </div>
+                          <React.Fragment key={`${branch.name}${index}${idx}`}>
+                            <div className="address-branch p-2">
+                              <h4>{branch.name}</h4>
+                              <p>{branch.postcode}</p>
+                              <p>{branch.address}</p>
+                              <p>TEL: {branch.TEL}</p>
+                              <p>FAX: {branch.FAX}</p>
+                            </div>
+                          </React.Fragment>
                         )
                       })
                     }
                     </div>
-                  </>
+                  </React.Fragment>
                 )
               })
             }

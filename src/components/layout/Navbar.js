@@ -39,22 +39,22 @@ class Navbar extends Component {
           <div className="navbar-menu">
             <ul className="navbar-links">
               <li>
-                <a href="/">ホーム</a>
+                <Link to="/">ホーム</Link>
               </li>
               <li>
-                <a href="/company">会社概要</a>
+                <Link to="/company">会社概要</Link>
               </li>
               <li>
-                <a href="/lineup">保有機種</a>
+                <Link to="/lineup">保有機種</Link>
               </li>
               <li>
-                <a href="/business-guide">事業内容</a>
+                <Link to="/business-guide">事業内容</Link>
               </li>
               <li>
-                <a href="/recruit">採用情報</a>
+                <Link to="/recruit">採用情報</Link>
               </li>
               <li>
-                <a href="/contact">お問い合わせ</a>
+                <Link to="/contact">お問い合わせ</Link>
               </li>
             </ul>
             <div
