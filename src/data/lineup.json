@@ -1177,5 +1177,33 @@
         "content": "14 ton"
       }
     ]
+  },
+  {
+    "type": "TRK",
+    "type2": "トラック",
+    "model": "ユニック付きセルフローダー",
+    "maker": "三菱ふそう",
+    "capacity": "6.3 ton",
+    "info": "-",
+    "year": [
+      "R2"
+    ],
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1602903489/nagao-website/LineUp/selfloader1-1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1602903489/nagao-website/LineUp/selfloader1-2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1602903489/nagao-website/LineUp/selfloader1-3.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1602903489/nagao-website/LineUp/selfloader1-4.jpg"
+    ],
+    "details": [
+      {
+        "title": "メーカー",
+        "content": "三菱ふそう"
+      },
+      {
+        "title": "積載重量",
+        "content": "6.3 ton"
+      }
+    ]
   }
 ]
