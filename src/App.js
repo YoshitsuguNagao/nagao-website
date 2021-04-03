@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Navbar from './components/layout/Navbar';
-import Footer from './components/layout/Footer';
+import Navbar from './components/template/Navbar';
+import Footer from './components/template/Footer';
 import Home from './pages/Home';
 import Company from './pages/Company';
 import Lineup from './pages/Lineup';

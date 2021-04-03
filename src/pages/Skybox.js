@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import lineups from '../data/lineup.json'
+import lineups from '../static/data/lineup.json'
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 import { Link } from "react-router-dom";

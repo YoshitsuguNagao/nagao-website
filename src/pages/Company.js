@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import companies from '../data/company.json';
-import histories from '../data/history.json';
+import companies from '../static/data/company.json';
+import histories from '../static/data/history.json';
 // import Maps from './Maps'
-import data from '../data/data.json'
-import addresses from '../data/address.json'
+import data from '../static/data/data.json'
+import addresses from '../static/data/address.json'
 
 class Company extends Component {
   state = {

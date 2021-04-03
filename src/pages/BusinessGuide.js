@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import guides from '../data/business-guide.json'
-import experience from '../data/experience.json'
+import guides from '../static/data/business-guide.json'
+import experience from '../static/data/experience.json'
 import PhotoGallery from './PhotoGallery'
 
 class BusinessGuide extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import lineups from '../data/lineup.json'
+import lineups from '../static/data/lineup.json'
 
 
 class Lineup extends Component {

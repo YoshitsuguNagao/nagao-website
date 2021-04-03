@@ -1,7 +1,7 @@
 import React, { Component, useState, useCallback } from 'react'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import photos from '../data/gallery.json';
+import photos from '../static/data/gallery.json';
 
 
 export function PhotoGallery() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel'
-import news from '../data/news.json'
+import news from '../static/data/news.json'
 
 const banners = [{
   src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1599392140/nagao-website/banner/banner6n.jpg",

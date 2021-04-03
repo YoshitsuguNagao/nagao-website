@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import recruits from '../data/recruits.json'
+import recruits from '../static/data/recruits.json'
 
 class Recruit extends Component {
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import news from '../data/news.json'
+import news from '../static/data/news.json'
 import ImageGallery from 'react-image-gallery';
 import { Link } from "react-router-dom";
 
