@@ -1,46 +1,52 @@
 /* ==============
-    Navbar Style
+    Navigation Style
    ============== */
 
-.navbar-top {
+.navigation {
   @include flexbox(center);
   z-index: 100;
   position: fixed;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
   background-color: $themeLightColor;
-  .navbar-titles {
+  &-container {
+    margin: 0 $sideSpaceMobile;
+    min-height: $navHeight;
+    width: $maxSectionWidth;
+  }
+  &-top {
     @include flexbox(space-between);
   }
-  .navbar-title {
+  &-title {
+    @include logo;
     font-size: 2rem;
   }
   a {
     color: black;
     margin: 0;
   }
-  .navbar-contact {
+  &-contact {
     color: white;
   }
-  .navbar-menu {
+  &-menu {
     @include flexbox(flex-end);
   }
   ul {
-    @include flexbox(space-around,center);
+    @include flexbox(space-around, center);
     right: 0;
     list-style: none;
     font-size: 1rem;
     li {
-      @include flexbox(center,center);
-      @include size(110px,50px);
+      @include flexbox(center, center);
+      @include size(110px, 50px);
       overflow: hidden;
       text-align: center;
       a {
         color: white;
         text-decoration: none;
         position: relative;
-        &::after{
+        &::after {
           content: "";
-          @include size(100%,100%);
+          @include size(100%, 100%);
           position: absolute;
           top: 0;
           left: 0;
@@ -55,42 +61,36 @@
   }
 }
 
-.navbar-container {
-  margin: 0 $sideSpaceMobile;
-  min-height: $navHeight;
-  width: $maxSectionWidth;
-}
-
 .burger {
   display: none;
   position: absolute;
   top: 50px;
   cursor: pointer;
   div {
-    @include size(25px,3px);
+    @include size(25px, 3px);
     background-color: white;
     margin: 5px;
     transition: all 0.3s ease;
   }
 }
 
-@media screen and (max-width:420px) {
-  .navbar-top {
-    .navbar-title {
+@media screen and (max-width: 420px) {
+  .navigation {
+    &-title {
       font-size: 1.5rem;
     }
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
-  .navbar-titles {
+  .navigation-top {
     flex-direction: column;
   }
-  .navbar-links {
-    @include flexbox(space-around,center,column);
+  .navigation-links {
+    @include flexbox(space-around, center, column);
     @include size(200px, calc(100vh - #{$navHeight}));
     background-color: $themeLightColor;
     position: absolute;
@@ -114,11 +114,11 @@
 @keyframes navLinkFade {
   from {
     opacity: 0;
-    transform: translateX(50px)
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
-    transform: translateX(0px)
+    transform: translateX(0px);
   }
 }
 
@@ -133,7 +133,6 @@
     transform: rotate(45deg) translate(-5px, -6px);
   }
 }
-
 
 a.active::after {
   transform: translateX(0%);

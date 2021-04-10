@@ -570,6 +570,59 @@
   {
     "type": "RC",
     "type2": "ラフテレーンクレーン",
+    "model": "GR-250N−4 (new)",
+    "maker": "TADANO",
+    "capacity": "25 ton",
+    "year": [
+      "H29"
+    ],
+    "info": "-",
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1613179489/nagao-website/LineUp/GR-250-4/GR-250N-4-1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1613179489/nagao-website/LineUp/GR-250-4/GR-250N-4-2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1613179489/nagao-website/LineUp/GR-250-4/GR-250N-4-3.jpg"
+    ],
+    "details": [
+      {
+        "title": "吊能力",
+        "content": "25t×3.5m"
+      },
+      {
+        "title": "最大地上揚程",
+        "content": "ブーム31.3m / ジブ44.2m"
+      },
+      {
+        "title": "最大作業半径",
+        "content": "ブーム27.9m / ジブ33.9m"
+      },
+      {
+        "title": "ブーム長",
+        "content": "9.35m ～ 30.5m"
+      },
+      {
+        "title": "走行時寸法",
+        "content": "全長11,530mm / 全幅2,620mm / 全高3,475mm"
+      },
+      {
+        "title": "車輌総重量",
+        "content": "25,595kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "https://www.tadano.co.jp/products/rc/gr-250n/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "4段ブーム+2段フルオートジブ",
+        "link": "https://www.tadano.co.jp/products/upload/docs/GR-250N-4-101_102_20190621.pdf"
+      }
+    ]
+  },
+  {
+    "type": "RC",
+    "type2": "ラフテレーンクレーン",
     "model": "GR-250N−3",
     "maker": "TADANO",
     "capacity": "25 ton",

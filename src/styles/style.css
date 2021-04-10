@@ -94,11 +94,6 @@ a {
   min-height: 100vh;
 }
 
-.logo {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-weight: 700;
-}
-
 .ma5 {
   margin: 5px;
 }
@@ -660,9 +655,9 @@ a {
 }
 
 /* ==============
-    Navbar Style
+    Navigation Style
    ============== */
-.navbar-top {
+.navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -676,7 +671,13 @@ a {
   background-color: #ff983f;
 }
 
-.navbar-top .navbar-titles {
+.navigation-container {
+  margin: 0 5%;
+  min-height: 100px;
+  width: 1024px;
+}
+
+.navigation-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -685,20 +686,22 @@ a {
           justify-content: space-between;
 }
 
-.navbar-top .navbar-title {
+.navigation-title {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 700;
   font-size: 2rem;
 }
 
-.navbar-top a {
+.navigation a {
   color: black;
   margin: 0;
 }
 
-.navbar-top .navbar-contact {
+.navigation-contact {
   color: white;
 }
 
-.navbar-top .navbar-menu {
+.navigation-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -707,7 +710,7 @@ a {
           justify-content: flex-end;
 }
 
-.navbar-top ul {
+.navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -721,7 +724,7 @@ a {
   font-size: 1rem;
 }
 
-.navbar-top ul li {
+.navigation ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,13 +740,13 @@ a {
   text-align: center;
 }
 
-.navbar-top ul li a {
+.navigation ul li a {
   color: white;
   text-decoration: none;
   position: relative;
 }
 
-.navbar-top ul li a::after {
+.navigation ul li a::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -758,14 +761,8 @@ a {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
-.navbar-top ul li a:hover {
+.navigation ul li a:hover {
   color: #c43300;
-}
-
-.navbar-container {
-  margin: 0 5%;
-  min-height: 100px;
-  width: 1024px;
 }
 
 .burger {
@@ -785,7 +782,7 @@ a {
 }
 
 @media screen and (max-width: 420px) {
-  .navbar-top .navbar-title {
+  .navigation-title {
     font-size: 1.5rem;
   }
 }
@@ -794,13 +791,13 @@ a {
   body {
     overflow-x: hidden;
   }
-  .navbar-titles {
+  .navigation-top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .navbar-links {
+  .navigation-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -826,7 +823,7 @@ a {
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     top: 100px;
   }
-  .navbar-links li {
+  .navigation-links li {
     opacity: 0;
   }
   .burger {
@@ -949,6 +946,10 @@ footer {
 .home .home-news-date {
   padding-right: 1rem;
   color: #62727b;
+}
+
+.home .homepage-lineup {
+  height: 100%;
 }
 
 .home .lineup-container {

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   handleClick = () => {
-    const nav = document.querySelector(".navbar-links");
+    const nav = document.querySelector(".navigation-links");
     const burger = document.querySelector(".burger");
-    const navLinks = document.querySelectorAll(".navbar-links li");
+    const navLinks = document.querySelectorAll(".navigation-links li");
     //Toggle Nav
     nav.classList.toggle("nav-active");
     //Animate Links
@@ -13,8 +13,9 @@ class Navbar extends Component {
       if (link.style.animation) {
         link.style.animation = "";
       } else {
-        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 5 +
-          0.5}s`;
+        link.style.animation = `navLinkFade 0.5s ease forwards ${
+          index / 5 + 0.5
+        }s`;
       }
     });
     //Burger Animation
@@ -23,21 +24,22 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar-top w-100">
-        <div className="navbar-container">
-          <div className="navbar-titles">
-            <Link to="/">
-              <h1 className="navbar-title logo">株式会社長尾レッカー</h1>
-            </Link>
-            <div className="navbar-contact">
-              {/* <p className="navbar-text">お気軽にお問い合わせください</p>
-              <p className="navbar-text">TEL: 0537-86-6410</p> */}
+      <nav className="navigation w-100">
+        <div className="navigation-container">
+          <div className="navigation-top">
+            <h1 className="navigation-title logo">
+              <Link to="/">株式会社長尾レッカー</Link>
+            </h1>
+
+            <div className="navigation-contact">
+              {/* <p className="navigation-text">お気軽にお問い合わせください</p>
+              <p className="navigation-text">TEL: 0537-86-6410</p> */}
               <p>お気軽にお問い合わせください</p>
               <p>TEL: 0537-86-6410</p>
             </div>
           </div>
-          <div className="navbar-menu">
-            <ul className="navbar-links">
+          <div className="navigation-menu">
+            <ul className="navigation-links">
               <li>
                 <Link to="/">ホーム</Link>
               </li>
