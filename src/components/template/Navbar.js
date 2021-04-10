@@ -27,10 +27,11 @@ class Navbar extends Component {
       <nav className="navigation w-100">
         <div className="navigation-container">
           <div className="navigation-top">
-            <h1 className="navigation-title logo">
-              <Link to="/">株式会社長尾レッカー</Link>
+            <h1>
+              <Link className="navigation-title" to="/">
+                株式会社長尾レッカー
+              </Link>
             </h1>
-
             <div className="navigation-contact">
               {/* <p className="navigation-text">お気軽にお問い合わせください</p>
               <p className="navigation-text">TEL: 0537-86-6410</p> */}
