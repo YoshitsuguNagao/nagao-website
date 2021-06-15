@@ -75,7 +75,7 @@ class Skybox extends Component {
                       {
                         item.link ?
                           <p className="detail-content">
-                            <Link to={item.link}>{item.content}</Link>
+                            <a href={item.link}>{item.content}</a>
                           </p>
                           : <p className="detail-content">{item.content}</p>
                       }
