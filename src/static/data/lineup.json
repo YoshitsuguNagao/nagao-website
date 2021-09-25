@@ -2,6 +2,60 @@
   {
     "type": "AC",
     "type2": "オールテレーンクレーン",
+    "model": "AR-5500M",
+    "maker": "TADANO",
+    "capacity": "550 ton",
+    "year": [
+      "R3"
+    ],
+    "info": "-",
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625889751/nagao-website/LineUp/AR-5500M/1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625889742/nagao-website/LineUp/AR-5500M/2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625889742/nagao-website/LineUp/AR-5500M/3.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625889737/nagao-website/LineUp/AR-5500M/4.jpg"
+    ],
+    "details": [
+      {
+        "title": "吊能力",
+        "content": "550t×3.0m"
+      },
+      {
+        "title": "最大地上揚程",
+        "content": "MB 30.2m / FB 55.0m / LJ 134.0m / ESP 59.5m / FLJ 96.0m"
+      },
+      {
+        "title": "最大作業半径",
+        "content": "MB 28.0m / FB 50.0m / LJ 105.0m / ESP 58.0m / FLJ 80.0m"
+      },
+      {
+        "title": "ブーム・ジブ長さ",
+        "content": "14.5m ～ 81m"
+      },
+      {
+        "title": "走行時寸法(キャリアのみ)",
+        "content": "全長15,980mm / 全幅3,000mm / 全高3,030mm"
+      },
+      {
+        "title": "車輌総重量",
+        "content": "45,030kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "https://www.tadano.co.jp/products/ac/ar-5500m/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "メインブーム、フィックスブーム、ラフィングジブ、ESPブーム、フルオートラフィングジブ",
+        "link": "https://www.tadano.co.jp/service/data/pdf/ar5500m1.pdf"
+      }
+    ]
+  },
+  {
+    "type": "AC",
+    "type2": "オールテレーンクレーン",
     "model": "ATF400G-6",
     "maker": "TADANO",
     "capacity": "400 ton",
@@ -112,33 +166,37 @@
   {
     "type": "AC",
     "type2": "オールテレーンクレーン",
-    "model": "AR-1200M",
-    "maker": "TADANO",
+    "model": "LTM1120NZ",
+    "maker": "LIEBHERR",
     "capacity": "120 ton",
     "year": [
-      "H14"
+      "R3"
     ],
     "info": "-",
     "unit": 1,
     "images": [
-      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145681/nagao-website/LineUp/AR1200M.jpg"
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625890117/nagao-website/LineUp/LTM1120NZ/1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625890117/nagao-website/LineUp/LTM1120NZ/2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625890117/nagao-website/LineUp/LTM1120NZ/3.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625890117/nagao-website/LineUp/LTM1120NZ/4.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625890117/nagao-website/LineUp/LTM1120NZ/5.jpg"
     ],
     "details": [
       {
         "title": "吊能力",
-        "content": "120t×2.7m"
+        "content": "120t"
       },
       {
         "title": "最大地上揚程",
-        "content": "ブーム47.5m / ジブ68.0m（77.0m）"
+        "content": "ブーム51.0m / ジブ70.0m"
       },
       {
         "title": "最大作業半径",
-        "content": "ブーム44.0m / ジブ58.7m（54.0m）"
+        "content": "ブーム50.0m / ジブ66.0m"
       },
       {
         "title": "ブーム長",
-        "content": "12.2m ～ 47.5m"
+        "content": "11.5m ～ 52.0m"
       },
       {
         "title": "走行時寸法",
@@ -147,16 +205,6 @@
       {
         "title": "車輌総重量",
         "content": "34,180kg"
-      },
-      {
-        "title": "備考",
-        "content": "メーカー製品ページ",
-        "link": "https://www.tadano.co.jp/products/ac/ar-1200m-1_old/index.html"
-      },
-      {
-        "title": "仕様書",
-        "content": "メインブーム 3段フルオートジブ",
-        "link": "https://www2.tadano.co.jp/service/data/pdf/ar1201mb.pdf"
       }
     ],
     "link": ""
