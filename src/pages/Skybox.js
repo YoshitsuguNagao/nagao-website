@@ -1,22 +1,22 @@
-import React, { Component } from 'react'
-import lineups from '../static/data/lineup.json'
-import ImageGallery from 'react-image-gallery';
+import React, { Component } from "react";
+import lineups from "../static/data/lineup.json";
+import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { Link } from "react-router-dom";
 
 class Skybox extends Component {
   state = {
     images: [],
-    lineup: {}
-  }
+    lineup: {},
+  };
 
   showImages = (lineup) => {
-    if (!lineup.images) return null
-    lineup.images.forEach(image => {
+    if (!lineup.images) return null;
+    lineup.images.forEach((image) => {
       this.state.images.push({
         original: image,
-        thumbnail: image
-      })
+        thumbnail: image,
+      });
     });
     return (
       <div className="detail-images">
@@ -32,18 +32,18 @@ class Skybox extends Component {
           slideInterval={5000}
         />
       </div>
-    )
-  }
+    );
+  };
   componentDidMount() {
-    const lineup = lineups.filter(lineup => lineup.model === "SS-150")[0]
+    const lineup = lineups.filter((lineup) => lineup.model === "SS-150")[0];
     this.setState({
-      lineup
-    })
+      lineup,
+    });
   }
 
   render() {
     const { lineup } = this.state;
-    if (!lineup) return null
+    if (!lineup) return null;
     return (
       <div className="skybox main-container">
         <section className="wrap">
@@ -54,9 +54,7 @@ class Skybox extends Component {
             通常の高所作業車では届かない作業（風力発電の点検等）にとても便利です。
           </p>
           <div className="detail-card">
-            {
-              this.showImages(lineup)
-            }
+            {this.showImages(lineup)}
             <div className="detail-contents">
               <h3 className="detail-model">取り付け可能機種</h3>
               <ul className="available-type">
@@ -67,29 +65,31 @@ class Skybox extends Component {
                 <li>GR-250N</li>
               </ul>
               <h3 className="detail-model title">仕様</h3>
-              {
-                lineup.details ? lineup.details.map(item => {
-                  return (
-                    <div className="detail-item">
-                      <p className="detail-title">{item.title}</p>
-                      {
-                        item.link ?
+              {lineup.details
+                ? lineup.details.map((item) => {
+                    return (
+                      <div className="detail-item">
+                        <p className="detail-title">{item.title}</p>
+                        {item.link ? (
                           <p className="detail-content">
                             <a href={item.link}>{item.content}</a>
                           </p>
-                          : <p className="detail-content">{item.content}</p>
-                      }
-                    </div>
-                  )
-                }) : null
-              }
+                        ) : (
+                          <p className="detail-content">{item.content}</p>
+                        )}
+                      </div>
+                    );
+                  })
+                : null}
             </div>
           </div>
-          <p className="lineup-link text-right"><Link to="/lineup">保有機種一覧へ</Link></p>
+          <p className="lineup-link text-right">
+            <Link to="/lineup">保有機種一覧へ</Link>
+          </p>
         </section>
       </div>
-    )
+    );
   }
 }
 
-export default Skybox
+export default Skybox;

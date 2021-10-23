@@ -1,12 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import lineups from '../static/data/lineup.json'
-
+import lineups from "../static/data/lineup.json";
 
 class Lineup extends Component {
   state = {
-    lineups: lineups
-  }
+    lineups: lineups,
+  };
 
   cardTitle = () => {
     return (
@@ -16,8 +15,8 @@ class Lineup extends Component {
         <p className="col">吊上げ能力</p>
         <p className="col">保有台数</p>
       </li>
-    )
-  }
+    );
+  };
 
   cardTitle2 = () => {
     return (
@@ -27,8 +26,8 @@ class Lineup extends Component {
         <p className="col">積載重量</p>
         <p className="col">保有台数</p>
       </li>
-    )
-  }
+    );
+  };
 
   lineupCard = (lineup, index) => {
     return (
@@ -41,18 +40,26 @@ class Lineup extends Component {
                 {lineup.model}
               </Link>
             </p>
-            <p className="col" data-label="メーカー">{lineup.maker}</p>
-            {
-              ["AC", "RC", "CC"].includes(lineup.type, 0) ?
-              <p className="col" data-label="吊上げ能力">{lineup.capacity}</p> :
-              <p className="col" data-label="積載能力">{lineup.capacity}</p>
-            }
-            <p className="col" data-label="保有台数">{lineup.unit} 台</p>
+            <p className="col" data-label="メーカー">
+              {lineup.maker}
+            </p>
+            {["AC", "RC", "CC"].includes(lineup.type, 0) ? (
+              <p className="col" data-label="吊上げ能力">
+                {lineup.capacity}
+              </p>
+            ) : (
+              <p className="col" data-label="積載能力">
+                {lineup.capacity}
+              </p>
+            )}
+            <p className="col" data-label="保有台数">
+              {lineup.unit} 台
+            </p>
           </li>
         </div>
       </React.Fragment>
-    )
-  }
+    );
+  };
 
   render() {
     const { lineups } = this.state;
@@ -63,70 +70,70 @@ class Lineup extends Component {
           <h3 className="lineup-subtitle">オールテレーンクレーン</h3>
           <ul className="responsive-table">
             {this.cardTitle()}
-            {
-              lineups.map((lineup, index) => {
-                return lineup.type === "AC" ? this.lineupCard(lineup, index) : null
-              })
-            }
+            {lineups.map((lineup, index) => {
+              return lineup.type === "AC"
+                ? this.lineupCard(lineup, index)
+                : null;
+            })}
           </ul>
           <h3 className="lineup-subtitle">ラフテレーンクレーン</h3>
           <ul className="responsive-table">
             {this.cardTitle()}
-            {
-              lineups.map((lineup, index) => {
-                return lineup.type === "RC" ? this.lineupCard(lineup, index) : null
-              })
-            }
+            {lineups.map((lineup, index) => {
+              return lineup.type === "RC"
+                ? this.lineupCard(lineup, index)
+                : null;
+            })}
           </ul>
           <h3 className="lineup-subtitle">クローラークレーン (new)</h3>
           <ul className="responsive-table">
             {this.cardTitle()}
-            {
-              lineups.map((lineup, index) => {
-                return lineup.type === "CC" ? this.lineupCard(lineup, index) : null
-              })
-            }
+            {lineups.map((lineup, index) => {
+              return lineup.type === "CC"
+                ? this.lineupCard(lineup, index)
+                : null;
+            })}
           </ul>
           <h3 className="lineup-subtitle">トレーラー</h3>
           <ul className="responsive-table">
             {this.cardTitle2()}
-            {
-              lineups.map((lineup, index) => {
-                return lineup.type === "TRL" ? this.lineupCard(lineup, index) : null
-              })
-            }
+            {lineups.map((lineup, index) => {
+              return lineup.type === "TRL"
+                ? this.lineupCard(lineup, index)
+                : null;
+            })}
           </ul>
           <h3 className="lineup-subtitle">トラック</h3>
           <ul className="responsive-table">
             {this.cardTitle2()}
-            {
-              lineups.map((lineup, index) => {
-                return lineup.type === "TRK" ? this.lineupCard(lineup, index) : null
-              })
-            }
+            {lineups.map((lineup, index) => {
+              return lineup.type === "TRK"
+                ? this.lineupCard(lineup, index)
+                : null;
+            })}
           </ul>
           <h3 className="lineup-subtitle">高所作業車</h3>
           <ul className="responsive-table">
             {this.cardTitle2()}
-            {
-              lineups.map((lineup, index) => {
-                return lineup.type === "AT" ? this.lineupCard(lineup, index) : null
-              })
-            }
+            {lineups.map((lineup, index) => {
+              return lineup.type === "AT"
+                ? this.lineupCard(lineup, index)
+                : null;
+            })}
           </ul>
           <h3 className="lineup-subtitle">スカイボックス</h3>
           <ul className="responsive-table">
             {this.cardTitle2()}
-            {
-              lineups.map((lineup, index) => {
-                return lineup.type === "SKYBOX" ? this.lineupCard(lineup, index) : null
-              })
-            }
+            {lineups.map((lineup, index) => {
+              return lineup.type === "SKYBOX"
+                ? this.lineupCard(lineup, index)
+                : null;
+            })}
           </ul>
         </section>
       </div>
-    )
+    );
   }
 }
 
-export default Lineup
+export default Lineup;

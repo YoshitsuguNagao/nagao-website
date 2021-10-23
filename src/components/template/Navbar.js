@@ -36,7 +36,7 @@ class Navbar extends Component {
               {/* <p className="navigation-text">お気軽にお問い合わせください</p>
               <p className="navigation-text">TEL: 0537-86-6410</p> */}
               <p>お気軽にお問い合わせください</p>
-              <p>TEL: 0537-86-6410</p>
+              <a href="tel:0537-86-6410">TEL: 0537-86-6410</a>
             </div>
           </div>
           <div className="navigation-menu">

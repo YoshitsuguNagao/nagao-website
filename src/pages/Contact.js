@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <div className="contact main-container">
         <h2 className="main-header wrap">お問い合わせ／アクセス</h2>
-        {maps.map(item => {
+        {maps.map((item) => {
           return <Map item={item} />;
         })}
       </div>

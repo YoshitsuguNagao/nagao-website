@@ -9,22 +9,22 @@ const banners = [{
   title: "新機種導入！"
 },
 {
-  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133447/nagao-website/banner/banner4n.jpg",
+  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner/banner4.jpg",
   alt: "slide2",
   title: "ATF-400G-6"
 },
 {
-  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133417/nagao-website/banner/banner3n.jpg",
+  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616105/nagao-website/banner/banner3.jpg",
   alt: "slide3",
   title: "ATF-100G-4"
 },
 {
-  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588133292/nagao-website/banner/banner1n.jpg",
+  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1569616103/nagao-website/banner/banner1.jpg",
   alt: "slide4",
   title: "12ton ~ 550tonのクレーン"
 },
 {
-  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588139613/nagao-website/banner/banner5n.jpg",
+  src: "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588127550/nagao-website/banner/banner5.jpg",
   alt: "slide5",
   title: ""
 }]

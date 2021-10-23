@@ -1,7 +1,6 @@
 .cad {
-  .cad-images {
+  .cad-images {}
 
-  }
   img {
     width: 100%;
     border: 1px solid $subColor;
@@ -13,21 +12,26 @@
 .skybox {
   color: $subColor;
   min-height: calc(100vh - #{$footerHeight});
+
   .subtitle {
-  border-bottom: 1px solid $themeDarkColor;
+    border-bottom: 1px solid $themeDarkColor;
   }
+
   .detail-item {
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
     border-bottom: 1px dashed;
   }
+
   .detail-model {
     margin: 1rem 0;
   }
+
   .detail-title {
     font-size: 0.75rem;
   }
+
   .available-type {
     list-style-type: none;
   }

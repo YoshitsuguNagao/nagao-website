@@ -1,12 +1,11 @@
-import React, { Component, useState, useCallback } from 'react'
+import React, { Component, useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import photos from '../static/data/gallery.json';
-
+import photos from "../static/data/gallery.json";
 
 export function PhotoGallery() {
-  const[currentImage, setCurrentImage] = useState(0);
-  const[viewerIsOpen, setViewerIsOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
@@ -19,7 +18,7 @@ export function PhotoGallery() {
   };
   return (
     <div>
-      <Gallery photos={photos} onClick={openLightbox}/>
+      <Gallery photos={photos} onClick={openLightbox} />
       {/* <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
@@ -35,7 +34,7 @@ export function PhotoGallery() {
         ) : null}
       </ModalGateway> */}
     </div>
-  )
+  );
 }
 
-export default PhotoGallery
+export default PhotoGallery;

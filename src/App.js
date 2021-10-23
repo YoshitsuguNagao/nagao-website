@@ -1,22 +1,22 @@
-import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Navbar from './components/template/Navbar';
-import Footer from './components/template/Footer';
-import Home from './pages/Home';
-import Company from './pages/Company';
-import Lineup from './pages/Lineup';
-import BusinessGuide from './pages/BusinessGuide';
-import Recruit from './pages/Recruits';
-import Contact from './pages/Contact';
-import News from './pages/News';
-import Details from './pages/Details';
-import Skybox from './pages/Skybox';
-import LargeVehicles from './pages/LargeVehicles';
-import Cad from './pages/Cad';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Navbar from "./components/template/Navbar";
+import Footer from "./components/template/Footer";
+import Home from "./pages/Home";
+import Company from "./pages/Company";
+import Lineup from "./pages/Lineup";
+import BusinessGuide from "./pages/BusinessGuide";
+import Recruit from "./pages/Recruits";
+import Contact from "./pages/Contact";
+import News from "./pages/News";
+import Details from "./pages/Details";
+import Skybox from "./pages/Skybox";
+import LargeVehicles from "./pages/LargeVehicles";
+import Cad from "./pages/Cad";
 
 function App() {
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename="/">
       <div className="App">
         <Navbar />
         <Switch>

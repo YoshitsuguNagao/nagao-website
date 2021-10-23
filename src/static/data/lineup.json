@@ -1,5 +1,4 @@
-[
-  {
+[{
     "type": "AC",
     "type2": "オールテレーンクレーン",
     "model": "AR-5500M",
@@ -16,8 +15,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625889742/nagao-website/LineUp/AR-5500M/3.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625889737/nagao-website/LineUp/AR-5500M/4.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "550t×3.0m"
       },
@@ -70,8 +68,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588124951/nagao-website/LineUp/ATF400G-6-3.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/ATF400G-6-4.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "400t×2.7m"
       },
@@ -121,8 +118,7 @@
     "images": [
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/ATF220G-5.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "220t×2.5m"
       },
@@ -181,8 +177,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625890117/nagao-website/LineUp/LTM1120NZ/4.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1625890117/nagao-website/LineUp/LTM1120NZ/5.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "120t"
       },
@@ -200,7 +195,7 @@
       },
       {
         "title": "走行時寸法",
-        "content": "全長12,140mm / 全幅3,000mm / 全高2,755mm"
+        "content": "全長13,419mm / 全幅2,750mm / 全高3,950mm"
       },
       {
         "title": "車輌総重量",
@@ -226,8 +221,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588143520/nagao-website/LineUp/AFT100G-4-2.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588143142/nagao-website/LineUp/ATF100G-4-3.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "100t×2.3m"
       },
@@ -282,8 +276,7 @@
     "images": [
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-1000N-1.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "100t×1.6m"
       },
@@ -331,8 +324,7 @@
     "info": "-",
     "unit": 1,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "70t×2.1m"
       },
@@ -381,8 +373,7 @@
     "info": "-",
     "unit": 2,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "70t×2.1m"
       },
@@ -430,8 +421,7 @@
     "info": "-",
     "unit": 1,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "60t×2.8m"
       },
@@ -479,8 +469,7 @@
     "info": "-",
     "unit": 1,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "60t×2.8m"
       },
@@ -528,8 +517,7 @@
     "info": "-",
     "unit": 1,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "50t×2.6m"
       },
@@ -577,8 +565,7 @@
     "info": "-",
     "unit": 1,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "50t×3.0m"
       },
@@ -631,8 +618,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1613179489/nagao-website/LineUp/GR-250-4/GR-250N-4-2.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1613179489/nagao-website/LineUp/GR-250-4/GR-250N-4-3.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "25t×3.5m"
       },
@@ -683,8 +669,7 @@
     "info": "-",
     "unit": 4,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "25t×3.5m"
       },
@@ -739,8 +724,7 @@
     "info": "-",
     "unit": 3,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "25t×3.5m"
       },
@@ -792,8 +776,7 @@
     "images": [
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145681/nagao-website/LineUp/GR-250N-1.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "25t×3.5m"
       },
@@ -844,8 +827,7 @@
     "images": [
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-160N-3.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "16t×3.0m"
       },
@@ -893,8 +875,7 @@
     "info": "-",
     "unit": 1,
     "images": [],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "16t×3.0m"
       },
@@ -946,8 +927,7 @@
     "images": [
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-130NL-1.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "13t×1.5m"
       },
@@ -998,8 +978,7 @@
     "images": [
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145682/nagao-website/LineUp/GR-120NL-2.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "吊能力",
         "content": "12t×2.0m"
       },
@@ -1052,56 +1031,54 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1601098210/nagao-website/LineUp/SCX2000-3-2.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1601098246/nagao-website/LineUp/SCX2000-3-3.jpg"
     ],
-    "details": [
+    "details": [{
+        "title": "吊能力",
+        "content": "200t×5.0m"
+      },
       {
-      "title": "吊能力",
-      "content": "200t×5.0m"
-    },
-    {
-      "title": "備考",
-      "content": "メーカー製品ページ",
-      "link": "http://www.hsc-cranes.com/j/products/hs1.html"
-    },
-    {
-      "title": "仕様書",
-      "content": "クレーン、タワー仕様",
-      "link": "http://www.hsc-cranes.com/j/_common/pdf/scx2000-3_sp.pdf"
-    }
-  ]
-},
-{
-  "type": "CC",
-  "type2": "クローラークレーン",
-  "model": "SCX1200-3 (new)",
-  "maker": "HSC",
-  "capacity": "120 ton",
-  "year": [
-    "R2"
-  ],
-  "info": "120ｔ",
-  "unit": 1,
-  "images": [
-    "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1601098268/nagao-website/LineUp/SCX1200-3-1.jpg",
-    "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1601098319/nagao-website/LineUp/SCX1200-3-2.jpg"
-  ],
-  "details": [
-    {
-      "title": "吊能力",
-      "content": "120t×5.0m"
-    },
-    {
-      "title": "備考",
-      "content": "メーカー製品ページ",
-      "link": "http://www.hsc-cranes.com/j/products/hs1.html"
-    },
-    {
-      "title": "仕様書",
-      "content": "クレーン、タワー仕様",
-      "link": "http://www.hsc-cranes.com/j/_common/pdf/scx1200-3_2014_sp.pdf"
-    }
-  ]
-},
-{
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.hsc-cranes.com/j/products/hs1.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "クレーン、タワー仕様",
+        "link": "http://www.hsc-cranes.com/j/_common/pdf/scx2000-3_sp.pdf"
+      }
+    ]
+  },
+  {
+    "type": "CC",
+    "type2": "クローラークレーン",
+    "model": "SCX1200-3 (new)",
+    "maker": "HSC",
+    "capacity": "120 ton",
+    "year": [
+      "R2"
+    ],
+    "info": "120ｔ",
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1601098268/nagao-website/LineUp/SCX1200-3-1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1601098319/nagao-website/LineUp/SCX1200-3-2.jpg"
+    ],
+    "details": [{
+        "title": "吊能力",
+        "content": "120t×5.0m"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.hsc-cranes.com/j/products/hs1.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "クレーン、タワー仕様",
+        "link": "http://www.hsc-cranes.com/j/_common/pdf/scx1200-3_2014_sp.pdf"
+      }
+    ]
+  },
+  {
     "type": "TRL",
     "type2": "トレーラー",
     "model": "3軸伸縮舵切装置付",
@@ -1116,8 +1093,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585995131/nagao-website/Trailer1-1.png",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585995132/nagao-website/Trailer1-2.png"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "全幅 / 全長 / 全高",
         "content": "2,490mm / 10,855~16,155mm / 1,500mmm"
       },
@@ -1140,8 +1116,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588147513/nagao-website/LineUp/%E9%AB%98%E5%BA%8A%E2%88%921.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1584880146/nagao-website/Trailer2.png"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "タイプ",
         "content": "低床"
       },
@@ -1170,8 +1145,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588163216/nagao-website/skybox/skybox3.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1588163219/nagao-website/skybox/skybox4.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "寸法",
         "content": "1500(D)×1500(W)×950(H)"
       },
@@ -1204,8 +1178,7 @@
     "year": [],
     "unit": 1,
     "images": ["https://res.cloudinary.com/yoshitsugunagao/image/upload/v1585145680/nagao-website/LineUp/AT-220TG.jpg"],
-    "details": [
-      {
+    "details": [{
         "title": "積載荷重",
         "content": "200kgまたは2名"
       },
@@ -1241,8 +1214,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1586074480/nagao-website/LineUp/4t-unic.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1586074482/nagao-website/LineUp/4t-unic2.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "メーカー",
         "content": "三菱ふそう,日野 / TADANO"
       },
@@ -1268,8 +1240,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1589694861/nagao-website/LineUp/%E5%A4%A7%E5%9E%8B%E5%B9%B3%E3%83%9C%E3%83%87%E3%82%A3-2.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1589694861/nagao-website/LineUp/%E5%A4%A7%E5%9E%8B%E5%B9%B3%E3%83%9C%E3%83%87%E3%82%A3-3.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "メーカー",
         "content": "ISUZU"
       },
@@ -1296,8 +1267,7 @@
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1602903489/nagao-website/LineUp/selfloader1-3.jpg",
       "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1602903489/nagao-website/LineUp/selfloader1-4.jpg"
     ],
-    "details": [
-      {
+    "details": [{
         "title": "メーカー",
         "content": "三菱ふそう"
       },

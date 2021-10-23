@@ -1,13 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class LargeVehicles extends Component {
   render() {
-    return (
-      <div>
-        
-      </div>
-    )
+    return <div></div>;
   }
 }
 
-export default LargeVehicles
+export default LargeVehicles;

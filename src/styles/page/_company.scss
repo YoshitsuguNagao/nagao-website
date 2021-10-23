@@ -1,51 +1,63 @@
 /*----- Company -----*/
 .company {
-  @include flexbox(center,center,column);
+  @include flexbox(center, center, column);
+
   .intro-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
   }
+
   .intro-content h4 {
     text-align: start;
   }
+
   .intro-content {
     max-width: 600px;
     width: 80%;
   }
+
   .intro-text {
     line-height: 2rem;
   }
+
   .company-container {
-    @include flexbox(center,center);
+    @include flexbox(center, center);
     flex-wrap: wrap;
   }
+
   .history-card {
     display: flex;
     padding: 0.5rem 0;
   }
+
   .history-date {
     width: 100px;
   }
+
   .history-event {
     padding-left: 2rem;
     white-space: pre-wrap;
     width: calc(100% - 100px);
   }
+
   .csr-img-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
+
   .csr-img {
     @include size(350px, 100%);
   }
+
   .address-card {
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px solid $subLightColor;
   }
+
   .address-branch {
     width: 320px;
   }
@@ -56,20 +68,25 @@
     .intro-container {
       position: relative;
     }
+
     .intro-img {
       position: absolute;
       width: 100%;
     }
+
     .intro-content {
       width: 100%;
       z-index: 10;
     }
+
     .history-container p {
       font-size: 0.8rem;
     }
+
     .history-date {
       width: 75px;
     }
+
     .history-event {
       white-space: pre-wrap;
       padding-left: 1rem;

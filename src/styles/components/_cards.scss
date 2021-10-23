@@ -4,21 +4,26 @@
   padding: 2rem;
   margin: 0.5rem;
   border-radius: 5px;
+
   &:hover {
     border: 1px solid $themeLightColor;
     box-shadow: 0px 0px 15px -5px #62727b;
   }
+
   .company-name {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
+
   .company-list {
     display: flex;
     border-bottom: 1px dashed $subLightColor;
     margin-bottom: 5px;
+
     p {
-      @include flexbox(null,center);
+      @include flexbox(null, center);
     }
+
     .company-title {
       width: 140px;
       color: $subLightColor;
@@ -31,8 +36,10 @@
     width: 90vw;
     padding: 1rem;
   }
+
   .company-list {
     flex-direction: column;
+
     .company-title {
       font-size: 0.75rem;
     }
@@ -44,18 +51,22 @@
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 5px;
+
   &:hover {
     border: 1px solid $themeLightColor;
     box-shadow: 0px 0px 15px -5px #62727b;
   }
+
   .recruit-item {
     display: flex;
     padding-bottom: 0.5rem;
   }
+
   .recruit-title {
     width: 100px;
     color: $subLightColor;
   }
+
   .recruit-content {
     white-space: pre-wrap;
     width: calc(100% - 100px);
@@ -66,9 +77,11 @@
   .recruit-card {
     .recruit-item {
       flex-direction: column;
+
       .recruit-title {
         font-size: 0.75rem;
       }
+
       .recruit-content {
         width: 100%;
       }
