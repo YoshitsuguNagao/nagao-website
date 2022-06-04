@@ -107,6 +107,37 @@
   {
     "type": "AC",
     "type2": "オールテレーンクレーン",
+    "model": "LTM1250NX",
+    "maker": "LIEBHERR",
+    "capacity": "250 ton",
+    "year": [
+      "R4"
+    ],
+    "info": "-",
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653118963/nagao-website/LineUp/LTM1250NX/1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119067/nagao-website/LineUp/LTM1250NX/2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119077/nagao-website/LineUp/LTM1250NX/3.jpg"
+    ],
+    "details": [{
+        "title": "吊能力",
+        "content": "250t×3.0m"
+      },
+      {
+        "title": "最大地上揚程",
+        "content": "ブーム62.0m / ジブ112.0m"
+      },
+      {
+        "title": "ブーム長",
+        "content": "13.10m ～ 60.00m"
+      }
+    ],
+    "link": "https://www.liebherr.com/ja/jpn/%E8%A3%BD%E5%93%81/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%81%A8%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3/%E3%83%AA%E3%83%BC%E3%83%97%E3%83%98%E3%83%AB%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3/ltm1250nx.html"
+  },
+  {
+    "type": "AC",
+    "type2": "オールテレーンクレーン",
     "model": "ATF220G-5",
     "maker": "TADANO",
     "capacity": "220 ton",
@@ -605,7 +636,58 @@
   {
     "type": "RC",
     "type2": "ラフテレーンクレーン",
-    "model": "GR-250N−4 (new)",
+    "model": "GR-250N−5",
+    "maker": "TADANO",
+    "capacity": "25 ton",
+    "year": [
+      "R4"
+    ],
+    "info": "-",
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119999/nagao-website/LineUp/GR-250-5/1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119937/nagao-website/LineUp/GR-250-5/2.jpg"
+    ],
+    "details": [{
+        "title": "吊能力",
+        "content": "25t×3.5m"
+      },
+      {
+        "title": "最大地上揚程",
+        "content": "ブーム31.3m / ジブ44.2m"
+      },
+      {
+        "title": "最大作業半径",
+        "content": "ブーム27.9m / ジブ34.0m"
+      },
+      {
+        "title": "ブーム長",
+        "content": "9.35m ～ 30.5m"
+      },
+      {
+        "title": "走行時寸法",
+        "content": "全長11,530mm / 全幅2,620mm / 全高3,475mm"
+      },
+      {
+        "title": "車輌総重量",
+        "content": "25,495kg"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "https://www.tadano.co.jp/products/rc/gr-250n-5/index.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "4段ブーム+2段フルオートジブ",
+        "link": "https://www.tadano.co.jp/products/upload/docs/GR-250N-5_LNG-JA_JPN_S_202112.pdf"
+      }
+    ]
+  },
+  {
+    "type": "RC",
+    "type2": "ラフテレーンクレーン",
+    "model": "GR-250N−4",
     "maker": "TADANO",
     "capacity": "25 ton",
     "year": [
@@ -1018,7 +1100,7 @@
   {
     "type": "CC",
     "type2": "クローラークレーン",
-    "model": "SCX2000-3 (new)",
+    "model": "SCX2000-3",
     "maker": "HSC",
     "capacity": "200 ton",
     "info": "200ｔ",
@@ -1050,7 +1132,7 @@
   {
     "type": "CC",
     "type2": "クローラークレーン",
-    "model": "SCX1200-3 (new)",
+    "model": "SCX1200-3",
     "maker": "HSC",
     "capacity": "120 ton",
     "year": [
@@ -1079,6 +1161,38 @@
     ]
   },
   {
+    "type": "CC",
+    "type2": "クローラークレーン",
+    "model": "SCX900-3",
+    "maker": "HSC",
+    "capacity": "90 ton",
+    "info": "90ｔ",
+    "year": [
+      "R4"
+    ],
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1654315648/nagao-website/LineUp/SCX900-3/1.png",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1654318032/nagao-website/LineUp/SCX900-3/2.png",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1654317975/nagao-website/LineUp/SCX900-3/3.jpg"
+    ],
+    "details": [{
+        "title": "吊能力",
+        "content": "90t×4.0m"
+      },
+      {
+        "title": "備考",
+        "content": "メーカー製品ページ",
+        "link": "http://www.hsc-cranes.com/j/products/hs1.html"
+      },
+      {
+        "title": "仕様書",
+        "content": "クレーン、タワー仕様",
+        "link": "http://www.hsc-cranes.com/j/_common/pdf/scx900-3_sp.pdf"
+      }
+    ]
+  },
+  {
     "type": "TRL",
     "type2": "トレーラー",
     "model": "3軸伸縮舵切装置付",
@@ -1100,6 +1214,30 @@
       {
         "title": "車両重量",
         "content": "11,060kg"
+      }
+    ]
+  },
+  {
+    "type": "TRL",
+    "type2": "トレーラー",
+    "model": "3軸低床舵切トレーラー",
+    "maker": "日通商事",
+    "capacity": "38 ton",
+    "info": "16ｍ・30ｔ",
+    "year": [2021],
+    "unit": 1,
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1639811740/nagao-website/LineUp/3%E8%BB%B8%E4%BD%8E%E5%BA%8A-1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1639811735/nagao-website/LineUp/3%E8%BB%B8%E4%BD%8E%E5%BA%8A-2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1639811693/nagao-website/LineUp/3%E8%BB%B8%E4%BD%8E%E5%BA%8A-3.jpg"
+    ],
+    "details": [{
+        "title": "全幅 / 全長 / 全高",
+        "content": ""
+      },
+      {
+        "title": "車両重量",
+        "content": ""
       }
     ]
   },

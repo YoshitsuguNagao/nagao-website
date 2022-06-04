@@ -1,4 +1,33 @@
 [{
+  "date": "2022-04-27",
+  "title": "GR-250N(G5)を導入しました。",
+  "content": "タダノ社製ラフテレーンクレーン「GR-250N-5」を導入しました。",
+  "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119999/nagao-website/LineUp/GR-250-5/1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119937/nagao-website/LineUp/GR-250-5/2.jpg"
+    ]
+  },
+  {
+    "date": "2022-04-05",
+    "title": "LTM 1250NXを導入しました。",
+    "content": "LIEBHERR社製オールテレーンクレーン「LTM 1250NX」を導入しました。",
+    "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653118963/nagao-website/LineUp/LTM1250NX/1.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119067/nagao-website/LineUp/LTM1250NX/2.jpg",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1653119077/nagao-website/LineUp/LTM1250NX/3.jpg"
+    ]
+  },
+  {
+  "date": "2022-01-20",
+  "title": "SCX900-3を導入しました。",
+  "content": "HSC CRANE(住友重機械建機クレーン株式会社)から90トンクローラクレーン(SCX900-3)を導入しました。",
+  "images": [
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1654315648/nagao-website/LineUp/SCX900-3/1.png",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1654318032/nagao-website/LineUp/SCX900-3/2.png",
+      "https://res.cloudinary.com/yoshitsugunagao/image/upload/v1654317975/nagao-website/LineUp/SCX900-3/3.jpg"
+    ]
+  },
+  {
     "date": "2021-12-02",
     "title": "三軸低床舵切トレーラーを導入しました。",
     "content": "日通商事社製の三軸低床舵切トレーラーを納車しました。",
